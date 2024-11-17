@@ -1,0 +1,30 @@
+project:
+  type: "website"
+
+website:
+  title: "GeoJupyter"
+  site-url: "https://geojupyter.github.io"
+
+  repo-url: &repo-url "https://github.com/geojupyter/geojupyter.github.io"
+  repo-actions: ["edit", "issue"]
+
+  navbar:
+    left:
+      - "about.md"
+      - text: "Meetings"
+        href: "meetings/index.md"
+      - text: "Interviews"
+        href: "interviews/index.md"
+    right:
+      - icon: "github"
+        aria-label: "GitHub"
+        href: "https://github.com/geojupyter"
+
+format:
+  html:
+    theme: "spacelab"
+    css: "styles.css"
+    toc: true
+    # Turn on emoji shortcodes (NOTE: Doesn't work in sidebar, nav or
+    # front-matter):
+    from: "markdown+emoji"

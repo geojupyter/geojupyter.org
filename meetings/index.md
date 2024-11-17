@@ -1,0 +1,11 @@
+---
+title: "Meeting notes"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+# page-layout: full
+---
