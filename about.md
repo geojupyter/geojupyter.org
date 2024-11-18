@@ -5,8 +5,10 @@ title: "About"
 
 ## Current status: Exploration & input-gathering
 
+<center>
 [Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
 [Keep up with our meeting notes](/meetings){.btn .btn-secondary}
+</center>
 
 
 ## Next: Community event & tool choices
