@@ -1,6 +1,7 @@
 project:
   type: "website"
 
+
 website:
   title: "GeoJupyter"
   site-url: "https://geojupyter.github.io"
@@ -19,6 +20,11 @@ website:
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/geojupyter"
+
+  page-footer:
+    left: "© UC Berkeley 2024"
+    right: "Built with [Quarto](https://quarto.org/) ❤️"
+
 
 format:
   html:
