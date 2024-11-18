@@ -1,38 +1,22 @@
 ---
-title: "Interview notes"
 listing:
-  id: "listings"
-  contents: "./[:digit:]*"
+  id: "listing"
+  contents: "./[[:digit:]]*.{md,qmd}"
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
 page-layout: full
+toc: false
 ---
 
-:::{#listings}
+<center>
+[Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
+[Interview template](/interviews/template.md){.btn .btn-secondary}
+</center>
+
+# Interview notes
+
+:::{#listing}
 :::
-
-## Interview template
-
-### Describe a recent geospatial data workflow you worked on.
-
-Could be anything; doesn't have to be big or important. Could be exploring some data!
-
-
-#### What were your objectives?
-
-#### What tools did you use?
-
-#### What resources (including people, LLM, documentation, etc.) did you use?
-
-#### How was your experience?
-
-##### What were the hurdles? What frustrated you?
-
-##### What was the payoff? What was fun or enjoyable?
-
-##### What did you learn?
-
-### ...
