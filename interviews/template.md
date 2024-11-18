@@ -15,7 +15,36 @@ Could be anything; doesn't have to be big or important. Could be exploring some 
 
 ### What tools did you use?
 
-### What resources (including people, LLM, documentation, etc.) did you use?
+### What resources did you use?
+
+#### What software products did you use?
+
+Which ones were most & least valuable? Why do you think that was?
+
+
+##### Examples
+
+What GUI tools did you use? E.g. QGIS, ArcGIS, Panoply, JupyterLab, ...
+
+What CLI tools did you use? E.g. GDAL, Git, Conda, Pip, ...
+
+What services did you use? E.g. GitHub, GitLab, HuggingFace, ...
+
+What programming languages and libraries did you use? E.g. Python, geopandas, Xarray,
+Matplotlib, ...
+
+:::{.callout-note}
+There's some overlap between these categories. Perhaps don't ask these questions
+explicitly unless useful to jog interviewee's memory.
+:::
+
+
+#### What learning resources did you use?
+
+Including people, LLM, documentation, etc.
+
+Which ones were most & least valuable? Why do you think that was?
+
 
 ### How was your experience?
 
