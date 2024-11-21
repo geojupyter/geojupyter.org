@@ -19,6 +19,7 @@ website:
 
     left:
       - "about.md"
+      - "projects.md"
       - "blog/index.md"
       - "interviews/index.md"
     right:
