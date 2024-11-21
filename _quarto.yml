@@ -18,6 +18,7 @@ website:
     left:
       - "about.md"
       - "blog/index.md"
+      - "interviews/index.md"
     right:
       - icon: "github"
         aria-label: "GitHub"

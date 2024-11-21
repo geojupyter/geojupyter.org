@@ -2,14 +2,51 @@
 title: "Interview template"
 ---
 
-:::{.callout-info}
-Copy this template for each interview (and delete this message).
+:::{.callout-note}
+Take notes in a shared Google Doc. Initialize that doc from this template.
 :::
 
-## Describe a recent geospatial data workflow you worked on.
+## :wave: GeoJupyter introduction
+
+Introduce interviewee, interviewer, and GeoJupyter.
+
+Give the [elevator pitch](/index.md)!
+
+
+### Note-taking & information sharing
+
+May I please record this interview? This will allow me to focus on our conversation
+instead of note-taking. **Recordings will not be shared and will be deleted.**
+
+Any recordings and notes taken will be used to inform feature development of
+GeoJupyter.
+
+**We will not directly quote you without explicit permission.**
+
+**Your name will not be shared without explicit permission.**
+
+We will share general and anonymized outcomes (i.e. themes identified) in blog posts on
+this website. Those blog posts will be categorized as ["Community
+insights"](/blog#category=Community insights).
+
+
+## :hugs: About you
+
+Tell me about yourself!
+
+In addition to whatever you'd like to share, I'd like to know:
+
+* What kind of researcher are you? What is your field?
+* Do you teach?
+* Walk me through your geospatial data story: how did you start out working with
+  geospatial data, and what has changed about your workflow over time?
+
+
+## :globe_with_meridians: A recent geospatial workflow
+
+Describe a recent geospatial data workflow you worked on.
 
 Could be anything; doesn't have to be big or important. Could be exploring some data!
-
 
 ### What were your objectives?
 
@@ -54,4 +91,8 @@ Which ones were most & least valuable? Why do you think that was?
 
 #### What did you learn?
 
-## ...
+## :magic_wand: If you had a magic wand...
+
+If there were unlimited funds and capacity and no technical limitations, what would you
+want to change about your geospatial data workflows for exploring, teaching, analyzing,
+publishing, etc.?
