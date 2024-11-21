@@ -9,13 +9,15 @@ website:
   repo-url: &repo-url "https://github.com/geojupyter/geojupyter.github.io"
   repo-actions: ["edit", "issue"]
 
+  # HACK: Quarto previews don't show drafts as expected. This will cause drafts
+  # to be rendered in production as well! But that's probably fine.
+  # (https://github.com/quarto-dev/quarto-cli/issues/10279)
+  draft-mode: "unlinked"
+
   navbar:
     left:
       - "about.md"
-      - text: "Meetings"
-        href: "meetings/index.md"
-      - text: "Interviews"
-        href: "interviews/index.md"
+      - "blog/index.md"
     right:
       - icon: "github"
         aria-label: "GitHub"
