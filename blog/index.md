@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "📝 Blog"
 listing:
   id: "listing"
   sort: "date desc"
