@@ -7,7 +7,7 @@ title: "❓ About"
 
 <center>
 [Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
-[Keep up with our meeting notes](/meetings){.btn .btn-secondary}
+[Read our blog](/blog){.btn .btn-secondary}
 </center>
 
 
