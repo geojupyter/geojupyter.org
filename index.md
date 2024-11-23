@@ -10,8 +10,8 @@ about:
 ---
 
 
-GeoJupyter is a blank-slate re-envisioning of geospatial data exploration and analysis
-workflows for researchers and learners.
+GeoJupyter is a community-driven blank-slate re-envisioning of geospatial data
+exploration and analysis workflows for researchers and learners.
 
 The time has come to redesign data workflows by combining the strengths of desktop GIS
 and coding based tools into an accessible, collaborative, and reproducible platform. Our

@@ -2,12 +2,26 @@
 title: "❓ About"
 ---
 
+GeoJupyter is a collaboration between many communities and organizations, including but
+not limited to:
+
+* The [Jupyter](https://jupyter.org/) community
+* [QuantStack](https://quantstack.net/)
+* [2i2c](https://2i2c.org/)
+* [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
+
 
 ## Current status: Exploration & input-gathering
 
+[QuantStack](https://quantstack.net/) is developing
+[JupyterGIS](https://github.com/geojupyter/jupytergis), a *collaborative* GIS
+environment in JupyterLab.
+
+[DSE](https://dse.berkeley.edu/) is beginning the process of interviewing geospatial
+data practitioners to inform the direction of GeoJupyter.
+
 <center>
 [Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
-[Read our blog](/blog){.btn .btn-secondary}
 </center>
 
 
