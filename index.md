@@ -9,15 +9,7 @@ about:
       href: "https://github.com/geojupyter"
 ---
 
-
-GeoJupyter is a community-driven blank-slate re-envisioning of geospatial data
-exploration and analysis workflows for researchers and learners.
-
-The time has come to redesign data workflows by combining the strengths of desktop GIS
-and coding based tools into an accessible, collaborative, and reproducible platform. Our
-approach emphasizes creativity, playfulness, and storytelling to enable more confident
-analysis and exploration of geospatial data.
-
+{{< include elevator-pitch.md >}}
 
 
 [_Current status: Exploration & input-gathering_](/about.md)
