@@ -4,9 +4,9 @@ project:
 
 website:
   title: "GeoJupyter"
-  site-url: "https://geojupyter.github.io"
+  site-url: "https://geojupyter.org"
 
-  repo-url: &repo-url "https://github.com/geojupyter/geojupyter.github.io"
+  repo-url: &repo-url "https://github.com/geojupyter/geojupyter.org"
   repo-actions: ["edit", "issue"]
 
   # HACK: Quarto previews don't show drafts as expected. This will cause drafts
