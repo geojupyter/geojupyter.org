@@ -36,10 +36,12 @@ Tell me about yourself!
 
 In addition to whatever you'd like to share, I'd like to know:
 
-* What kind of researcher are you? What is your field?
-* Do you teach?
-* Walk me through your geospatial data story: how did you start out working with
-  geospatial data, and what has changed about your workflow over time?
+* What kind of practitioner are you?
+    * What is your field?
+    * How do you use data?
+    * Do you teach?
+* Walk me through your personal geospatial data story: how did you start out working
+  with geospatial data, and what has changed about your workflow over time?
 
 
 ## :globe_with_meridians: A recent geospatial workflow
@@ -50,11 +52,9 @@ Could be anything; doesn't have to be big or important. Could be exploring some 
 
 ### What were your objectives?
 
-### What tools did you use?
-
 ### What resources did you use?
 
-#### What software products did you use?
+#### What **software products** did you use?
 
 Which ones were most & least valuable? Why do you think that was?
 
@@ -76,14 +76,14 @@ explicitly unless useful to jog interviewee's memory.
 :::
 
 
-#### What learning resources did you use?
+#### What **learning** resources did you use?
 
 Including people, LLM, documentation, etc.
 
 Which ones were most & least valuable? Why do you think that was?
 
 
-### How was your experience?
+### How was your subjective experience?
 
 #### What were the hurdles? What frustrated you?
 
