@@ -27,7 +27,7 @@ data practitioners to inform the direction of GeoJupyter.
 
 ## Next: Community event & tool choices
 
-* ~Synchronous chat tool~ Selected Zulip
+* ~~Synchronous chat tool~~ Selected Zulip
 * Calendaring tool
 * Office hours meetings
 * Hackathon meetings
