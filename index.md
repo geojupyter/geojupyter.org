@@ -15,5 +15,4 @@ about:
 [_Current status: Exploration & input-gathering_](/about.md)
 
 
-[Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
-[Read our blog](/blog){.btn .btn-secondary}
+{{< include call-to-action.md >}}

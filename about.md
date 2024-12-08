@@ -21,13 +21,13 @@ environment in JupyterLab.
 data practitioners to inform the direction of GeoJupyter.
 
 <center>
-[Sign up for an interview](/interviews/sign-up.md){.btn .btn-primary}
+{{< include call-to-action.md >}}
 </center>
 
 
 ## Next: Community event & tool choices
 
-* Synchronous chat tool
+* ~Synchronous chat tool~ Selected Zulip
 * Calendaring tool
 * Office hours meetings
 * Hackathon meetings
@@ -41,4 +41,5 @@ If you want to share your personal experiences and visionary ideas for GeoJupyte
 please [sign up for an interview](/interviews/sign-up.md)!
 
 If you have community engagement, project planning, or other specific ideas, please
-[share anything you like in GitHub discussions](https://github.com/orgs/geojupyter/discussions)!
+[share anything you like in GitHub discussions](https://github.com/orgs/geojupyter/discussions)
+or in [Zulip chat](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)!
