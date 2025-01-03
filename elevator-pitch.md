@@ -1,7 +1,8 @@
-GeoJupyter is a community-driven re-envisioning of <b>geospatial</b> data exploration and
-analysis workflows for researchers and learners.
+GeoJupyter is an open and collaborative community-driven effort to reimagine
+[**geospatial interactive computing**]{class="jupyter-orange"} experiences for
+education, research, and industry.
 
-The time has come to redesign data workflows by combining the strengths of desktop GIS
-and coding based tools into an <b>accessible</b>, <b>collaborative</b>, and
-<b>reproducible</b> platform. Our approach emphasizes creativity, playfulness, and
-storytelling to enable more confident analysis and exploration of geospatial data.
+We aim to combine the **approachability** and **playfulness** of desktop GIS tools, the
+**flexibility** and **reproducibility** of coding-driven GIS methods, and the
+**collaborative** and **storytelling** power of Jupyter to enable more researchers,
+educators, and learners to confidently engage with geospatial data.
