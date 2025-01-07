@@ -1,6 +1,6 @@
 ---
 title: "Introducing GeoJupyter"
-date: "2024-12-16"
+date: "2025-01-08"
 author:
   - name: "Matt Fisher"
     orcid: "0000-0003-3260-5445"
@@ -47,4 +47,11 @@ To achieve this, we will:
 * Gather information about user experiences and points of pain or joy.
 * Establish new GeoJupyter community spaces and build new partnerships with Earth
   science and open source communities.
-* Develop software prototype(s) to find a good fit for community needs.
+* Develop sacrificial concepts to find a good fit for community needs.
+
+
+## How you :index_pointing_at_the_viewer: can get involved
+
+:speech_balloon: [Chat with us on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)!
+
+:hammer_and_wrench: [Contribute to JupyterGIS](https://github.com/geojupyter/jupytergis/)
