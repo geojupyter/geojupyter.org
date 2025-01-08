@@ -11,8 +11,9 @@ build:
     - "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.tar.gz"
 
     # Install
-    - "mkdir ~/opt && tar -C ~/opt -xvzf quarto*.tar.gz"
-    - "mkdir ~/bin && ln -s ~/opt/quarto-1.3.450/bin/quarto ~/bin/quarto"
+    - "mkdir --parents ~/opt/quarto ~/bin"
+    - "tar -C ~/opt/quarto -xvzf quarto*.tar.gz --strip-components 1"
+    - "ln -s ~/opt/quarto/bin/quarto ~/bin/quarto"
 
     # Render
     - "cd doc && ~/bin/quarto render"
