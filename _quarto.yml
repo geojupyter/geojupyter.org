@@ -31,7 +31,7 @@ website:
         href: "https://github.com/geojupyter"
 
   page-footer:
-    left: "© 2024 GeoJupyter Contributors"
+    left: "© 2024 GeoJupyter Contributors.<br/>_GeoJupyter is not affiliated with [Project Jupyter](https://jupyter.org)_."
     right: "Built with [Quarto](https://quarto.org/) ❤️"
 
 
