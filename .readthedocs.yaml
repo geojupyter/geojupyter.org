@@ -1,10 +1,11 @@
+# For this project, we use ReadTheDocs only for Pull Request previews. GitHub
+# pages currently hosts the actual website.
 version: 2
 
 
 build:
   os: "ubuntu-lts-latest"
 
-  # TODO: There must be a more readable way to express this...
   commands:
     # Download: https://quarto.org/docs/download/tarball.html
     - "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.tar.gz"
