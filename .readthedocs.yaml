@@ -16,6 +16,6 @@ build:
     - "ln -s ~/opt/quarto/bin/quarto ~/bin/quarto"
 
     # Render
-    - "cd doc && ~/bin/quarto render"
+    - "~/bin/quarto render"
     - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
-    - "mv doc/_site/* $READTHEDOCS_OUTPUT/html/."
+    - "mv _site/* $READTHEDOCS_OUTPUT/html/."
