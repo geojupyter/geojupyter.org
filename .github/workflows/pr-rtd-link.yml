@@ -18,7 +18,8 @@ jobs:
     steps:
       - uses: 'readthedocs/actions/preview@v1'
         with:
-          project-slug: 'jupytergis'
+          project-slug: 'geojupyter'
           message-template: |
+            ---
             :mag: Preview: {docs-pr-index-url}
-            This Pull Request preview is provided by ReadTheDocs. Our production website, however, is currently deployed with GitHub Pages.
+            _Note: This Pull Request preview is provided by ReadTheDocs. Our production website, however, is currently deployed with GitHub Pages._
