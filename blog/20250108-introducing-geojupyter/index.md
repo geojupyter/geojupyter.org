@@ -1,6 +1,9 @@
 ---
 title: "Introducing GeoJupyter"
 date: "2025-01-08"
+description: |
+  We believe that geospatial data analysis and exploration should be free, open source,
+  and accessible for everyone!
 author:
   - name: "Matt Fisher"
     orcid: "0000-0003-3260-5445"
@@ -8,7 +11,7 @@ categories:
   - "Announcements"
 ---
 
-## Need
+## :jigsaw: Need
 
 **We believe that geospatial data analysis and exploration should be free, open source,
 and accessible for everyone!**
@@ -24,34 +27,71 @@ power of code-based workflows to enable flexible alterations, version control, a
 low-friction reproducibility and publishing.
 
 
-## Vision
+## :telescope: Vision
 
-![An animation of a little girl in a white dress speaking with the caption "¿Por que no los dos?", meaning "Why not both?"](https://media1.tenor.com/m/cFkttZU0au8AAAAd/porque-no-los-dos-gif.gif)
+![An animation from the 1990s childrens' TV program "Captain Planet" depicting the planeteers combining their powers to summon... Captain Planet!](https://media1.tenor.com/m/hWtovfyLjNAAAAAd/captain-planet-let-our-powers-combine.gif)
 
-We intend to create a new generation of reproducible and scriptable tools for exploring
-data about our planet that may include tasks traditionally done with desktop GIS
-applications, but also as part of analysis pipelines that go beyond typical GIS uses;
-not just mapping, but working with any dataset about our planet that has spatio-temporal
-structure, for example climate models or subsurface data acquired with remote sensing
-instruments.
+<div class="quote">
+{{< include /elevator-pitch.md >}}
+</div>
+
+GeoJupyter will comprise a new generation of tools and enhancements to existing tools
+supporting exploring data about our planet. This includes tasks traditionally done
+with desktop GIS applications, but also analysis pipelines that go beyond typical GIS
+uses; supporting any dataset about our planet that has spatio-temporal structure, for
+example climate models or subsurface data acquired with remote sensing instruments.
 
 
-## Process
+## :memo: Process
 
-Standing on the shoulders of the geosciences and open source communities, we aim to
-**build new tooling for exploring, manipulating, and analyzing geospatial data on top of
-the foundation laid by Jupyter and JupyterLab.**
+To achieve our goals, we will:
 
-To achieve this, we will:
-
-* Gather information about user experiences and points of pain or joy.
+* Gather information about geospatial data practitioners' workflows and points of pain
+  or joy.
 * Establish new GeoJupyter community spaces and build new partnerships with Earth
   science and open source communities.
-* Develop sacrificial concepts to find a good fit for community needs.
+* Develop sacrificial concepts and prototypes to fit our work to community needs.
+* Deliver high-quality software solutions, educational materials, and training sessions.
 
 
-## How you :index_pointing_at_the_viewer: can get involved
+## :watch: Where is GeoJupyter now?
 
-:speech_balloon: [Chat with us on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)!
+We have established a
+[community chat space on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)
+and a [community calendar](/calendar.md).
+We are currently scheduling our first series of community meetings, with many more to come.
 
-:hammer_and_wrench: [Contribute to JupyterGIS](https://github.com/geojupyter/jupytergis/)
+Sponsored by the European Space Agency,
+[QuantStack is leading development of JupyterGIS](https://blog.jupyter.org/jupytergis-d63b7adf9d0c)
+([GitHub](https://github.com/geojupyter/jupytergis)),
+a real-time collaborative GIS environment for JupyterLab. We're
+[imagining new workflows](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/.22Bouncing.22.20between.20JupyterGIS.20and.20a.20Jupyter.20Notebook), and we need your creativity, knowledge, and skills!
+
+We have completed over a dozen interviews targeting geospatial data practitioners from
+diverse backgrounds, including education, data user support, Earth science, remote
+sensing, software engineering, and product development.
+Some themes we've preliminarily identified:
+
+> :star_struck: It feels _amazing_ to explore data, see a completed visualization, and
+> use creativity to answer questions with geospatial data!
+>
+> :confounded: It can be time-consuming, finnicky, and frustrating to create visualizations
+> and debug geospatial data, which is notoriously "quirky".
+>
+> :climbing: Learning geospatial concepts and programming is hard.
+> Many learners struggle without ready visual feedback.
+
+We will follow up soon with a more comprehensive blog post about our interviews.
+
+For early development, we have narrowed our focus on the educational user: teachers and
+students. We will build partnerships with research education communities and university
+classrooms as early users who will shape GeoJupyter.
+
+
+## :index_pointing_at_the_viewer: How you can get involved
+
+### :wave: [Say "hello" and join the discussion on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
+
+### :calendar: [Attend community events on our calendar](/calendar.md)!
+
+### :hammer_and_wrench: [Contribute to JupyterGIS](https://github.com/geojupyter/jupytergis/)!
