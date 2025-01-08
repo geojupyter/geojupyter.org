@@ -22,7 +22,7 @@ programming-based GIS world which provides cutting-edge editing, reproducibility
 publishing experiences.
 
 Between those two worlds, users of code-based workflows face the daunting problem of a
-blank page and too-steep learning curves, while non-programmers are missing out on the
+blank page and steep learning curves, while non-programmers are missing out on the
 power of code-based workflows to enable flexible alterations, version control, and
 low-friction reproducibility and publishing.
 
