@@ -1,0 +1,21 @@
+# For this project, we use ReadTheDocs only for Pull Request previews. GitHub
+# pages currently hosts the actual website.
+version: 2
+
+
+build:
+  os: "ubuntu-lts-latest"
+
+  commands:
+    # Download: https://quarto.org/docs/download/tarball.html
+    - "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.tar.gz"
+
+    # Install
+    - "mkdir --parents ~/opt/quarto ~/bin"
+    - "tar -C ~/opt/quarto -xvzf quarto*.tar.gz --strip-components 1"
+    - "ln -s ~/opt/quarto/bin/quarto ~/bin/quarto"
+
+    # Render
+    - "cd doc && ~/bin/quarto render"
+    - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
+    - "mv doc/_site/* $READTHEDOCS_OUTPUT/html/."
