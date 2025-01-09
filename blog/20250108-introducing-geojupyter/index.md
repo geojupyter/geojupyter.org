@@ -87,6 +87,16 @@ For early development, we have narrowed our focus on the educational user: teach
 students. We will build partnerships with research education communities and university
 classrooms as early users who will shape GeoJupyter.
 
+GeoJupyter contributors currently include
+[QuantStack](https://quantstack.net/),
+[2i2c](https://2i2c.org/),
+[Development Seed](https://developmentseed.org/),
+the [Schmidt Center for Data Science and Environment](https://dse.berkeley.edu/),
+members of the [UC Berkeley](https://berkeley.edu) and other university communities,
+members of the [NASA Earth Science](https://science.nasa.gov/earth-science/) community,
+and members of the [Jupyter](https://jupyter.org/) community.
+Thank you all for your amazing contributions! :bow:
+
 
 ## :index_pointing_at_the_viewer: How you can get involved
 

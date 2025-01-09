@@ -8,6 +8,7 @@ not limited to:
 * The [Jupyter](https://jupyter.org/) community
 * [QuantStack](https://quantstack.net/)
 * [2i2c](https://2i2c.org/)
+* [Development Seed](https://developmentseed.org/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 
 
