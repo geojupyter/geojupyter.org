@@ -90,7 +90,7 @@ and debug geospatial data, which is notoriously "quirky".
 ## Community insight
 
 :climbing: Learning geospatial concepts and programming is hard.
-Many learners struggle without ready visual feedback.
+Many learners benefit from immediate visual feedback.
 :::
 
 We will follow up soon with a more comprehensive blog post about our interviews.
