@@ -31,7 +31,10 @@ website:
         href: "https://github.com/geojupyter"
 
   page-footer:
-    left: "© 2024 GeoJupyter Contributors"
+    left: |
+      © 2025 GeoJupyter Contributors.
+
+      GeoJupyter is a community effort that includes many Jupyter contributors and follows all Jupyter guidelines, but is currently not an official Jupyter subproject.
     right: "Built with [Quarto](https://quarto.org/) ❤️"
 
 
