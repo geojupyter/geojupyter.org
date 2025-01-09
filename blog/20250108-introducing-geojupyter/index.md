@@ -19,12 +19,12 @@ and accessible for everyone!**
 Currently, a divide exists between two worlds: The desktop GIS world, in which QGIS and
 ArcGIS provide intuitive visualization-first interfaces to exploring data; and the
 programming-based GIS world which provides cutting-edge editing, reproducibility, and
-publishing experiences.
+automated publishing experiences.
 
-Between those two worlds, users of code-based workflows face the daunting problem of a
-blank page and steep learning curves, while non-programmers are missing out on the
-power of code-based workflows to enable flexible alterations, version control, and
-low-friction reproducibility and publishing.
+Between those two worlds, users of programming-based workflows face the daunting problem
+of a blank page and steep learning curves, while non-coders are missing out on the
+power of programming-based workflows to enable flexible alterations, version control,
+and low-friction reproducibility and publishing.
 
 
 ## :telescope: Vision
