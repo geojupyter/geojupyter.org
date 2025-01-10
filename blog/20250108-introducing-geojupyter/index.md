@@ -97,7 +97,7 @@ Many learners benefit from immediate visual feedback.
 :::
 ::::::
 
-We will follow up soon with a more comprehensive blog post about our interviews.
+We will follow up soon with a more comprehensive blog post about community insights.
 
 For early development, we have narrowed our focus on the educational user: teachers and
 students. We will build partnerships with research education communities and university
