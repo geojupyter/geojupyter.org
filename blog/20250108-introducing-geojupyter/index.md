@@ -68,7 +68,7 @@ a real-time collaborative GIS environment for JupyterLab. We're
 [imagining new workflows](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/.22Bouncing.22.20between.20JupyterGIS.20and.20a.20Jupyter.20Notebook), and we need your creativity, knowledge, and skills!
 
 We have completed over a dozen interviews targeting geospatial data practitioners from
-diverse backgrounds, including education, data user support, Earth science, remote
+diverse backgrounds including education, data user support, Earth science, remote
 sensing, software engineering, and product development.
 Some themes we've preliminarily identified:
 
