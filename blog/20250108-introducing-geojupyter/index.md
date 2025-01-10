@@ -31,9 +31,9 @@ and low-friction reproducibility and publishing.
 
 ![An animation from the 1990s childrens' TV program "Captain Planet" depicting the planeteers combining their powers to summon... Captain Planet!](https://media1.tenor.com/m/hWtovfyLjNAAAAAd/captain-planet-let-our-powers-combine.gif)
 
-<div class="quote">
+:::{.center-quote}
 {{< include /elevator-pitch.md >}}
-</div>
+:::
 
 GeoJupyter will comprise a new generation of tools and enhancements to existing tools
 supporting exploring data about our planet. This includes tasks traditionally done
