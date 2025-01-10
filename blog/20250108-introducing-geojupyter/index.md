@@ -72,29 +72,27 @@ diverse backgrounds including education, data user support, Earth science, remot
 sensing, software engineering, and product development.
 Some themes we've preliminarily identified:
 
-::::::{style="margin: 20px"}
+::::::{style="margin-left: 20px; margin-right: 20px"}
+:::{style="display: flex"}
+[:star_struck:]{.emoji-decoration-left}
 
-:::{.callout-tip}
-## Community insight
-
-:star_struck: It feels _amazing_ to explore data, see a completed visualization, and
+It feels _amazing_ to explore data, see a completed visualization, and
 use creativity to answer questions with geospatial data!
 :::
 
-:::{.callout-tip}
-## Community insight
+:::{style="display: flex"}
+[:confounded:]{.emoji-decoration-left}
 
-:confounded: It can be time-consuming, finnicky, and frustrating to create visualizations
+It can be time-consuming, finnicky, and frustrating to create visualizations
 and debug geospatial data, which is notoriously "quirky".
 :::
 
-:::{.callout-tip}
-## Community insight
+:::{style="display: flex"}
+[:climbing:]{.emoji-decoration-left}
 
-:climbing: Learning geospatial concepts and programming is hard.
+Learning geospatial concepts and programming is hard.
 Many learners benefit from immediate visual feedback.
 :::
-
 ::::::
 
 We will follow up soon with a more comprehensive blog post about our interviews.
