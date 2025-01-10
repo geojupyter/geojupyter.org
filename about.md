@@ -20,8 +20,8 @@ environment in JupyterLab.
 
 [DSE](https://dse.berkeley.edu/) is beginning the process of interviewing geospatial
 data practitioners to inform the direction of GeoJupyter.
-We are building partnerships with educational communities, and workshopping ideas for
-new user experiences.
+We are building partnerships with research, educational, and industry communities and
+workshopping ideas for new user experiences.
 
 <center>
 {{< include call-to-action.md >}}
