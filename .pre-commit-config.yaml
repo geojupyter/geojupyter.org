@@ -25,3 +25,9 @@ repos:
       - id: mixed-line-ending
       - id: no-commit-to-branch # protects `main` by default
       - id: trailing-whitespace
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.4
+    hooks:
+      - id: codespell
+        exclude: "^_extensions/"

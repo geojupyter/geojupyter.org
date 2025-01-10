@@ -5,7 +5,7 @@
   padding-top: 0px;
 }
 
-.quote {
+.center-quote {
   margin: 15px;
   padding: 15px;
 
@@ -15,4 +15,11 @@
 
 .jupyter-orange {
   color: #f37636;
+}
+
+.emoji-decoration-left {
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  margin-right: 20px;
 }

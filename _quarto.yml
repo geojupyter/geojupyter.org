@@ -21,6 +21,7 @@ website:
       - "about.md"
       - "projects.md"
       - "blog/index.md"
+      - "calendar.md"
       - "interviews/index.md"
     right:
       - text: "{{< iconify simple-icons:zulip title='Zulip chat' label='Zulip chat' >}}"
