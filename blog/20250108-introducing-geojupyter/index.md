@@ -37,11 +37,12 @@ reproducibility and publishing.
 {{< include /elevator-pitch.md >}}
 :::
 
-GeoJupyter will consist of a new generation of tools and enhancements to existing tools
-supporting exploring data about our planet. This includes tasks traditionally done with
-desktop GIS applications, but also analysis pipelines that go beyond typical GIS uses;
-supporting any dataset about our planet that has spatio-temporal structure, for example
-climate models or subsurface data acquired with remote sensing instruments.
+GeoJupyter will consist of a new generation of tools and enhancements to existing
+libraries supporting exploration of data about our planet. This includes tasks
+traditionally done with desktop GIS applications, but also analysis pipelines that go
+beyond typical GIS uses; supporting any dataset about our planet that has
+spatio-temporal structure, for example climate models or subsurface data acquired with
+remote sensing instruments.
 
 
 ## :memo: Process
