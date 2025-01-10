@@ -38,11 +38,11 @@ reproducibility and publishing.
 :::
 
 GeoJupyter will consist of a new generation of tools and enhancements to existing
-libraries supporting exploration of data about our planet. This includes tasks
-traditionally done with desktop GIS applications, but also analysis pipelines that go
-beyond typical GIS uses; supporting any dataset about our planet that has
-spatio-temporal structure, for example climate models or subsurface data acquired with
-remote sensing instruments.
+libraries supporting exploration of data about our planet.
+This includes tasks traditionally done with desktop GIS applications, but also analysis
+pipelines that go beyond typical GIS uses; supporting any dataset about our planet that
+has spatio-temporal structure, for example climate models or subsurface data acquired
+with remote sensing instruments.
 
 
 ## :memo: Process
@@ -67,8 +67,10 @@ We are currently scheduling our first series of community meetings, with many mo
 Sponsored by the European Space Agency,
 [QuantStack is leading development of JupyterGIS](https://blog.jupyter.org/jupytergis-d63b7adf9d0c)
 ([GitHub](https://github.com/geojupyter/jupytergis)),
-a real-time collaborative GIS environment for JupyterLab. We're
-[imagining new workflows](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/.22Bouncing.22.20between.20JupyterGIS.20and.20a.20Jupyter.20Notebook), and we need your creativity, knowledge, and skills!
+a real-time collaborative GIS environment for JupyterLab.
+We're
+[imagining new workflows](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/.22Bouncing.22.20between.20JupyterGIS.20and.20a.20Jupyter.20Notebook),
+and we need your creativity, knowledge, and skills!
 
 We have completed over a dozen interviews targeting geospatial data practitioners from
 diverse backgrounds including education, data user support, Earth science, remote
@@ -101,7 +103,8 @@ Many learners benefit from immediate visual feedback.
 We will follow up soon with a more comprehensive blog post about community insights.
 
 For early development, we have narrowed our focus on the educational user: teachers and
-students. We will build partnerships with research education communities and university
+students.
+We will build partnerships with research education communities and university
 classrooms as early users who will shape GeoJupyter.
 
 GeoJupyter contributors currently include
