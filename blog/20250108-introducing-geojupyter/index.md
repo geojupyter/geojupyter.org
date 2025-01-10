@@ -72,6 +72,8 @@ diverse backgrounds including education, data user support, Earth science, remot
 sensing, software engineering, and product development.
 Some themes we've preliminarily identified:
 
+::::::{style="margin: 20px"}
+
 :::{.callout-tip}
 ## Community insight
 
@@ -92,6 +94,8 @@ and debug geospatial data, which is notoriously "quirky".
 :climbing: Learning geospatial concepts and programming is hard.
 Many learners benefit from immediate visual feedback.
 :::
+
+::::::
 
 We will follow up soon with a more comprehensive blog post about our interviews.
 
