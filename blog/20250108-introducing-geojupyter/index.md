@@ -67,7 +67,7 @@ We are currently scheduling our first series of community meetings, with many mo
 Sponsored by the European Space Agency,
 [QuantStack is leading development of JupyterGIS](https://blog.jupyter.org/jupytergis-d63b7adf9d0c)
 ([GitHub](https://github.com/geojupyter/jupytergis)),
-a real-time collaborative GIS environment for JupyterLab.
+a multi-player GIS environment for JupyterLab.
 We're
 [imagining new workflows](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/.22Bouncing.22.20between.20JupyterGIS.20and.20a.20Jupyter.20Notebook),
 and we need your creativity, knowledge, and skills!
