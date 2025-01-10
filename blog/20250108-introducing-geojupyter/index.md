@@ -26,7 +26,7 @@ for GeoJupyter.
 Between those two worlds, users of programming-based workflows face the daunting problem
 of a blank page and steep learning curves, while non-coders are missing out on the
 power of programming-based workflows to enable low-friction modular reuse,
-reproducibility and publishing.
+reproducibility, and publishing.
 
 
 ## :telescope: Vision
