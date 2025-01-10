@@ -20,6 +20,8 @@ Currently, a divide exists between two worlds: The desktop GIS world, in which Q
 ArcGIS provide intuitive visualization-first interfaces to exploring data; and the
 programming-based GIS world which provides cutting-edge editing, reproducibility, and
 automated publishing experiences.
+While this is an oversimplified framing, it highlights contrasts to set the stage
+for GeoJupyter.
 
 Between those two worlds, users of programming-based workflows face the daunting problem
 of a blank page and steep learning curves, while non-coders are missing out on the
