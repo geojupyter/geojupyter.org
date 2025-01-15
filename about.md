@@ -9,6 +9,7 @@ not limited to:
 * [QuantStack](https://quantstack.net/)
 * [2i2c](https://2i2c.org/)
 * [Development Seed](https://developmentseed.org/)
+* [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 
 
