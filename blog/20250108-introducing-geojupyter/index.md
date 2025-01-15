@@ -31,7 +31,7 @@ reproducibility, and publishing.
 
 ## :telescope: Vision
 
-![An animation from the 1990s childrens' TV program "Captain Planet" depicting the planeteers combining their powers to summon... Captain Planet!](https://media1.tenor.com/m/hWtovfyLjNAAAAAd/captain-planet-let-our-powers-combine.gif)
+![An image referencing the 1990s childrens' TV program "Captain Planet". Depicts the "planeteers" combining their powers to summon... Captain Planet!](./let-our-powers-combine.jpg)
 
 :::{.center-quote}
 {{< include /elevator-pitch.md >}}
