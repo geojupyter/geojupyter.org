@@ -24,6 +24,8 @@ website:
       - "calendar.md"
       - "interviews/index.md"
     right:
+      - icon: "rss"
+        href: "blog/index.xml"
       - text: "{{< iconify simple-icons:zulip title='Zulip chat' label='Zulip chat' >}}"
         aria-label: "Zulip chat"
         href: "https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter"
