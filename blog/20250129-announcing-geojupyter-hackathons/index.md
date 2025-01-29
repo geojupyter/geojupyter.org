@@ -27,7 +27,7 @@ This blog post will be updated as details are added.
 :::
 
 
-## When?
+## :calendar: When?
 
 Our first hackathon will be on Wednesday, February 5th at 7AM Pacific Time | 8AM
 Mountain Time | 4PM Central European Time
@@ -41,7 +41,7 @@ You! We are looking for geospatial practitioners and software developers of all 
 join us to explore possible futures for geospatial data work.
 
 
-## How to join?
+## :handshake: How to join?
 
 **Please join from our [community calendar](/calendar)**. Select the event on February
 5th, then select "Copy to my calendar".
@@ -50,7 +50,7 @@ Alternately,
 [click here to add the hackathon to your calendar now](https://TODO.example.com)!
 
 
-## What you can expect
+## :thought_balloon: What you can expect
 
 ### Orientation
 
