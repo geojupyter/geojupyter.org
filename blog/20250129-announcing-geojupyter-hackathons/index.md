@@ -35,6 +35,12 @@ Mountain Time | 4PM Central European Time
 Duration 2 hours, and all are welcome to drop in or out at any time.
 
 
+## :index_pointing_at_the_viewer: Who should join?
+
+You! We are looking for geospatial practitioners and software developers of all kinds to
+join us to explore possible futures for geospatial data work.
+
+
 ## How to join?
 
 **Please join from our [community calendar](/calendar)**. Select the event on February
