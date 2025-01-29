@@ -16,6 +16,8 @@ TODO:
 - [ ] Emojis!
 - [ ] ... everything else
 
+![Hack hack hack hack!](./HACK.webp)
+
 This is exciting! Read me! I'm begging you!
 
 If you're not familiar with GeoJupyter yet, please read our
