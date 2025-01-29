@@ -37,14 +37,15 @@ Duration 2 hours, and all are welcome to drop in or out at any time.
 
 ## :index_pointing_at_the_viewer: Who should join?
 
-You! We are looking for geospatial practitioners and software developers of all kinds to
-join us to explore possible futures for geospatial data work.
+You!
+We are looking for geospatial practitioners and software developers of all kinds to join
+us to explore possible futures for geospatial data work.
 
 
 ## :handshake: How to join?
 
-**Please join from our [community calendar](/calendar)**. Select the event on February
-5th, then select "Copy to my calendar".
+**Please join our Zoom meeting from our [community calendar](/calendar)**.
+Select the event on February 5th, then select "Copy to my calendar".
 
 Alternately,
 [click here to add the hackathon to your calendar now](https://TODO.example.com)!
