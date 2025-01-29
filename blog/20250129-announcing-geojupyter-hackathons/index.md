@@ -27,14 +27,21 @@ This blog post will be updated as details are added.
 :::
 
 
-## When? How to join?
+## When?
 
 Our first hackathon will be on Wednesday, February 5th at 7AM Pacific Time | 8AM
 Mountain Time | 4PM Central European Time
 ([in your timezone](https://www.inyourowntime.zone/2025-02-05_08.00_America.Denver)).
-Duration 2 hours, and all are welcome to drop in or out at any time. **From our
-[community calendar](/calendar), select the event on February 5th, then select "Copy to
-my calendar".**
+Duration 2 hours, and all are welcome to drop in or out at any time.
+
+
+## How to join?
+
+**Please join from our [community calendar](/calendar)**. Select the event on February
+5th, then select "Copy to my calendar".
+
+Alternately,
+[click here to add the hackathon to your calendar now](https://TODO.example.com)!
 
 
 ## Structure
