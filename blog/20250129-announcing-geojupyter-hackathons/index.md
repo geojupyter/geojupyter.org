@@ -73,8 +73,8 @@ the [#geojupyter Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/47
 In the final moments, we'll ask if anyone needs help or has exciting progress to share.
 
 
-## ...
+## ...?
 
 More.
 
-Thank you!
+Thank you! We hope to see you there!
