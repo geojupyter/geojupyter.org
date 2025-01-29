@@ -50,14 +50,26 @@ Alternately,
 [click here to add the hackathon to your calendar now](https://TODO.example.com)!
 
 
-## Structure
+## What you can expect
 
-Our Hackathon will begin with a brief forming period with lightning introductions and
-adding our ideas to a shared document. From there, we will divide into small groups for
-the bulk of the hackathon. We will save our work in GitHub as Issues or Pull Requests or
-in Zulip as new topics in the
-[#geojupyter Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter). In the final
-moments, we'll ask if anyone has exciting news to share.
+### Orientation
+
+Our Hackathon will begin with a brief orientation period.
+We will have lightning introductions and adding our hack ideas to a shared document.
+Then we will form goals from the ideas that sound the most fun, and break into small teams.
+
+
+### Hacking!
+
+We'll work together in Zoom breakout rooms to make progress on our goals for the bulk of the hackathon.
+We will save our work in GitHub as Issues or Pull Requests.
+If the outcome isn't a good fit for GitHub, we'll create new topics in
+the [#geojupyter Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter).
+
+
+### Sync
+
+In the final moments, we'll ask if anyone needs help or has exciting progress to share.
 
 
 ## ...
