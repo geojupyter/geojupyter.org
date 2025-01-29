@@ -1,0 +1,54 @@
+---
+title: "Announcing GeoJupyter Virtual Hackathons (TODO: Funner name)"
+date: "2025-01-29"
+description: |
+  Come hack with us! Generate ideas, give feedback, write code, and make friends!
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+  - name: "Another author"
+categories:
+  - "Announcements"
+---
+
+TODO:
+
+- [ ] Emojis!
+- [ ] ... everything else
+
+This is exciting! Read me! I'm begging you!
+
+If you're not familiar with GeoJupyter yet, please read our
+[community announcement post](/blog/20250108-introducing-geojupyter)!
+
+
+:::{.callout-note}
+This blog post will be updated as details are added.
+:::
+
+
+## When? How to join?
+
+Our first hackathon will be on Wednesday, February 5th at 7AM Pacific Time | 8AM
+Mountain Time | 4PM Central European Time
+([in your timezone](https://www.inyourowntime.zone/2025-02-05_08.00_America.Denver)).
+Duration 2 hours, and all are welcome to drop in or out at any time. **From our
+[community calendar](/calendar), select the event on February 5th, then select "Copy to
+my calendar".**
+
+
+## Structure
+
+Our Hackathon will begin with a brief forming period with lightning introductions and
+adding our ideas to a shared document. From there, we will divide into small groups for
+the bulk of the hackathon. We will save our work in GitHub as Issues or Pull Requests or
+in Zulip as new topics in the
+[#geojupyter Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter). In the final
+moments, we'll ask if anyone has exciting news to share.
+
+
+## ...
+
+More.
+
+Thank you!
