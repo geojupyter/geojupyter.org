@@ -56,7 +56,7 @@ Alternately,
 ### Orientation
 
 Our Hackathon will begin with a brief orientation period.
-We will have lightning introductions and adding our hack ideas to a shared document.
+We will have lightning introductions and add our hack ideas to a shared document.
 Then we will form goals from the ideas that sound the most fun, and break into small teams.
 
 
