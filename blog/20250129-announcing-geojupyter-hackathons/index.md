@@ -41,7 +41,7 @@ us to explore possible futures for geospatial data work.
 
 ## :handshake: How to join?
 
-**Please join our Zoom meeting from our [community calendar](/calendar)**.
+**Please join our Zoom meeting from our [community calendar](/calendar.md)**.
 Select the event on Feb 5th to view the details.
 Beneath the calendar, select "Add to Google Calendar".
 
