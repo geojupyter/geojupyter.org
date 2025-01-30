@@ -29,6 +29,8 @@ Mountain Time | 4PM Central European Time
 ([see the time in your timezone](https://www.inyourowntime.zone/2025-02-05_08.00_America.Denver)).
 Duration 2 hours, and all are welcome to drop in or out at any time.
 
+Hackathons will occur every two weeks!
+
 
 ## :index_pointing_at_the_viewer: Who should join?
 
