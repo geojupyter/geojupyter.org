@@ -12,8 +12,9 @@ categories:
   - "Announcements"
 ---
 
-
-This is exciting! Read me! I'm begging you!
+**GeoJupyter hackathons are starting up next week!**
+We can't wait to see you and work with you!
+Read on to learn what to expect and how to join us.
 
 ![Hack hack hack hack!](./HACK.webp)
 
