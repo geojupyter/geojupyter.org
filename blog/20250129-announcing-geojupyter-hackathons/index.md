@@ -12,22 +12,13 @@ categories:
   - "Announcements"
 ---
 
-TODO:
-
-- [ ] Emojis!
-- [ ] ... everything else
-
-![Hack hack hack hack!](./HACK.webp)
 
 This is exciting! Read me! I'm begging you!
 
+![Hack hack hack hack!](./HACK.webp)
+
 If you're not familiar with GeoJupyter yet, please read our
 [community announcement post](/blog/20250108-introducing-geojupyter)!
-
-
-:::{.callout-note}
-This blog post will be updated as details are added.
-:::
 
 
 ## :calendar: When?
