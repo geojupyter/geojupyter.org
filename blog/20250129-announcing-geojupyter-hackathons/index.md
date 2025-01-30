@@ -6,7 +6,8 @@ description: |
 author:
   - name: "Matt Fisher"
     orcid: "0000-0003-3260-5445"
-  - name: "Another author"
+  - name: "Kristin Davis"
+    orcid: "0000-0003-1204-4687"
 categories:
   - "Announcements"
 ---
