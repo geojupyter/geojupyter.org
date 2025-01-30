@@ -50,7 +50,7 @@ Alternately,
 ## :thought_balloon: What you can expect
 
 You can expect to meet brilliant and friendly peers, generate ideas, give feedback,
-write code, and make friends!
+learn awesome stuff, write code, and make friends!
 
 
 ### Orientation
