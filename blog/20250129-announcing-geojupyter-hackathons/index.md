@@ -1,5 +1,5 @@
 ---
-title: "Announcing GeoJupyter Virtual Hackathons (TODO: Funner name)"
+title: "Announcing GeoJupyter Virtual Hackathons"
 date: "2025-01-29"
 description: |
   Come hack with us! Generate ideas, give feedback, write code, and make friends!
