@@ -12,3 +12,4 @@ preview = "quarto preview"
 
 [dependencies]
 quarto = ">=1.5.57"
+pre-commit = "*"
