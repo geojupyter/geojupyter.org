@@ -40,10 +40,11 @@ us to explore possible futures for geospatial data work.
 ## :handshake: How to join?
 
 **Please join our Zoom meeting from our [community calendar](/calendar)**.
-Select the event on February 5th, then select "Copy to my calendar".
+Select the event on Feb 5th to view the details.
+Beneath the calendar, select "Add to Google Calendar".
 
 Alternately,
-[click here to add the hackathon to your calendar now](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3QxcWdhZjczM25rbGI3aTcwNWtxZ3Q1M2kgZ2VvanVweXRlckBiZXJrZWxleS5lZHU&tmsrc=geojupyter%40berkeley.edu)!
+[click here to subscribe to the GeoJupyter calendar now](https://calendar.google.com/calendar/u/0?cid=Z2VvanVweXRlckBiZXJrZWxleS5lZHU)!
 
 
 ## :thought_balloon: What you can expect
