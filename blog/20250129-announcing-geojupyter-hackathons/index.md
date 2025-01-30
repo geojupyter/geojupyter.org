@@ -16,7 +16,7 @@ categories:
 We can't wait to see you and work with you!
 Read on to learn what to expect and how to join us.
 
-![Hack hack hack hack!](./HACK.webp)
+![A very excited person with too many arms hacking on six (or seven?) computers at once!](./HACK.webp)
 
 If you're not familiar with GeoJupyter yet, please read our
 [community announcement post](/blog/20250108-introducing-geojupyter)!
