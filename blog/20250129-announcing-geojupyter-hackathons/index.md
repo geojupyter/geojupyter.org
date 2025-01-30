@@ -43,7 +43,7 @@ us to explore possible futures for geospatial data work.
 Select the event on Feb 5th to view the details.
 Beneath the calendar, select "Add to Google Calendar".
 
-Alternately,
+Alternatively,
 [click here to subscribe to the GeoJupyter calendar now](https://calendar.google.com/calendar/u/0?cid=Z2VvanVweXRlckBiZXJrZWxleS5lZHU)!
 
 
