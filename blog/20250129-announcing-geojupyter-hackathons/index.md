@@ -42,7 +42,7 @@ us to explore possible futures for geospatial data work.
 Select the event on February 5th, then select "Copy to my calendar".
 
 Alternately,
-[click here to add the hackathon to your calendar now](https://TODO.example.com)!
+[click here to add the hackathon to your calendar now](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3QxcWdhZjczM25rbGI3aTcwNWtxZ3Q1M2kgZ2VvanVweXRlckBiZXJrZWxleS5lZHU&tmsrc=geojupyter%40berkeley.edu)!
 
 
 ## :thought_balloon: What you can expect
