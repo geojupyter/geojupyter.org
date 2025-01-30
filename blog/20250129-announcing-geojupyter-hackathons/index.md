@@ -75,4 +75,4 @@ In the final moments, we'll ask if anyone needs help or has exciting progress to
 
 ## :bow: Thank you!
 
-We hope to see you and learn from you!
+We hope to see you and learn from you soon!
