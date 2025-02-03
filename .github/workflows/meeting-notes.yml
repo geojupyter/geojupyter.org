@@ -1,4 +1,4 @@
-name: "Initialize meeting notes"
+name: "Setup / sync meeting notes"
 
 on:
   workflow_dispatch:
