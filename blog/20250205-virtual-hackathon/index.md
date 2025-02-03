@@ -1,7 +1,7 @@
 ---
 title: "GeoJupyter virtual hackathon 2025-02-05"
 description: |
-  A GeoJupyter virtual hackathon. Open to all!
+  The first GeoJupyter virtual hackathon. Open to all!
 date: "2025-02-05"
 author:
   - name: "The GeoJupyter community"
