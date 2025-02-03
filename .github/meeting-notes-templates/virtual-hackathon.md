@@ -1,12 +1,16 @@
 ---
-title: "GeoJupyter Hackathon {{ date.strftime('%Y-%m-%d') }}"
-tags: [hackathons]
+title: "GeoJupyter virtual hackathon {{ date.strftime('%Y-%m-%d') }}"
+description: |
+  A GeoJupyter virtual hackathon. Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
+author:
+  - name: "The GeoJupyter community"
 categories:
   - "Hackathons"
+tags: [hackathons]
 ---
 
-# GeoJupyter Hackathon {{ date.strftime("%Y-%m-%d") }}
+# GeoJupyter virtual hackathon {{ date.strftime("%Y-%m-%d") }}
 
 Please add new agenda items under the `New agenda items` heading!
 
