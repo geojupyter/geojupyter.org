@@ -54,6 +54,7 @@ jobs:
   sync-comment-trigger:
     name: "React to the triggering comment"
     if: "${{ github.event.issue.pull_request && contains(github.event.comment.body, '/bot please sync notes') }}"
+    runs-on: "ubuntu-latest"
     steps:
       - name: "React to the triggering comment"
         run: |
