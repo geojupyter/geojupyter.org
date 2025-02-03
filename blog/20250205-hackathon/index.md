@@ -6,7 +6,7 @@ categories:
   - "Hackathons"
 ---
 
-# GeoJupyter Hackathon 2025-02-05
+# GeoJupyter Hackathon 2025-02-05 doot doot
 
 Please add new agenda items under the `New agenda items` heading!
 
