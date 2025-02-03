@@ -1,9 +1,13 @@
 ---
 title: "GeoJupyter core community meeting {{ date.strftime('%Y-%m-%d') }}"
-tags: [meeting-notes]
+description: |
+  A monthly gathering of the GeoJupyter core community. Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
+author:
+  - name: "The GeoJupyter community"
 categories:
   - "Meeting notes"
+tags: [meeting-notes]
 ---
 
 # GeoJupyter core community meeting {{ date.strftime("%Y-%m-%d") }}
@@ -39,13 +43,10 @@ Your name / GitHub ID / affiliation / icebreaker
 - [ ]
 
 
-### Active votes
-
-- [ ]
-
 ### New agenda items
 
 - [ ]
+
 
 ### Pushed to next meeting
 

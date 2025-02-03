@@ -8,7 +8,7 @@ on:
         description: "What kind of meeting?"
         options:
           - "core"
-          - "hackathon"
+          - "virtual-hackathon"
       date:
         description: |
           Date of the meeting in `date --date` format, e.g.:
