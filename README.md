@@ -26,3 +26,24 @@ Any changes to the website content will trigger an automatic re-render.
 ```bash
 pixi run render
 ```
+
+
+## Common activities
+
+### Initialize and sync meeting notes
+
+Initialize meeting notes on HackMD by navigating to the "Actions" tab of this repo.
+Then select "Setup / sync meeting notes" on the left panel.
+Now click "Run workflow" in the main workflow listing panel.
+Finally, fill in the kind of meeting you're initializing and the date, and click "Run workflow".
+
+<details>
+  <summary>Screenshot</summary>
+  ![image](https://github.com/user-attachments/assets/db567500-48ee-4e32-8cf3-5eab01cce96c)
+</details>
+
+A Pull Request and HackMD document will be created.
+Visit the PR to find the HackMD link.
+
+When you're ready to sync data from HackMD back to GitHub, comment in the PR with `/bot please sync notes`.
+See [PR #32](https://github.com/geojupyter/geojupyter.org/pull/32) for an example.
