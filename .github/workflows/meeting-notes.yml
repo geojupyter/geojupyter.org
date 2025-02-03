@@ -40,7 +40,7 @@ jobs:
       date: "${{ inputs.date }}"
       template_path: ".github/meeting-notes-templates/${{ inputs.kind }}.md"
       # TODO: Is this the HackMD path or the repo path??
-      output_path: "${{ inputs.kind }}/%Y-%m-%d.md"
+      output_path: "blog/%Y%m%d-${{ inputs.kind }}/index.md"
       hackmd_team: "geojupyter"
       branch_name: "%Y-%m-%d-${{ inputs.kind }}-meeting-notes"
       force_push: true
