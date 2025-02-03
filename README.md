@@ -39,7 +39,7 @@ Finally, fill in the kind of meeting you're initializing and the date, and click
 
 <details>
   <summary>Screenshot</summary>
-  ![image](https://github.com/user-attachments/assets/db567500-48ee-4e32-8cf3-5eab01cce96c)
+  <img src="https://github.com/user-attachments/assets/db567500-48ee-4e32-8cf3-5eab01cce96c">
 </details>
 
 A Pull Request and HackMD document will be created.
