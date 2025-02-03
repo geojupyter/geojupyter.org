@@ -45,7 +45,7 @@ Tell us about you in 30 seconds or less!
 * What do you want to work on today?
 * Add your ideas to the “Hack teams” section below.
 * Add your favorite emoji next to ideas you’re excited about. Press the colon (:) key on your keyboard or navigate to “Insert > Emoji” in the menu bar to open the emoji browser.
-* Form teams from the ideas generated in the steps above! Add them to the “Hack teams” section of the doc below.
+* Form teams from the ideas generated in the steps above! Add your objectives to the “Hack teams” section of the doc below.
 * Create breakout rooms.
 
 
@@ -62,9 +62,9 @@ Tell us about you in 30 seconds or less!
 
 Join the corresponding breakout room to hack!
 
-1. Names: Objective
-1. Names: Objective
-1. Names: Objective
+1. Objectives
+1. Objectives
+1. Objectives
 
 
 ## Share out
