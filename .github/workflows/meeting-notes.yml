@@ -33,7 +33,8 @@ permissions:
 
 jobs:
   create:
-    if: "github.event_name != 'pull_request'"
+    name: "Create PR for meeting notes"
+    if: "github.event_name == 'workflow_dispatch'"
     uses: "Quansight-Labs/hackmd-meeting-notes-action/.github/workflows/create-meeting-notes-pr.yml@main"
     with:
       date: "${{ inputs.date }}"
@@ -63,7 +64,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
   sync:
-    name: "React to the triggering comment"
+    name: "Sync notes from HackMD to PR"
     needs:
      - "sync-comment-trigger"
     uses: "Quansight-Labs/hackmd-meeting-notes-action/.github/workflows/sync-meeting-notes-pr.yml@main"
