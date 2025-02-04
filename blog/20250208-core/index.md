@@ -22,6 +22,7 @@ Please add new agenda items under the `New agenda items` heading!
   - [Community calendar](https://geojupyter.org/calendar.html)
   - [Zulip chat](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)
 
+HIIIIIIIIIII
 
 ## Attendees
 
