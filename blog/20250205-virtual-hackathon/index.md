@@ -28,7 +28,7 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation / favorite drink this time of year
 
 * Sanjay Bhangar / batpad / Development Seed / Chai
-* Kristin Davis / kpdavi / Schmidt Center for Data Science & Environment, UC Berkeley / mint hot cocoa 
+* Kristin Davis / kpdavi / Schmidt Center for Data Science & Environment, UC Berkeley / mint hot cocoa
 * Matt Fisher / mfisher87 / DSE / Mint hot cocoa
 * Yao-Ting Yao/ YaoTingYao/ Clark CGA/Mint Tea
 * Martin Renou / martinRenou / QuantStack / Coffee
@@ -36,7 +36,7 @@ Your name / GitHub ID / affiliation / favorite drink this time of year
 * Arjun Verma / arjxn-py / QuantStack / Cold Coffee
 * Brookie Guzder-Williams/ brookisme / Coffee
 * Qiusheng Wu / giswqs / University of Tennessee / Tea
- 
+
 
 
 ## Agenda & notes
@@ -71,17 +71,17 @@ For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/la
 Join the corresponding breakout room to hack!
 
 **Lobby**: Orientation! Help setting up dev environment, etc. Docs: https://jupytergis.readthedocs.io/en/latest/contributor_guide/index.html
-* Kristin 
+* Kristin
 
 1. Dockerize! (https://github.com/geojupyter/jupytergis/issues/267)
     * Matt & Sanjay
     * https://github.com/geojupyter/jupytergis-docker
     * Martin: Could a GHA bot run every day and check for a new release? Should it work like the conda forge bot where it opens a PR, we review, and merge. Or just have the bot commit and tag? (the latter seems preferred)
         * Arjun: Put dockerfile in JGIS repository in `scripts/` directory?
-        *  
+        *
 2. Python API improvements (https://github.com/geojupyter/jupytergis/issues/436)
     * Brookie & Martin & Arjun & Yao-Ting
-    * Walked through workflows. 
+    * Walked through workflows.
       Brookie will clean up notes and put on GitHub as a comment to the issue: https://github.com/geojupyter/jupytergis/issues/436
       Also start a chat on Zulip!
 
@@ -90,7 +90,7 @@ Join the corresponding breakout room to hack!
 3. Layer show/hide button gets pushed off the panel (https://github.com/geojupyter/jupytergis/issues/244)
 4. Improve layer gallery contributor experience (https://github.com/geojupyter/jupytergis/issues/277)
     * Martin: The gallery is generated from xyzservices Python package. How's the contributor experience for this package?
-    * https://github.com/geojupyter/jupytergis/blob/b5cdceb81d316efe9dd520671a626cc533108e7f/packages/base/rasterlayer_gallery_generator.py#L9 
+    * https://github.com/geojupyter/jupytergis/blob/b5cdceb81d316efe9dd520671a626cc533108e7f/packages/base/rasterlayer_gallery_generator.py#L9
 
 
 ## Share out
@@ -109,6 +109,6 @@ Big questions? Big ideas?
 
 * Brookie: `object = doc.get_feature(layer=..., feature_id=...)` to grab a unique feature out of a layer or `object = doc.get_selected_features()`
     * Sanjay: We wanted this on lonboard. Ipyleaflet has this maybe? Ability to draw a bounding box or shape, then `doc.get_bbox()` or `doc.get_features_in_bbox()`.
-    * Brookie: 
+    * Brookie:
 * Brookie: Sort collaborators alphabetically
-* 
+*
