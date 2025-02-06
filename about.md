@@ -13,6 +13,8 @@ not limited to:
 * [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 
+_Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
+
 
 ## Current status: Exploration & input-gathering
 
