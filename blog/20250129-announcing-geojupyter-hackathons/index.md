@@ -12,9 +12,12 @@ categories:
   - "Announcements"
 ---
 
-**GeoJupyter hackathons are starting up next week!**
+**GeoJupyter hackathons are starting up on February 5, 2025!**
 We can't wait to see you and work with you!
 Read on to learn what to expect and how to join us.
+
+Update: Our first hackathon was a success! :tada:
+Please follow along by viewing our [hackathon notes blog posts](/blog/#category=Hackathon)
 
 ![A very excited person with too many arms hacking on six (or seven?) computers at once!](./HACK.webp)
 

@@ -25,7 +25,7 @@ environment in JupyterLab.
 [DSE](https://dse.berkeley.edu/) and the GeoJupyter community are distilling insights from interviewees.
 
 The GeoJupyter community is [meeting bi-weekly](/blog/20250129-announcing-geojupyter-hackathons) to generate and develop ideas.
-Please see our [hackathon notes blog posts](https://geojupyter.org/blog/#category=Hackathons) to follow our progress!
+Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follow our progress!
 
 <center>
 {{< include call-to-action.md >}}
