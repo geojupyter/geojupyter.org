@@ -100,9 +100,12 @@ What exciting things did you accomplish?
 What loose ends remain?
 Big questions? Big ideas?
 
-* Share out
-* Share out
-* Share out
+* Add `add_vector_layer` function to Python API: https://github.com/geojupyter/jupytergis/pull/445
+* New ideas for bi-directional interactions with documents, layers, features between JGIS and Notebook. e.g. get vector and raster layers from the doc, and use a vector feature to select raster pixels, mean them, then update the vector with a new attribute containing the result of the mean operation: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
+* Docker!
+  * Source: https://github.com/geojupyter/jupytergis-docker
+  * Image: `ghcr.io/geojupyter/jupytergis:latest`
+  * Docs PR: https://github.com/geojupyter/jupytergis/pull/446
 
 
 ## Notes
