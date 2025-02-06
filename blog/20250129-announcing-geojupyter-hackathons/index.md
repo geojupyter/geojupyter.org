@@ -20,8 +20,8 @@ Read on to learn what to expect and how to join us.
 ## Update
 
 :tada: Our first hackathon was a success!
-Please follow along by viewing our [:memo: hackathon notes blog posts](/blog/#category=Hackathon).
-We hope to see you at a future hackathon; join with our [:calendar: community calendar](/calendar)!
+Please follow along by viewing our [:memo: hackathon notes blog posts](/blog/#category=Hackathons).
+We hope to see you at a future hackathon; join with our [:calendar: community calendar](/calendar.md)!
 :::
 
 ![A very excited person with too many arms hacking on six (or seven?) computers at once!](./HACK.webp)
