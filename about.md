@@ -16,16 +16,16 @@ not limited to:
 _Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
 
 
-## Current status: Exploration & input-gathering
+## Current status: Idea generation and development
 
 [QuantStack](https://quantstack.net/) is developing
 [JupyterGIS](https://github.com/geojupyter/jupytergis), a *collaborative* GIS
 environment in JupyterLab.
 
-[DSE](https://dse.berkeley.edu/) is beginning the process of interviewing geospatial
-data practitioners to inform the direction of GeoJupyter.
-We are building partnerships with research, educational, and industry communities and
-workshopping ideas for new user experiences.
+[DSE](https://dse.berkeley.edu/) and the GeoJupyter community are distilling insights from interviewees.
+
+The GeoJupyter community is [meeting bi-weekly](/blog/20250129-announcing-geojupyter-hackathons) to generate and develop ideas.
+Please see our [hackathon notes blog posts](https://geojupyter.org/blog/#category=Hackathons) to follow our progress!
 
 <center>
 {{< include call-to-action.md >}}

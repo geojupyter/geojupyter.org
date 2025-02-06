@@ -12,7 +12,7 @@ about:
 {{< include elevator-pitch.md >}}
 
 
-[_Current status: Exploration & input-gathering_](/about.md)
+[_Current status: Idea generation & development_](/about.md)
 
 
 {{< include call-to-action.md >}}
