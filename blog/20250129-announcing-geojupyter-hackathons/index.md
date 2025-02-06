@@ -19,7 +19,7 @@ Read on to learn what to expect and how to join us.
 :::{.callout-tip}
 ## Update
 
-:tada: Our first hackathon was a success!
+:tada: Our first hackathon was a success! They will continue to occur every two weeks.
 Please follow along by viewing our [:memo: hackathon notes blog posts](/blog/#category=Hackathons).
 We hope to see you at a future hackathon; join with our [:calendar: community calendar](/calendar.md)!
 :::
