@@ -80,7 +80,7 @@ Join the corresponding breakout room to hack!
         * Arjun: Put dockerfile in JGIS repository in `scripts/` directory?
         *
 2. Python API improvements (https://github.com/geojupyter/jupytergis/issues/436)
-    * Brookie & Martin & Arjun & Yao-Ting
+    * Brookie, Martin, Arjun, Yao-Ting, Greg & Qiusheng
     * Walked through workflows.
       Brookie will clean up notes and put on GitHub as a comment to the issue: https://github.com/geojupyter/jupytergis/issues/436
       Also start a chat on Zulip!
