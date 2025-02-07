@@ -9,20 +9,23 @@ not limited to:
 * [QuantStack](https://quantstack.net/)
 * [2i2c](https://2i2c.org/)
 * [Development Seed](https://developmentseed.org/)
+* [Clark University Center for Geospatial Analytics](https://www.clarku.edu/centers/geospatial-analytics/)
 * [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 
+_Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
 
-## Current status: Exploration & input-gathering
+
+## Current status: Idea generation and development
 
 [QuantStack](https://quantstack.net/) is developing
 [JupyterGIS](https://github.com/geojupyter/jupytergis), a *collaborative* GIS
 environment in JupyterLab.
 
-[DSE](https://dse.berkeley.edu/) is beginning the process of interviewing geospatial
-data practitioners to inform the direction of GeoJupyter.
-We are building partnerships with research, educational, and industry communities and
-workshopping ideas for new user experiences.
+[DSE](https://dse.berkeley.edu/) and the GeoJupyter community are distilling insights from interviewees.
+
+The GeoJupyter community is [meeting bi-weekly](/blog/20250129-announcing-geojupyter-hackathons) to generate and develop ideas.
+Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follow our progress!
 
 <center>
 {{< include call-to-action.md >}}
