@@ -40,6 +40,13 @@ Your name / GitHub ID / affiliation / icebreaker
 Tell us about you in 30 seconds or less!
 
 
+### 🌐 (5 minutes) Lightning demo
+
+What's new? Show & tell.
+Post on Zulip to request a show & tell slot; by default, QuantStack will demo awesome
+JupyterGIS progress each meeting!
+
+
 ### 💡 (5 minutes) Idea / team forming
 
 * What do you want to work on today?
