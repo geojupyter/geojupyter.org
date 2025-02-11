@@ -33,9 +33,9 @@ Your name / GitHub ID / affiliation / When you take a break, what's your favorit
 * Nicolas Brichet / brichet / QuantStack / ?
 * Martin Renou / martinRenou / QuantStack / Chop wood
 * Arjun Verma / arjxn-py / QuantStack / Usually go for a walk
-* 
-* 
-* 
+*
+*
+*
 
 
 ### Standing items
@@ -45,11 +45,11 @@ Your name / GitHub ID / affiliation / When you take a break, what's your favorit
     - No updates. Will have updates for next meeting!
 - [ ] Team communication
   - :tada: What is working well?
-    - Hackathons! :100: Productive and great for building social connections! :heavy_plus_sign: 
+    - Hackathons! :100: Productive and great for building social connections! :heavy_plus_sign:
     - Zulip! I love topics.
-    - 
+    -
   - :wrench: Opportunities for improvement? Be nitpicky!
-    - 
+    -
     - I think we could use more networking within GeoJupyter between distant organizations, e.g. DevSeed + QuantStack or DevSeed + Clark University Geospatial group.
     - We did awesome brainstorming during hackathon, i'd be really nice to see these discussion continuing asynchronously over zulip or github
       - Some people are reluctant to jump in to discussions where they don't know what's going on. We can be more welcoming and encouraging for those who are reluctant!
@@ -94,9 +94,9 @@ Your name / GitHub ID / affiliation / When you take a break, what's your favorit
       **Ciera point of contact for Berkeley undergrads!**
 - [ ] Coffee chats!
     - Cross-org coffee chats!
-- [ ] Update from JupyterGIS: 
+- [ ] Update from JupyterGIS:
     - [ ] The Python API now works in the JupyterLite deployment: https://jupytergis.readthedocs.io/en/latest/lite/lab/index.html?path=france_hiking.jGIS
-    - [ ] Soon to be publishing JupyterGIS 0.4.0 https://github.com/geojupyter/jupytergis/milestone/3 :tada: 
+    - [ ] Soon to be publishing JupyterGIS 0.4.0 https://github.com/geojupyter/jupytergis/milestone/3 :tada:
     - [ ] Working on a blog-post announcing JupyterGIS on the Jupyter blog :tada:
       - Martin will share draft in GeoJupyter Logistics channel
 
