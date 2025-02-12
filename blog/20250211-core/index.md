@@ -12,8 +12,6 @@ tags: [meeting-notes]
 
 # GeoJupyter core community meeting 2025-02-11
 
-Please add new agenda items under the `New agenda items` heading!
-
 - [Join us on Zoom](https://berkeley.zoom.us/j/99659397059?pwd=519zZJlcAa1TCyJWRYyYbaYDfuaXNo.1)
   - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=4pm)
 - [Previous meetings](https://geojupyter.org/blog/#category=Meeting%20notes)
