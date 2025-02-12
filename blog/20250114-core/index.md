@@ -42,11 +42,11 @@ tags: [meeting-notes]
 - [ ] All: Consider “What needs can the core team address right now?” below. Can you help with any of these things?
 - [ ] All: How are we doing? What do you think of our goals and needs? Have we missed anything? For any feedback, please create a new topic on Zulip, or reach out to Matt Fisher in whatever medium you prefer!
 - [x] ~~Matt: Create shared drive~~
-      - [ ] [Drive](https://drive.google.com/drive/folders/0AIppYlSqLkZNUk9PVA)  Let me know if you need access!
+  - [Drive](https://drive.google.com/drive/folders/0AIppYlSqLkZNUk9PVA) Let me know if you need access!
 - [x] ~~Matt: Schedule JupyterGIS catch-up meeting on shared calendar~~
-      - [x] ~~Checking with QuantStack for timing preference~~
+  - Checking with QuantStack for timing preference
 - [x] ~~Matt: Create a bucket for use case ideas~~
-      - [ ] [https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Early.20use.20cases.20brainstorming](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Early.20use.20cases.20brainstorming)
+  - [https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Early.20use.20cases.20brainstorming](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Early.20use.20cases.20brainstorming)
 
 ### Discussion
 
