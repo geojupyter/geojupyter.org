@@ -12,6 +12,15 @@ categories:
 tags: [jupytergis-notes]
 ---
 
+:::info {.callout-info}
+:mag: This meeting is _short_ and _task-focused_. Unfortunately, we won't have time to
+introduce every new person to the team. Please attend core community meetings ([see
+GeoJupyter calendar](https://geojupyter.org/calendar)) to meet the team and add your own
+agenda items, and/or
+[introduce yourself on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
+:::
+
+
 # JupyterGIS sync meeting 2025-02-18
 
 Please add new agenda items under the `New agenda items` heading!
@@ -25,16 +34,27 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin RENOU / @giswqs martinRenou / QuantStack
+* Matt Fisher / @mfisher87 / DSE
+* Nicolas Brichet / @brichet / QuantStack
+* Arjun Verma / @arjxn-py / QuantStack
+* Nick Gondek / @gondeknp / DSE
+* Meriem Ben Ismail / @Meriem-BenIsmail / QuantStack
+
+
+## News
+
+* QuantStack slowing down. Mostly Arjun now!
+* JupyterGIS 0.4.0 is out! :tada:
+* Going to post a JupyterGIS announcement soon. https://medium.com/@martinRenou/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6
 
 
 ## Status reports
 
-* Status
-* Status
-* Status
+* Arjun: Configuring UI tests for lite deployment of JCad. Will port to JGIS.
+    * Should the Lite deployment point to latest stable release instead of `main`?
+* 
+* 
 
 ## Requests for help
 
