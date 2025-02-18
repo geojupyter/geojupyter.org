@@ -34,7 +34,7 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Martin RENOU / @giswqs martinRenou / QuantStack
+* Martin RENOU / @martinRenou / QuantStack
 * Matt Fisher / @mfisher87 / DSE
 * Nicolas Brichet / @brichet / QuantStack
 * Arjun Verma / @arjxn-py / QuantStack
