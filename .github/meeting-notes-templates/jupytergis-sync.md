@@ -12,6 +12,14 @@ categories:
 tags: [jupytergis-notes]
 ---
 
+:::{.info .callout-info}
+This meeting is _short_ and _task-focused_. Unfortunately, we won't have time to
+introduce every new person to the team. Please attend core community meetings ([see
+GeoJupyter calendar](https://geojupyter.org/calendar)) to meet the team and add your own
+agenda items, and/or
+[introduce yourself on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/Welcome)!
+:::
+
 # JupyterGIS sync meeting {{ date.strftime("%Y-%m-%d") }}
 
 Please add new agenda items under the `New agenda items` heading!
