@@ -53,8 +53,8 @@ Your name / GitHub ID / affiliation
 
 * Arjun: Configuring UI tests for lite deployment of JCad. Will port to JGIS.
     * Should the Lite deployment point to latest stable release instead of `main`?
-* 
-* 
+*
+*
 
 ## Requests for help
 
