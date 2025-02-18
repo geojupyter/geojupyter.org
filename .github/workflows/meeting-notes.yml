@@ -9,6 +9,7 @@ on:
         options:
           - "core"
           - "virtual-hackathon"
+          - "jupytergis-sync"
       date:
         description: |
           Date of the meeting in `date --date` format, e.g.:
