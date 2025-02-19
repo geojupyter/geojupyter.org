@@ -97,12 +97,12 @@ Big questions? Big ideas?
 * A `dev container` approach to avoid issues with WSL / Windows / OSX issues - but how does this interact with the JupyterLab workflow??
     * https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/jupyterlab.md
 * Thinking about Python API and reproducibility.
-    * What about "recording" a manifest of actions taken in the GUI and generating Python code? Suggested by Nick :) How will this work? :thinking_face: 
+    * What about "recording" a manifest of actions taken in the GUI and generating Python code? Suggested by Nick :) How will this work? :thinking_face:
 * Converted `troubleshooting.rst` to .md! [PR here](https://github.com/geojupyter/jupytergis/pull/479)
     * Will reviewers assign themselves to PRs or should PR-makers assign them before posting the PR?
 * We should simplify the documentation building setup to optionaly build jupyterlite
     * Could we push jupyterlite builds to an artifact registry to speed up CI/CD?
-* Martin walked Jon through setting up a JupyterGIS Dev Environment and everything worked first try! :confetti_ball: 
+* Martin walked Jon through setting up a JupyterGIS Dev Environment and everything worked first try! :confetti_ball:
 * Still a few more files to convert to MyST, but the process is straightforward with `rst2myst`
     * Kristin will (try) to convert one more doc from .rst to .md before next hackathon
-* I've put QuantStack's internal git guidelines in public here <https://github.com/martinRenou/git_tutorial/blob/main/git/git_workflow.md> for those interested :raised_hands: 
+* I've put QuantStack's internal git guidelines in public here <https://github.com/martinRenou/git_tutorial/blob/main/git/git_workflow.md> for those interested :raised_hands:
