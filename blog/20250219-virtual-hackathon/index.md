@@ -25,12 +25,14 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation / What’s your favorite way to waste time?
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Martin Renou / martinRenou / QuantStack / I don't have a favorite way to waste time, but I hate wasting time on social media
+* Kristin Davis / kpdavi / Schmidt DSE / Playing Stardew Valley
+* Yao-Ting Yao / YaoTingYao / ClarkCGA / Watch Youtube
+* Jon Marokhovsky / @jmarokhovsky / ClarkCGA / Playing Rocket League
+* Matt Fisher / @mfisher87 / Schmidt DSE / Playing with my dogs! Emulating Super Nintendo games :)
+
 
 
 ## Agenda & notes
@@ -69,9 +71,19 @@ JupyterGIS progress each meeting!
 
 Join the corresponding breakout room to hack!
 
-1. Objectives
-1. Objectives
-1. Objectives
+Helpful labels:
+* Good first issue: https://github.com/geojupyter/jupytergis/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22
+* Hackathon: https://github.com/geojupyter/jupytergis/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3Ahackathon
+
+**Lobby**: Orientation.+JM
+
+1. Continue brainstorming Python API improvements with a focus on reproducibility (https://github.com/geojupyter/jupytergis/issues/436) +YT
+2. Converting project documentation from reST to MyST (Kristin was assigned this task on GitHub =D)
+
+
+### Not today
+
+4. Consider how to implement workflows for manually & collaboratively building a vector dataset representing personal knowledge/observations (https://github.com/geojupyter/jupytergis/issues/395)
 
 
 ## Share out
@@ -81,6 +93,16 @@ What exciting things did you accomplish?
 What loose ends remain?
 Big questions? Big ideas?
 
-* Share out
-* Share out
-* Share out
+* Implemented remove layer method: https://github.com/geojupyter/jupytergis/pull/478
+* A `dev container` approach to avoid issues with WSL / Windows / OSX issues - but how does this interact with the JupyterLab workflow??
+    * https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/jupyterlab.md
+* Thinking about Python API and reproducibility.
+    * What about "recording" a manifest of actions taken in the GUI and generating Python code? Suggested by Nick :) How will this work? :thinking_face: 
+* Converted `troubleshooting.rst` to .md! [PR here](https://github.com/geojupyter/jupytergis/pull/479)
+    * Will reviewers assign themselves to PRs or should PR-makers assign them before posting the PR?
+* We should simplify the documentation building setup to optionaly build jupyterlite
+    * Could we push jupyterlite builds to an artifact registry to speed up CI/CD?
+* Martin walked Jon through setting up a JupyterGIS Dev Environment and everything worked first try! :confetti_ball: 
+* Still a few more files to convert to MyST, but the process is straightforward with `rst2myst`
+    * Kristin will (try) to convert one more doc from .rst to .md before next hackathon
+* I've put QuantStack's internal git guidelines in public here <https://github.com/martinRenou/git_tutorial/blob/main/git/git_workflow.md> for those interested :raised_hands: 
