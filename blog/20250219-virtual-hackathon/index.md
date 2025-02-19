@@ -83,7 +83,7 @@ Helpful labels:
 
 ### Not today
 
-4. Consider how to implement workflows for manually & collaboratively building a vector dataset representing personal knowledge/observations (https://github.com/geojupyter/jupytergis/issues/395)
+3. Consider how to implement workflows for manually & collaboratively building a vector dataset representing personal knowledge/observations (https://github.com/geojupyter/jupytergis/issues/395)
 
 
 ## Share out
