@@ -2,7 +2,7 @@
 title: "Holy Hackaroni: Announcing **IN PERSON** GeoJupyter Hackathon"
 date: "2025-03-03"
 description: |
-  Come hack with us! Generate new ideas, give feedback, write code, and make friends **in person**! 
+  Come hack with us! Generate new ideas, give feedback, write code, and make friends **in person**!
 author:
   - name: "Matt Fisher"
     orcid: "0000-0003-3260-5445"
