@@ -17,6 +17,8 @@ for this event is
 
 This two-day event will occur in Boulder, Colorado on May 22-23, 2025.
 
+_TODO: Start and end times here and in "What to expect"_
+
 ![A whimsical and vibrant illustration of a hackathon event, featuring a diverse group
 of participants collaborating in a lively, futuristic workspace.](in-person-hackathon.webp)
 
@@ -41,6 +43,7 @@ This will help us effectively plan the event and ensure a diverse group of parti
 ## :question: What to expect
 
 * Roughly 25 participants; all participants _totally awesome_
+* Two full days of hacking from {START TIME} to {END TIME}
 * Free coffee, snacks, and lunch
 * Fun (optional) group activities in the evening and weekend
 * Build the future of geospatial data practice in Jupyter
