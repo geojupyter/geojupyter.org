@@ -19,6 +19,8 @@ This two-day event will occur in Boulder, Colorado on May 22-23, 2025.
 
 _TODO: Start and end times here and in "What to expect"_
 
+_TODO: Communicate unconference vibe_
+
 ![A whimsical and vibrant illustration of a hackathon event, featuring a diverse group
 of participants collaborating in a lively, futuristic workspace.](in-person-hackathon.webp)
 
