@@ -70,8 +70,8 @@ JupyterGIS progress each meeting!
 Join the corresponding breakout room to hack!
 
 1. Objectives
-1. Objectives
-1. Objectives
+2. Objectives
+3. Objectives
 
 
 ## Share out
