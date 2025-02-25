@@ -33,19 +33,32 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun / arjxn-py / QuantStack
+* Mariem / Meriem-BenIsmail / QuantStack
+* Martin / martinrenou / QuantStack
+* Greg / gjmooney / QuantStack
+* Matt / mfisher87 / DSE
+* Kristin / kpdavi / DSE
 
 
 ## Status reports
 
-* Status
-* Status
-* Status
+* JupyterGIS blog post submitted to Jupyter blog! :tada:
+  * Waiting for review
+  * Could be a week
+  * QuantStack will post on Zulip when live and ready for boost
+* In-person hackathon (May 22-23) planning
+  * QuantStack working on figuring out attendees
+  * Matt will post information / planning materials where folks can see them
+    * Will eventually land on GitHub
+* Virtual hackathons
+  * Martin: Had fun last time!
+  * Matt & Kristin working on a hackathon facilitation guide
+  * Will submit to team to review in PR
+* Arjun: JupyterLite UI testing
+  * Almost there! Best case done today
+  * Targeting before JupyterGIS blog post is published
 
 ## Requests for help
 
-* Help request
-* Help request
-* Help request
+N/A
