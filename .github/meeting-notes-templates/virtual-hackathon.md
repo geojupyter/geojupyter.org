@@ -67,6 +67,8 @@ JupyterGIS progress each meeting!
 
 ## Hack teams
 
+For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/labels/hackathon) and [good first issue](https://github.com/geojupyter/jupytergis/labels/good%20first%20issue) labels on the JupyterGIS project!
+
 Join the corresponding breakout room to hack!
 
 1. Objectives
