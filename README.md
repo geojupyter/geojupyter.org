@@ -47,3 +47,7 @@ Visit the PR to find the HackMD link.
 
 When you're ready to sync data from HackMD back to GitHub, comment in the PR with `/bot please sync notes`.
 See [PR #32](https://github.com/geojupyter/geojupyter.org/pull/32) for an example.
+
+> [!NOTE]
+> This job may occasionally fail with e.g. 403 response from HackMD.
+> In the past, re-running the job has worked.
