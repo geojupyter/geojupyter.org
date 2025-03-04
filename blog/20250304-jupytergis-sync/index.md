@@ -33,19 +33,33 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt / @mfisher87 / Schmidt DSE
+* Greg / @gjmooney / QuantStack
+* Martin / @martinRenou / QuantStack
+* Arjun / @arjxn-py / QuantStack
 
 
 ## Status reports
 
+* Martin: Not much coding news. Blog post is live! QuantStack slowing down (Arjun still on project). 
+* Arjun: Processing proof-of-concept. Initially using GDAL WASM under the hood. Create a buffer on vector layer. Building a form to let the user customize the operation.
+    * https://github.com/geojupyter/jupytergis/pull/510
+    * Reproducibility!
+    * QGIS using GDAL under the hood
+        * It sometimes provides the underlying GDAL commands in the processing GUI
+        * Build a JSON schema for GDAL commands
+        * This schema would generate Typescript & Python interfaces
+        * This will help with form generation
+        * Could also enable generation of Python code (GDAL Python bindings)
+        * 
 * Status
-* Status
-* Status
+
 
 ## Requests for help
 
-* Help request
-* Help request
+* In-person hackathon & QuantStack participation
+    * Continue discussion on Zulip!
+* Funding more QuantStack work
+    * QuantStack definitely interested.
+    * 
 * Help request
