@@ -41,7 +41,7 @@ Your name / GitHub ID / affiliation
 
 ## Status reports
 
-* Martin: Not much coding news. Blog post is live! QuantStack slowing down (Arjun still on project). 
+* Martin: Not much coding news. Blog post is live! QuantStack slowing down (Arjun still on project).
 * Arjun: Processing proof-of-concept. Initially using GDAL WASM under the hood. Create a buffer on vector layer. Building a form to let the user customize the operation.
     * https://github.com/geojupyter/jupytergis/pull/510
     * Reproducibility!
@@ -51,7 +51,7 @@ Your name / GitHub ID / affiliation
         * This schema would generate Typescript & Python interfaces
         * This will help with form generation
         * Could also enable generation of Python code (GDAL Python bindings)
-        * 
+        *
 * Status
 
 
@@ -61,5 +61,5 @@ Your name / GitHub ID / affiliation
     * Continue discussion on Zulip!
 * Funding more QuantStack work
     * QuantStack definitely interested.
-    * 
+    *
 * Help request
