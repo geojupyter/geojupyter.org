@@ -46,38 +46,38 @@ Your name / GitHub ID / affiliation
 
 - [ ] :left_speech_bubble: Team communication
     - :tada: What is working well?
-        - Virtual hackathons :rocket: 
-        - 
-        - 
+        - Virtual hackathons :rocket:
+        -
+        -
     - :wrench: Opportunities for improvement. Be nitpicky!
-        - 
-        - 
-        - 
+        -
+        -
+        -
 - [ ] :muscle: Distributing power in the community
     - "Welcome committee"
-    - 
-    - 
-    - 
+    -
+    -
+    -
 
 
 ### Follow-up from previous meeting(s)
 
 - [ ] Matt is behind on his action items :) Still intending to reach out about creating a space in Jupyter Discourse.
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 
 ### New agenda items
 
 - [ ] :computer: Virtual hackathons: continue to be successful at bringing in new community members and focusing energy.
     - :hammer_and_wrench: Big topic of discussion right now: [Reproducible processing toolbox](https://github.com/geojupyter/jupytergis/issues/519)!
-    - 
-    - 
+    -
+    -
 - [ ] :money_mouth_face: Looking for funding opportunities! What are you aware of?
     - NSF GEO OSE Track 2, due November. High effort.
-    - 
-    - 
+    -
+    -
 - [ ] :wrench: Processing toolbox
     - Export to shapefile?
         - http://switchfromshapefile.org/
@@ -91,12 +91,12 @@ Your name / GitHub ID / affiliation
 - [ ] Layer export: <https://github.com/geojupyter/jupytergis/pull/528>
     - Warn users when converting vector data to raster (lossy). Hover-over :warning: icon?
     - Move format-changing operation into processing toolbox and only support exporting vector as vector and raster as raster?
-    - 
-    - 
+    -
+    -
 
 
 ### Pushed to next meeting
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
