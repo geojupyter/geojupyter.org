@@ -78,7 +78,7 @@ Join the corresponding breakout room to hack!
 4. Pangeo prep ++
 
 * "QGIS bounce" +
-* UX issues: 
+* UX issues:
 
 
 ### Ideas
