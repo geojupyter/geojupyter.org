@@ -33,19 +33,25 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun Verma / @arjxn-py / QuantStack
+* Matt Fisher / @mfisher87 / Schmidt DSE
+* Nicolas Brichet / @brichet / QuantStack
+* Meriem Ben Ismail / @Meriem-BenIsmail / QuantStack
+* 
+* 
+* 
 
 
 ## Status reports
 
-* Status
-* Status
-* Status
+* Matt: Documentation fail on warnings and fix warnings!
+* Arjun: JupyterGIS the past two weeks. 
+    * Merged dissolve command :tada:
+
 
 ## Requests for help
 
-* Help request
-* Help request
-* Help request
+* [How to reproject vector?](https://github.com/geojupyter/jupytergis/issues/535)
+    * Would be helpful to have [layer metadata](https://github.com/geojupyter/jupytergis/issues/471) accessible on the layer model
+    * Would also be helpful for the "units" issue.
+* [Architecture documentation](https://github.com/geojupyter/jupytergis/issues/401)
