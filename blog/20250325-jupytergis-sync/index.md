@@ -37,15 +37,15 @@ Your name / GitHub ID / affiliation
 * Matt Fisher / @mfisher87 / Schmidt DSE
 * Nicolas Brichet / @brichet / QuantStack
 * Meriem Ben Ismail / @Meriem-BenIsmail / QuantStack
-* 
-* 
-* 
+*
+*
+*
 
 
 ## Status reports
 
 * Matt: Documentation fail on warnings and fix warnings!
-* Arjun: JupyterGIS the past two weeks. 
+* Arjun: JupyterGIS the past two weeks.
     * Merged dissolve command :tada:
 
 
