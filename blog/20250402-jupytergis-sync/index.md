@@ -64,4 +64,4 @@ Your name / GitHub ID / affiliation
 ## Misc
 
 * Package JGIS data files with project data in a tar file? [Can untar in JS](https://github.com/emscripten-forge/untarjs)!
-* 
+*
