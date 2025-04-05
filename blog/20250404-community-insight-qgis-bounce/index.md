@@ -39,13 +39,14 @@ One example we heard several times looked something like this:
     2. Add a basemap
     3. Set projection
 4. Write some analysis code in the Jupyter Notebook
-5. :woman_dancing: **"Bounce"** :man_dancing: to QGIS for validation
+5. :woman_dancing: **Bounce** :man_dancing: to QGIS for validation
     1. Write some code to save analysis output to disk in an interoperable geospatial
        file format
     2. Download the geospatial data file to the local machine
     3. Add the geospatial data file to QGIS as a new layer
     4. Use the **Identify Tool** and/or **Attribute Table** to validate the data
-6. Repeat step 4-5 until analysis is complete
+6. :woman_dancing: **Bounce** :man_dancing: back to JupyterLab to repeat step 4-5 until
+   analysis is complete
 
 
 ### :astonished: That's a lot!
