@@ -25,12 +25,15 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation / If you could master any skill immediately, what would it be?
 
 * Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / @mfisher87 / SchmidtDSE / electric organ
+* Tammy Woodard / tawoodard / ClarkCGA / Albanian, Spanish, German
+* Yao-Ting Yao / YaoTingYao / ClarkCGA / spanish
+* Arjun Verma / @arjxn-py / QuantStack / Type while talking
+* Martin Renou / @martinRenou / QuantStack / Piano
+* Jamie Polackwich / @rjpolackwich / Bluestaq / saxophone
 
 
 ## Agenda & notes
@@ -71,9 +74,21 @@ For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/la
 
 Join the corresponding breakout room to hack!
 
-1. Objectives
-2. Objectives
-3. Objectives
+* :floppy_disk: Implement "Save as..." in UI: https://github.com/geojupyter/jupytergis/issues/582 +++
+  * Write a new contributor tutorial on adding a new "Command": https://github.com/geojupyter/jupytergis/issues/583
+* :snake: Python API enhancements: https://github.com/geojupyter/jupytergis/issues/436 +
+  * WIP: Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 +
+  * Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
+
+--- 
+
+* :world_map: A JGIS medium-term roadmap
+* :thinking_face: Review / continue architecture docs: https://github.com/geojupyter/jupytergis/pull/576
+* :package: Make Python package builds more self-contained: https://github.com/geojupyter/jupytergis/issues/585
+* :bug: Fix bug with keybindings: https://github.com/geojupyter/jupytergis/issues/592#issuecomment-2771595790
+* :memo: Annotations as a dataset / create vector data: https://github.com/geojupyter/jupytergis/issues/395
+* :toolbox: Continue evolving a reproducible "processing toolbox" model: https://github.com/geojupyter/jupytergis/issues/519
+
 
 
 ## Share out
