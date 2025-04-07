@@ -80,7 +80,7 @@ Join the corresponding breakout room to hack!
   * WIP: Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 +
   * Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
 
---- 
+---
 
 * :world_map: A JGIS medium-term roadmap
 * :thinking_face: Review / continue architecture docs: https://github.com/geojupyter/jupytergis/pull/576
