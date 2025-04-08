@@ -80,14 +80,6 @@ Join the corresponding breakout room to hack!
   * WIP: Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 +
   * Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
 
----
-
-* :world_map: A JGIS medium-term roadmap
-* :thinking_face: Review / continue architecture docs: https://github.com/geojupyter/jupytergis/pull/576
-* :package: Make Python package builds more self-contained: https://github.com/geojupyter/jupytergis/issues/585
-* :bug: Fix bug with keybindings: https://github.com/geojupyter/jupytergis/issues/592#issuecomment-2771595790
-* :memo: Annotations as a dataset / create vector data: https://github.com/geojupyter/jupytergis/issues/395
-* :toolbox: Continue evolving a reproducible "processing toolbox" model: https://github.com/geojupyter/jupytergis/issues/519
 
 
 
