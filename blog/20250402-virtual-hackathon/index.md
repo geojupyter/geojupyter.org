@@ -75,4 +75,5 @@ For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/la
 Join the corresponding breakout room to hack!
 
 * :floppy_disk: Implement "Save as..." in UI: https://github.com/geojupyter/jupytergis/issues/582 +++
+  * WIP PR: https://github.com/geojupyter/jupytergis/pull/596
   * Write a new contributor tutorial on adding a new "Command": https://github.com/geojupyter/jupytergis/issues/583
