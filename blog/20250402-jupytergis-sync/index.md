@@ -58,8 +58,6 @@ Your name / GitHub ID / affiliation
   * Save as JGIS & Save as QGIS could be in same UI menu.
   * Write separate JS and Python implementations
   * In JS implementation, "Save as..." should rename (implemented in documentmanager) the existing document, and create a copy with the old name.
-* Help request
-* Help request
 
 ## Misc
 
