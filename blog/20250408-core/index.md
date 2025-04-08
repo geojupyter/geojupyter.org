@@ -38,7 +38,7 @@ Your name / GitHub ID / affiliation / favorite flavor of ice cream (or other des
 
 - [ ] :left_speech_bubble: Team communication
   - :tada: What is working well?
-    - Virtual hackathons, of course :wink: 
+    - Virtual hackathons, of course :wink:
     - ?
     - ?
   - :bulb: Opportunities for improvement?
@@ -74,11 +74,11 @@ Your name / GitHub ID / affiliation / favorite flavor of ice cream (or other des
     - :sparkles: "Too much prep work before I can even visualize my input data."
     - :chart_with_upwards_trend: Lots of R users.
       - :medal: "My favorite tool is R|ggplot|GEE|StoryMaps"
-- [ ] Progress on a new dance called :dancer: "The JupyterGIS bounce" :dancer: 
+- [ ] Progress on a new dance called :dancer: "The JupyterGIS bounce" :dancer:
   - :heart: Awesome work Arjun, Martin, Nicolas!
   - Would love your review on WIP [blog post](https://github.com/geojupyter/geojupyter.org/pull/64)
   - PRs:
-    - :wrench: [WIP: Add new function `geo_debug(my_data)`](https://github.com/geojupyter/jupytergis/pull/340) - opens a JGIS panel (new document) to explore `my_data` (including a basemap). 
+    - :wrench: [WIP: Add new function `geo_debug(my_data)`](https://github.com/geojupyter/jupytergis/pull/340) - opens a JGIS panel (new document) to explore `my_data` (including a basemap).
       - Better name for this function? Proposed:
         - `show()` - could be confused with other `show()` functions which open a widget to simply display an object; this function will create a new document and pre-populate it with a layer
         - Nicolas: `sandbox()` `playground()`
@@ -101,7 +101,7 @@ Your name / GitHub ID / affiliation / favorite flavor of ice cream (or other des
   - [Architecture docs first draft](https://github.com/geojupyter/jupytergis/pull/576)
   - [Contributor tutorial - add keybindings](https://github.com/geojupyter/jupytergis/pull/586)
   - In progress contributor tutorial - add new command (no PR yet)
-  - 
+  -
   - /
 
 ### Pushed to next meeting
