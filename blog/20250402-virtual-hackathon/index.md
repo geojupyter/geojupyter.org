@@ -79,17 +79,3 @@ Join the corresponding breakout room to hack!
 * :snake: Python API enhancements: https://github.com/geojupyter/jupytergis/issues/436 +
   * WIP: Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 +
   * Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
-
-
-
-
-## Share out
-
-Think about:
-What exciting things did you accomplish?
-What loose ends remain?
-Big questions? Big ideas?
-
-* Share out
-* Share out
-* Share out
