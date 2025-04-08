@@ -76,6 +76,3 @@ Join the corresponding breakout room to hack!
 
 * :floppy_disk: Implement "Save as..." in UI: https://github.com/geojupyter/jupytergis/issues/582 +++
   * Write a new contributor tutorial on adding a new "Command": https://github.com/geojupyter/jupytergis/issues/583
-* :snake: Python API enhancements: https://github.com/geojupyter/jupytergis/issues/436 +
-  * WIP: Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 +
-  * Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373
