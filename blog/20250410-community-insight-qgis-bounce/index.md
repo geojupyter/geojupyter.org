@@ -93,7 +93,7 @@ basemap and the analysis output loaded as layers.
 JupyterGIS would then allow users to verify geolocation and validate feature attributes
 and grid cell values, all under one roof.
 After validating, users would have the option to save their JupyterGIS project for
-future re-use!
+future reuse!
 
 ![Doing the 💃 The **_JGIS_** Bounce 🕺](jgis_explore.jpg)
 
