@@ -8,7 +8,7 @@ categories:
   - "Meeting notes"
 ---
 
-The first meeting for DSE's GeoJupyter project.
+The first meeting for the GeoJupyter project.
 
 
 ## Participants
