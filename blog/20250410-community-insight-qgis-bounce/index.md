@@ -95,7 +95,7 @@ and grid cell values, all under one roof.
 After validating, users would have the option to save their JupyterGIS project for
 future reuse!
 
-![Doing the 💃 The **_JGIS_** Bounce 🕺](jgis_explore.jpg)
+![Doing the 💃 The **_JGIS_** Bounce 🕺](jgis_explore.jpg){.lightbox}
 
 :::callout-important
 This is just an example.
