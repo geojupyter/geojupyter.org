@@ -67,8 +67,8 @@ For example:
 * Spot-checking attributes of specific features based on their shape and location
 * Spot-checking a value of raster grid cells corresponding with landmarks
 
-Keeping up with the ecosystems of the tools and features needed to accomplish these
-objectives in code is often not aligned with the goals of the practitioner.
+Keeping up with programming-language-specific ecosystems of tools and features needed to
+accomplish these objectives is often not aligned with the goals of the practitioner.
 Using tools like QGIS helps researchers do research, helps educators educate, without
 unnecessary complexity getting in their way.
 
