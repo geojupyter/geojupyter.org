@@ -3,6 +3,7 @@ title: "GeoJupyter core community meeting 2025-02-11"
 description: |
   A monthly gathering of the GeoJupyter core community. Open to all!
 date: "2025-02-11"
+image: "/assets/images/community-meeting.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:
