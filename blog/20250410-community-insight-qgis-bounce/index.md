@@ -3,7 +3,7 @@ title: "Community insight: 💃 The QGIS bounce 🕺"
 description: |
   A common pattern: Bouncing between writing an analysis in a Notebook or scripting
   environment and validating work in QGIS
-date: "2025-04-04"
+date: "2025-04-10"
 author:
   - name: "Matt Fisher"
 categories:
