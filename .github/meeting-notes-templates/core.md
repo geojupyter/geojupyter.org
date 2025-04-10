@@ -3,6 +3,7 @@ title: "GeoJupyter core community meeting {{ date.strftime('%Y-%m-%d') }}"
 description: |
   A monthly gathering of the GeoJupyter core community. Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
+image: "/assets/images/community-meeting.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:

@@ -3,6 +3,7 @@ title: "GeoJupyter virtual hackathon {{ date.strftime('%Y-%m-%d') }}"
 description: |
   A GeoJupyter virtual hackathon. Open to all!
 date: "{{ date.strftime('%Y-%m-%d') }}"
+image: "/assets/images/hackathon.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:
