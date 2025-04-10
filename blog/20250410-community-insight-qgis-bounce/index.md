@@ -4,6 +4,7 @@ description: |
   A common pattern: Bouncing between writing an analysis in a Notebook or scripting
   environment and validating work in QGIS
 date: "2025-04-10"
+image: "bounce.jpg"
 author:
   - name: "Matt Fisher"
 categories:
@@ -111,7 +112,9 @@ and because [QuantStack](https://quantstack.net) designed JupyterGIS' architectu
 same, all of the workflow described above can be built to work collaboratively!
 Have you ever wanted a Google Docs-like collaborative experience when working on a
 geospatial project?
-[Now you can](https://youtu.be/FzHYYCvWyu0).
+Now you can!
+
+{{< video https://youtu.be/FzHYYCvWyu0 >}}
 
 
 ## :raised_hand: I want to help!
