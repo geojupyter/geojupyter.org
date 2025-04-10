@@ -78,7 +78,7 @@ unnecessary complexity getting in their way.
 We're trying! :muscle:
 
 We are currently building [a workflow to reduce steps 2, 3, and 5 to one line of
-code (not including imports :grin:)](https://github.com/geojupyter/jupytergis/issues/513).
+code](https://github.com/geojupyter/jupytergis/issues/513) (not including imports :grin:).
 For example, to view an analysis output in a
 [GeoDataFrame](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.html):
 
