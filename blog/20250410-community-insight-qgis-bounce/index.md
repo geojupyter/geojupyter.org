@@ -13,8 +13,8 @@ categories:
 
 [QGIS](https://qgis.org/) is a widely-loved, free, and open source graphical
 desktop environment for geospatial visualization and analysis.
-Because the ecosystem of programming-based tools to accomplish these tasks is broad and
-deep, QGIS empowers practitioners to focus on their goals.
+In contrast with the broad and deep ecosystem of programming-based geospatial tools,
+QGIS is simple to use and empowers practitioners to focus on their goals.
 
 In GeoJupyter's [user interviews](/interviews), geospatial data practitioners identified
 a pattern of **bouncing between a scripting environment for analysis and a graphical
