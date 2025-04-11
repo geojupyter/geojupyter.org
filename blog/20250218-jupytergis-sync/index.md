@@ -5,6 +5,7 @@ description: |
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
   for introductions. Please join a core meeting!
 date: "2025-02-18"
+image: "/assets/images/standup.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:

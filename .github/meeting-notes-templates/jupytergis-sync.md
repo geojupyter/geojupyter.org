@@ -5,6 +5,7 @@ description: |
   Open to all, but this meeting is _short_ and task-focused, so there will not be time
   for introductions. Please join a core meeting!
 date: "{{ date.strftime('%Y-%m-%d') }}"
+image: "/assets/images/standup.jpg"
 author:
   - name: "The GeoJupyter community"
 categories:
