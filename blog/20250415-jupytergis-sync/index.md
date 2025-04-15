@@ -41,12 +41,8 @@ Your name / GitHub ID / affiliation
 
 ## Status reports
 
-* Status
-* Status
-* Status
 
 ## Requests for help
 
 * https://github.com/geojupyter/jupytergis/pull/631
 * https://github.com/geojupyter/jupytergis/pull/630
-* Help request
