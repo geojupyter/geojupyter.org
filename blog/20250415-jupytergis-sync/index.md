@@ -34,9 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Nicolas / GitHub ID / affiliation
+* Gregory / gjmooney / QuantStack
+* Nicolas / GitHub ID / affiliation
 
 
 ## Status reports
@@ -47,6 +47,6 @@ Your name / GitHub ID / affiliation
 
 ## Requests for help
 
-* Help request
-* Help request
+* https://github.com/geojupyter/jupytergis/pull/631
+* https://github.com/geojupyter/jupytergis/pull/630
 * Help request
