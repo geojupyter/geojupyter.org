@@ -46,3 +46,4 @@ Your name / GitHub ID / affiliation
 
 * https://github.com/geojupyter/jupytergis/pull/631
 * https://github.com/geojupyter/jupytergis/pull/630
+  * Nicolas: Require the user to pass a path in for now. Consider a future separate widget `GISSandbox`, with visual indicators that it's ephemeral, and perhaps a button to convert it to a `GISDocument` with a filename.
