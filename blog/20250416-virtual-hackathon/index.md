@@ -43,7 +43,7 @@ Your name / GitHub ID / affiliation / favorite breakfast food?
 
 Tell us about you in 30 seconds or less!
 
-Aman -- I will be dropping off early today, just wanted to see the community and say hello. 
+Aman -- I will be dropping off early today, just wanted to see the community and say hello.
 
 
 ### 🌐 (5 minutes) Lightning demo
@@ -79,7 +79,7 @@ Join the corresponding breakout room to hack!
 
 1. Re-implement "QGIS bounce" workflow in JGIS: https://github.com/geojupyter/jupytergis/issues/513 ++++
   * See blog post for more: https://geojupyter.org/blog/20250410-community-insight-qgis-bounce/
-2. Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373 +++ 
+2. Brainstorm mechanisms for reproducible analysis when moving between point-and-click and notebook environments: https://github.com/geojupyter/jupytergis/issues/436#issuecomment-2637601373 +++
 
 Try JupyterGIS in JupyterLite: https://jupytergis.readthedocs.io/en/latest/
 
@@ -91,7 +91,7 @@ Try JupyterGIS in JupyterLite: https://jupytergis.readthedocs.io/en/latest/
 * Continue evolving a reproducible "processing toolbox" model: https://github.com/geojupyter/jupytergis/issues/519
 6. ?
 7. ?
-8. 
+8.
 
 
 
