@@ -34,19 +34,25 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt / @mfisher87 / DSE
+* Martin / @martinRenou  / QuantStack
+* Nicolas / @brichet / QuantStack
+* Greg / @gjmooney / QuantStack
+* Arjun / @arjxn-py / QuantStack
 
 
 ## Status reports
 
-* Status
-* Status
-* Status
+* STAC - Haven't started yet
+    * Input date bounds, select dataset, add as layer.
+    * https://geodes.cnes.fr/
+    * https://stacindex.org/
+    * https://stacindex.org/catalogs/earth-search#/
+* Identify panel appearance and zoom to feature - https://github.com/geojupyter/jupytergis/pull/649
+* GIS Bounce: want to demo at CNG conference next week! https://github.com/geojupyter/jupytergis/pull/340
 
 ## Requests for help
 
-* Help request
-* Help request
-* Help request
+* Weird docs failure. Could use input the design - https://github.com/geojupyter/jupytergis/pull/340 
+    * BUG: Layers panel is empty at first, but not sources panel
+* Snapshot tests failing because zoom level being reset to 0 - https://github.com/geojupyter/jupytergis/pull/650
