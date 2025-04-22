@@ -53,6 +53,6 @@ Your name / GitHub ID / affiliation
 
 ## Requests for help
 
-* Weird docs failure. Could use input the design - https://github.com/geojupyter/jupytergis/pull/340 
+* Weird docs failure. Could use input the design - https://github.com/geojupyter/jupytergis/pull/340
     * BUG: Layers panel is empty at first, but not sources panel
 * Snapshot tests failing because zoom level being reset to 0 - https://github.com/geojupyter/jupytergis/pull/650
