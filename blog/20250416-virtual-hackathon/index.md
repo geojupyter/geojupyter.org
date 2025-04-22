@@ -93,6 +93,4 @@ What exciting things did you accomplish?
 What loose ends remain?
 Big questions? Big ideas?
 
-* Share out
-* Share out
-* Share out
+* Struggled with implementing the GIS Bounce workflow by opening a new full document window. Decided to go with a sidecar approach for now and revisit this later!
