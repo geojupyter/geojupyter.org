@@ -83,16 +83,6 @@ Join the corresponding breakout room to hack!
 
 Try JupyterGIS in JupyterLite: https://jupytergis.readthedocs.io/en/latest/
 
----
-
-* Make Python package builds more self-contained: https://github.com/geojupyter/jupytergis/issues/585
-  * Try implementing dev environment with `pixi`?
-* Annotations as a dataset / create vector data: https://github.com/geojupyter/jupytergis/issues/395
-* Continue evolving a reproducible "processing toolbox" model: https://github.com/geojupyter/jupytergis/issues/519
-6. ?
-7. ?
-8.
-
 
 
 
