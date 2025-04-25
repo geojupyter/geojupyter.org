@@ -23,6 +23,9 @@ website:
       - "blog/index.md"
       - "calendar.md"
       - "interviews/index.md"
+      - text: "📖 Community handbook"
+        file: "handbook/index.md"
+
     right:
       - icon: "rss"
         href: "blog/index.xml"
@@ -32,6 +35,18 @@ website:
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/geojupyter"
+
+  sidebar:
+    - title: "📖 Community handbook"
+      style: "docked"
+      collapse-level: 3
+      contents:
+        - text: "📖 Community handbook"
+          href: "handbook/index.md"
+          contents:
+            - "handbook/hackathon-facilitation.md"
+
+
 
   page-footer:
     left: |
