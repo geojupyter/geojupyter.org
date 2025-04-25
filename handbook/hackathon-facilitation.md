@@ -20,7 +20,7 @@ Navigate to the [GitHub Actions workflow for creating and syncing meeting
 notes](https://github.com/geojupyter/geojupyter.org/actions/workflows/meeting-notes.yml):
 
 * Click "Actions" at the top navigation bar of the
-  [geojupyter.org repostiory](https://github.com/geojupyter/geojupyter.org).
+  [geojupyter.org repository](https://github.com/geojupyter/geojupyter.org).
 * On the left, select "Setup / sync meeting notes".
 * On the upper-right, click "Run workflow".
     * Keep the "Branch" dropdown set to "main".
@@ -46,7 +46,7 @@ This will create a new document in HackMD under the
 ### Pre-populate some hackathon activities
 
 Under the "Hack Teams" section of the doc, replace the numbered list with placeholder
-text reading "Objective" with some hackathon ideas. You can re-use ideas from previous
+text reading "Objective" with some hackathon ideas. You can reuse ideas from previous
 hackathons that didn't get completed, or if you're not sure you can ask for help from
 hackathon participants to populate the list.
 
@@ -60,7 +60,7 @@ documentation or brainstorming features or API design.
 ## Announce the hackathon in Zulip
 
 In the
-[Zulip #geojupyter channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter), 
+[Zulip #geojupyter channel](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter),
 announce the hackathon by creating a new topic with the title `Hackathon YYYY-MM-DD`.
 Look at previous hackathon announcements for inspiration!
 
@@ -96,12 +96,12 @@ Encourage people to add their ideas to the "Hack teams" section of the document.
 Encourage people to note their interest in ideas with a `+` at the end of the line.
 
 Identify a reasonable number of activities for the group that attends, for example if
-there are 5 attendees, propose 2 activies.
+there are 5 attendees, propose 2 activities.
 
 Create breakout rooms for the teams.
 Always create some extra breakout rooms in case someone wants to work quietly!
 
-The bulk of the time from this point is for hacking. 
+The bulk of the time from this point is for hacking.
 
 
 ### Hacking
@@ -115,7 +115,7 @@ It may help to use VSCode LiveShare for this: The driver can create a LiveShare 
 and share the link with the group, who can join and collaborate with the driver.
 This also enables the driver to
 [share their JupyterLab server](https://learn.microsoft.com/en-us/visualstudio/liveshare/use/share-server-visual-studio-code#share-a-server)
-so that collaborators can interact with the deployed service. 
+so that collaborators can interact with the deployed service.
 
 Explore a problem together!
 Remind folks that it's OK not to know the answer, that's what hackathons are for :smile:
