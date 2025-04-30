@@ -102,7 +102,7 @@ Big questions? Big ideas?
     * Bring Greg into the conversation
         * He has an example of a style function in `mainView.tsx`
             * The style applies to everything - doesn't look for the layer type
-    * Maybe remove [SimpleSymbol.tsx](https://github.com/geojupyter/jupytergis/blob/main/packages/base/src/dialogs/symbology/vector_layer/types/SimpleSymbol.tsx#L90), and define all prefixes (lines 94 - 98) for all different types
+    * Maybe remove [SimpleSymbol.tsx](https://github.com/geojupyter/jupytergis/blob/2669fad2d0c088a9718a360b267586935a65f862/packages/base/src/dialogs/symbology/vector_layer/types/SimpleSymbol.tsx), and define all prefixes (lines 94 - 98) for all different types
     * Perhaps need to change `circle-fill-color` argument to something more generic, like `color-`, and then have a way for the software to know how to apply that to different geometry types
 * Arjun removed the source panel! Still has to remove some related styles - https://github.com/geojupyter/jupytergis/pull/671
 * Martin, Sanjay, Kristin worked on architecture documentation and completed a revised draft - https://github.com/geojupyter/jupytergis/pull/576
