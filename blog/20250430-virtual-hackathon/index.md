@@ -26,12 +26,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation / What toppings are on your ideal pizza?
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Sanjay Bhangar / @batpad / Development Seed / Pepperoni
+* Arjun Verma / @arjxn-py / QuantStack / Cheese & Corn
+* Kristin Davis / @kpdavi / DSE / ricotta + spinach + balsamic vinegar
+* Martin Renou / @martinRenou / QuantStack / A good mozzarella
 
 
 ## Agenda & notes
@@ -72,9 +72,21 @@ For ideas, check out the [hackathon](https://github.com/geojupyter/jupytergis/la
 
 Join the corresponding breakout room to hack!
 
-1. Objectives
-2. Objectives
-3. Objectives
+1. Add to / improve architecture documentation: https://github.com/geojupyter/jupytergis/pull/576. (Martin, Sanjay, Kristin)
+    * Review PR
+    * Keep in mind that code gets outdated quickly, and thus documentation of it can as well. Can make descriptions in the documentation more high-level so we can avoid documentation getting out-of-date quickly.
+2. Remove Source Panel https://github.com/geojupyter/jupytergis/issues/435 :+1: (Martin) :+1: (Arjun) - https://github.com/geojupyter/jupytergis/pull/671
+3. Simplify Symbology Panel - https://github.com/geojupyter/jupytergis/issues/469 :+1: (Arjun; Martin & Kristin joined later in the hackathon)
+
+
+---
+Didn't work on today:
+
+* Make Python package builds more self-contained: https://github.com/geojupyter/jupytergis/issues/585
+    i) Try implementing dev environment with `pixi`?
+* Annotations as a dataset / create vector data: https://github.com/geojupyter/jupytergis/issues/395
+* Continue evolving a reproducible "processing toolbox" model: https://github.com/geojupyter/jupytergis/issues/519
+
 
 
 ## Share out
@@ -84,6 +96,13 @@ What exciting things did you accomplish?
 What loose ends remain?
 Big questions? Big ideas?
 
-* Share out
-* Share out
-* Share out
+* Simplify Symbology Panel - https://github.com/geojupyter/jupytergis/issues/469
+    * Need to keep discussing this
+    * Perhaps could use a style function? See example from [OpenLayers](https://openlayers.org/en/latest/examples/geojson.html)
+    * Bring Greg into the conversation
+        * He has an example of a style function in `mainView.tsx`
+            * The style applies to everything - doesn't look for the layer type
+    * Maybe remove [SimpleSymbol.tsx](https://github.com/geojupyter/jupytergis/blob/main/packages/base/src/dialogs/symbology/vector_layer/types/SimpleSymbol.tsx#L90), and define all prefixes (lines 94 - 98) for all different types
+    * Perhaps need to change `circle-fill-color` argument to something more generic, like `color-`, and then have a way for the software to know how to apply that to different geometry types
+* Arjun removed the source panel! Still has to remove some related styles - https://github.com/geojupyter/jupytergis/pull/671
+* Martin, Sanjay, Kristin worked on architecture documentation and completed a revised draft - https://github.com/geojupyter/jupytergis/pull/576
