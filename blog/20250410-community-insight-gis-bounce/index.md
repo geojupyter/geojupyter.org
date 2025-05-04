@@ -1,14 +1,16 @@
 ---
-title: "Community insight: 💃 The QGIS bounce 🕺"
+title: "Community Insight: 💃 The GIS Bounce 🕺"
 description: |
   A common pattern: Bouncing between writing an analysis in a Notebook or scripting
-  environment and validating work in QGIS
+  environment and validating work in QGIS or other point-and-click GIS environments.
 date: "2025-04-10"
 image: "bounce.jpg"
 author:
   - name: "Matt Fisher"
 categories:
   - "Community insights"
+aliases:
+  - "/blog/20250410-community-insight-qgis-bounce/index.html"
 ---
 
 [QGIS](https://qgis.org/) is a widely-loved, free, and open source graphical
@@ -18,9 +20,9 @@ QGIS is simple to use and empowers practitioners to focus on their goals.
 
 In GeoJupyter's [user interviews](/interviews), geospatial data practitioners identified
 a pattern of **bouncing between a scripting environment for analysis and a graphical
-environment for data validation**.
+environment for data validation**, like QGIS.
 
-We call this pattern :woman_dancing: **_The QGIS Bounce_** :man_dancing:.
+We call this pattern :woman_dancing: **_The GIS Bounce_** :man_dancing:.
 
 This pattern of transferring data between environments  was represented by users as a
 point of repeated friction.
@@ -28,7 +30,7 @@ We think we can improve on this with a tightly integrated collaborative GIS envi
 in JupyterLab, [**JupyterGIS**](https://github.com/geojupyter/jupytergis).
 
 
-## :shrug: How do I do :woman_dancing: **_The QGIS Bounce_** :man_dancing: ?
+## :shrug: How do I do :woman_dancing: **_The GIS Bounce_** :man_dancing: ?
 
 There are many variations on this general workflow.
 One example we heard several times looked something like this:
