@@ -44,7 +44,7 @@ Your name / GitHub ID / affiliation
 
 * Matt: CNG went well! Prepping for a workshop next week, won't be doing much dev.
 * Arjun:
-    * Settings PR: <PR Link>
+    * Settings PR: https://github.com/geojupyter/jupytergis/pull/619
     * Schema version PR: https://github.com/geojupyter/jupytergis/pull/590
         * Should the field be under "metadata" or at the root?
         * ipynb has "nbformat" and "nbformat_minor" both at the root.
@@ -54,7 +54,7 @@ Your name / GitHub ID / affiliation
             * **Decision**: Keep `schema_version` at the root!
         * What about annotations? Should they be metadata or top-level?
             * Matt/Greg: Gut says top-level, but we can leave as-is for now.
-    * Annotation UX improvements: <PR Link>
+    * Annotation UX improvements: https://github.com/geojupyter/jupytergis/pull/650 , https://github.com/geojupyter/jupytergis/pull/640
 * David:
     * TiTiler extension: https://github.com/geojupyter/jupytergis-tiler
         * Serve zarr file https://github.com/geojupyter/jupytergis-tiler/blob/main/examples/xarray.ipynb
