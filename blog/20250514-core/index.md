@@ -26,7 +26,7 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Attendees
 
-Your name / GitHub ID / affiliation 
+Your name / GitHub ID / affiliation
 
 * Kevin Koy / @kevkoy / Schmidt DSE
 * Matt Fisher / @mfisher87 / Schmidt DSE
@@ -34,7 +34,7 @@ Your name / GitHub ID / affiliation
 * Arjun Verma / @arjxn-py / QuantStack
 * Anne Fouilloux /@annefou / Simula
 * Ciera Martinez / @iamciera / Schmidt DSE
-* 
+*
 * /
 
 
@@ -96,8 +96,8 @@ Your name / GitHub ID / affiliation
       * Asynchronous participation from Europe?
       * Synchronous remote participation in the mornings with European folks!
       * /
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 - [ ] ?
 
 
@@ -105,5 +105,5 @@ Your name / GitHub ID / affiliation
 
 - [ ] Talk to Felt folks; can we establish a mutually beneficial collaboration?
     - [ ] Ciera will talk to Felt CEO!
-- [ ] 
+- [ ]
 - [ ] ?
