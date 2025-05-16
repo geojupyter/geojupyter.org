@@ -33,9 +33,6 @@ Your name / GitHub ID / affiliation / What are you drinking this morning/evening
 * Arjun Verma / @arjxn-py / QuantStack / Lemonade
 * Kristin Davis / @kpdavi / DSE / Regular coffee (booring but works =])
 * Felipe Montealegre-Mora / @felimomo / DSE / Specialty coffee from Finca Mora >:) learning how to properly pour over!
-*
-*
-*
 
 
 ## Agenda & notes
