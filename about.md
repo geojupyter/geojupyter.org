@@ -2,6 +2,10 @@
 title: "❓ About"
 ---
 
+![Community Diagram](/assets/images/community-diagram.svg){width=50%}
+
+## Who are Involved?
+
 GeoJupyter is a collaboration between many communities and organizations, including but
 not limited to:
 
