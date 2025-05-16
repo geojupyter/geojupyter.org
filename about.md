@@ -2,6 +2,8 @@
 title: "❓ About"
 ---
 
+GeoJupyter is a community that includes many projects, for example Software projects like JupyterGIS(Our current flagship project), and educational projects like tutorials and workshops.
+
 ![Community Diagram](/assets/images/community-diagram.svg){width=50%}
 
 ## Who are Involved?
