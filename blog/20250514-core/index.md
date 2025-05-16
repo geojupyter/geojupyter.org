@@ -34,18 +34,12 @@ Your name / GitHub ID / affiliation
 * Arjun Verma / @arjxn-py / QuantStack
 * Anne Fouilloux /@annefou / Simula
 * Ciera Martinez / @iamciera / Schmidt DSE
-*
-* /
 
 
 ### Standing items
 
 - [ ] What's going well?
   - Seems like lots of folks are talking about GeoJupyter :)
-  -
-  -
-  -
-  - ?
 - [ ] What needs work?
   - Our blog is possibly overpopulated with meeting notes in addition to announcements and analyses. Split it into two separate listings?
   - Community handbook created on `geojupyter.org`; should we move it to a dedicated "team compass" website?
@@ -96,14 +90,9 @@ Your name / GitHub ID / affiliation
       * Asynchronous participation from Europe?
       * Synchronous remote participation in the mornings with European folks!
       * /
-- [ ]
-- [ ]
-- [ ] ?
 
 
 ### Pushed to next meeting
 
 - [ ] Talk to Felt folks; can we establish a mutually beneficial collaboration?
     - [ ] Ciera will talk to Felt CEO!
-- [ ]
-- [ ] ?
