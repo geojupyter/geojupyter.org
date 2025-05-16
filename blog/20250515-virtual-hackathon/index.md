@@ -30,12 +30,12 @@ Your name / GitHub ID / affiliation / What are you drinking this morning/evening
 
 * Sanjay Bhangar / @batpad / Development Seed / Chai
 * Matt Fisher / @mfisher87 / Schmidt DSE / Raspberry lemonade!
-* Arjun Verma / @arjxn-py / QuantStack / Lemonade 
+* Arjun Verma / @arjxn-py / QuantStack / Lemonade
 * Kristin Davis / @kpdavi / DSE / Regular coffee (booring but works =])
 * Felipe Montealegre-Mora / @felimomo / DSE / Specialty coffee from Finca Mora >:) learning how to properly pour over!
-* 
-* 
-* 
+*
+*
+*
 
 
 ## Agenda & notes
@@ -105,7 +105,7 @@ Big questions? Big ideas?
         * The file browser on the left panel works perfectly!
     * We're just using in a different context to display it as a modal
         * Maybe the context is the problem, and the file browser in the left panel depends on some CSS from a parent element to look correct?
-        * 
+        *
     * Reproduction is inconsistent :exploding_head: :melting_face:
         * Some people/browsers see ellipses, some people don't
             * Sanjay sees ellipses in Firefox, no ellipses in Chrome
@@ -127,6 +127,6 @@ Big questions? Big ideas?
         * How? ... TODO ...
             * Sanjay modified packages/base/source/style/dialog.css
                 * In the main branch, there's basically nothing in that file
-        
+
 * Were able to fix :tada::
     * Symbology panel: color steps are not recovered properly after setting graduated radius - https://github.com/geojupyter/jupytergis/issues/694 with https://github.com/geojupyter/jupytergis/pull/700
