@@ -52,7 +52,7 @@ Your name / GitHub ID / affiliation
 * Starting a [team compass](https://compass.geojupyter.org/) - what do you want to see there?
     * Link to the project board
     * Calendar!
-    * 
+    *
 
 
 ### Status reports
@@ -67,4 +67,3 @@ Your name / GitHub ID / affiliation
 * Can we apply graduated and categorized symbology to vectortile layers? https://github.com/geojupyter/jupytergis/issues/704
     * Matt: Trying to do a proof of concept, struggling.
         * Arjun: Try in QGIS to test the dataset.
-
