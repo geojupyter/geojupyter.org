@@ -35,18 +35,36 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation
 
 * Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt Fisher / @mfisher87 / Schmidt DSE
+* Nicolas Brichet / @brichet / QuantStack
+* Arjun Verma / @arjxn-py / QuantStack
+* Martin Renou / @martinRenou / QuantStack
 
 
-## Status reports
+## Agenda
 
-* Status
-* Status
-* Status
+* Are we prioritizing work effectively? (For us, and the rest of the community keeping an eye on our progress)
+    * Are we looking at the current Milestone to decide what to work on?
+    * Does the Milestone page get updated often enough?
+    * Matt: I'd like to build a new habit of reviewing our on-deck work together each week. Will Milestones suit that purpose? Or should we have a super-streamlined Project board with a column of issues to pick from? And perhaps do releases more regularly?
+        * Example: [JupyterBook project board](https://github.com/orgs/jupyter-book/projects/1)
+    * Martin: Totally agree. Project board would feel better. Nice UI to keep track of what's happening. Get rid of current milestone.
+* Starting a [team compass](https://compass.geojupyter.org/) - what do you want to see there?
+    * Link to the project board
+    * Calendar!
+    * 
 
-## Requests for help
 
-* Help request
-* Help request
-* Help request
+### Status reports
+
+* Arjun: Symbology bugfixes!
+* Arjun: Autosave changes to layer properties
+* Arjun: Bugfix to vectortile layers to support symbology
+
+
+### Requests for help
+
+* Can we apply graduated and categorized symbology to vectortile layers? https://github.com/geojupyter/jupytergis/issues/704
+    * Matt: Trying to do a proof of concept, struggling.
+        * Arjun: Try in QGIS to test the dataset.
+
