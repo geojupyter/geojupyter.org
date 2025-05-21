@@ -52,7 +52,6 @@ Your name / GitHub ID / affiliation
 * Starting a [team compass](https://compass.geojupyter.org/) - what do you want to see there?
     * Link to the project board
     * Calendar!
-    *
 
 
 ### Status reports
