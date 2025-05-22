@@ -39,13 +39,24 @@ Your name / GitHub ID / affiliation
 * Name / GitHub ID / affiliation
 
 
-## Status reports
+## Agenda
+
+* Review our [project board](https://github.com/orgs/geojupyter/projects/2)
+  * What items should be added?
+  * Are there stale items that are no longer urgent?
+  * Are there things we can change about the project board to make it more useful? Add
+    more information? Remove steps?
+* _Please add more items if you have them!_
+
+
+### Status reports
 
 * Status
 * Status
 * Status
 
-## Requests for help
+
+### Requests for help or feedback
 
 * Help request
 * Help request
