@@ -49,6 +49,4 @@ Your name / GitHub ID / affiliation
 
 ## Requests for help
 
-* Help request
-* Help request
-* Help request
+None this week!
