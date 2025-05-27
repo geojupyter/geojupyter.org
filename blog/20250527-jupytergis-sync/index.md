@@ -34,16 +34,18 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / @martinRenou / QuantStack
+* Arjun Verma / @arjxn-py / QuantStack
 
 
 ## Status reports
 
-* Status
-* Status
-* Status
+* Auto save layer properties https://github.com/geojupyter/jupytergis/pull/708
+* Code cleanup by Arjun https://github.com/geojupyter/jupytergis/pull/723
+* Martin reviewed - https://github.com/geojupyter/jupytergis/pull/723
+* Arjun refactored the symbology panel, making it more flexible - https://github.com/geojupyter/jupytergis/pull/718
+* Arjun supported alpha channel for geotiff files - https://github.com/geojupyter/jupytergis/pull/718
+* Project Board is great
 
 ## Requests for help
 
