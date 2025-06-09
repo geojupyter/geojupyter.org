@@ -87,6 +87,5 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* Started on <https://github.com/geojupyter/jupytergis/issues/263>, but got stuck because we didn't understand the bundling setup for the `base` module.
+* Reviewed <https://github.com/geojupyter/jupytergis/pull/714>
