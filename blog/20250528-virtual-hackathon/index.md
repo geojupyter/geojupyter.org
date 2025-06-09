@@ -75,9 +75,7 @@ Form teams from the ideas generated in the step above!
 
 #### Breakout rooms
 
-* Lobby: ?
-* Room 1: ?
-* ...
+* Lobby: Refactoring
 
 
 ### 💬 (10 minutes) Share out
