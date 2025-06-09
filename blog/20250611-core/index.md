@@ -46,7 +46,7 @@ Your name / GitHub ID / affiliation / icebreaker
 
 ### New agenda items
 
-- [ ]
+- [ ] Team compass: <https://compass.geojupyter.org/>
 
 
 ### Pushed to next meeting
