@@ -26,12 +26,14 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Name / GitHub ID / affiliation
+* Matt Fisher / @mfisher87 / Schmidt DSE
+* Yao-Ting Yao / @YaoTingYao / Clark CGA
+* Jon Marokhovsky / @jmarokhovsky / Clark CGA
+* Arjun Verma / @arjxn-py / QuantStack
+* 
 
 
 ## Agenda & notes
@@ -61,9 +63,11 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* Explore for refactor opportunities +++
+* Explore for rough edges ++
+* Make Relative imports more readable and writeable ([#263](https://github.com/geojupyter/jupytergis/issues/263)) +++
+* Rename "Single symbol" -> "Simple" ([#719](https://github.com/geojupyter/jupytergis/issues/719)) +
+* [436](https://github.com/geojupyter/jupytergis/issues/436) - Python API
 
 
 ### 🪄 (all the minutes) Hack together!
