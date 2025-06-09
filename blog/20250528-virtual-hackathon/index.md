@@ -28,12 +28,10 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
 * Matt Fisher / @mfisher87 / Schmidt DSE
 * Yao-Ting Yao / @YaoTingYao / Clark CGA
 * Jon Marokhovsky / @jmarokhovsky / Clark CGA
 * Arjun Verma / @arjxn-py / QuantStack
-* 
 
 
 ## Agenda & notes
