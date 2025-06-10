@@ -31,9 +31,9 @@ Your name / GitHub ID / affiliation / what do you plan to do when taking a break
 * Arjun Verma / @arjxn-py / QuantStack / Spend time with my niece
 * Nicolas Brichet / @brichet / QuantStack / ?
 * Martin Renou / @martinRenou / QuantStack / Did some tidying in the shed
-* Matt Fisher / @mfisher87 / Schmidt DSE / pull some weeds in my garden! :seedling: 
+* Matt Fisher / @mfisher87 / Schmidt DSE / pull some weeds in my garden! :seedling:
 * Tyler Erickson / @tylere / VorGeo / shopping at Trader Joes
-* 
+*
 
 
 ### Standing items
@@ -42,14 +42,14 @@ Your name / GitHub ID / affiliation / what do you plan to do when taking a break
     - What's going well?
         - I think the new project board is working great!
         - Everyone is awesome and helps each other out
-        - 
-        - 
-        - 
+        -
+        -
+        -
     - Areas for improvement?
         - More diversity in contributor base
-        - 
-        - 
-        - 
+        -
+        -
+        -
 
 
 ### Follow-up from previous meeting(s)
@@ -60,7 +60,7 @@ Your name / GitHub ID / affiliation / what do you plan to do when taking a break
 ### New agenda items
 
 - [x] Team compass: <https://compass.geojupyter.org/>
-- [ ] Matt planning to start working on reproducible processing toolbox. 
+- [ ] Matt planning to start working on reproducible processing toolbox.
     - Will work on Symbology rough edges first!
     - Implementation / architecture thoughts?
     - (Martin) Guy started recently, working on processing toolbox. Started adding gdal commands to the schema to help refactor the schema functions in TS to reduce the number of places a change is required to add more processing commands.
