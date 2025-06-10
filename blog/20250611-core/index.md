@@ -33,7 +33,6 @@ Your name / GitHub ID / affiliation / what do you plan to do when taking a break
 * Martin Renou / @martinRenou / QuantStack / Did some tidying in the shed
 * Matt Fisher / @mfisher87 / Schmidt DSE / pull some weeds in my garden! :seedling:
 * Tyler Erickson / @tylere / VorGeo / shopping at Trader Joes
-*
 
 
 ### Standing items
@@ -42,14 +41,8 @@ Your name / GitHub ID / affiliation / what do you plan to do when taking a break
     - What's going well?
         - I think the new project board is working great!
         - Everyone is awesome and helps each other out
-        -
-        -
-        -
     - Areas for improvement?
-        - More diversity in contributor base
-        -
-        -
-        -
+        - More diversity (companies, geographic) in contributor base
 
 
 ### Follow-up from previous meeting(s)
