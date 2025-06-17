@@ -34,8 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Matt Fisher / @mfisher / Schmidt DSE
+* Martin Renou / @martinRenou / QuantStack
+* Greg Mooney / @gjmooney / QuantStack
 * Name / GitHub ID / affiliation
 
 
@@ -51,7 +52,10 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
+* Processing refactor: https://github.com/geojupyter/jupytergis/pull/758
+    * Do we want to include the data which drives generating the processing code in the JSONSchema? Matt: Doesn't feel right to combine these responsibilities in one place.
+    * If we extract to TypeScript, how to dynamically generate types, e.g. the various processingIds? If each file has a ProcessingID variable, how do we union those?
+    * What about separating the data part of the schemas into separate JSON files that are checked by a schema? Validate at build-time.
 * Status
 * Status
 
