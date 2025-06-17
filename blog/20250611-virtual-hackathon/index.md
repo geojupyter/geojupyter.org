@@ -26,12 +26,14 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
 * Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Yao-Ting / @YaoTingYao / ClarkCGA
+* Kristin Davis / @kpdavi / Schmidt DSE
+* Martin Renou / @martinRenou / QuantStack / ?????
+* Matt Fisher / @mfisher87 / Schmidt DSE
+* Arjun Verma / @arjxn-py / QuantStack
 
 
 ## Agenda & notes
@@ -61,9 +63,19 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* Symbology!
+    * Merge: https://github.com/geojupyter/jupytergis/pull/714
+        * Ultimately the schema may need to change to have better functionality for coordinated changes to color and radius in the symbology
+    * Next steps (for subsequent pull requests):
+        * Remove "Fill color" option when "Graduated" is selected for "Render type"
+        * Automatically re-run classify based on the field values that impact the classification. Classify depends on the selected number of classes, mode equal interval, and color ramp. Any time you change those fields, the classification could automatically update.
+            * But, currently you can override classification colors. Auto-updating would remove that functionality.
+            * Want to keep the "Classify" button
+            * Could automatically update the classification colors when the color ramp is changed (i.e., without having to click "Classify" again)
+    * The "draw features" PR (https://github.com/geojupyter/jupytergis/pull/692) may need to be restricted to just one feature type, points, lines, or polygons. How does QGIS handle GeoJSONs that have mixed geometry types?
+        
+* Documentation: Kristin to populate :smile: 
+    * https://github.com/geojupyter/jupytergis/issues/580
 
 
 ### 🪄 (all the minutes) Hack together!
@@ -88,5 +100,7 @@ Big questions? Big ideas?
 Please write for people who don’t have full context; link to related issues and documentation!
 
 * Share out 1
-* Share out 2
-* ...
+* Documentation
+    * Kristin worked on Issue [#580](https://github.com/geojupyter/jupytergis/issues/580) but didn't get far, had to reorient self to the documentation :blush: . Will aim to work on this during another hackathon, or if is able to work on it outside a hackathon, will assign it to self on GitHub.
+* GitHub label issue(?)
+    * On Kristin's Firefox, labels with spaces in them aren't being searched properly - GitHub searches `label:good first issue` instead of `label:"good first issue"`. This isn't a problem on Matt's Firefox.
