@@ -61,7 +61,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
+* [Symbology menu overhaul](https://github.com/geojupyter/jupytergis/pull/754)
 * Idea 2
 * Idea 3
 
