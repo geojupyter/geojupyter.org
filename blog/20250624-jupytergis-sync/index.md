@@ -66,10 +66,3 @@ Your name / GitHub ID / affiliation
     * Increases maintenance burden and contributor complexity
     * We don't have enough maintainers right now for this
     * We think we will probably reach a point where this is necessary as the project's scope grows.
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
