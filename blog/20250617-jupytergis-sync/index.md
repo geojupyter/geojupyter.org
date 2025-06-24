@@ -56,12 +56,3 @@ Your name / GitHub ID / affiliation
     * Do we want to include the data which drives generating the processing code in the JSONSchema? Matt: Doesn't feel right to combine these responsibilities in one place.
     * If we extract to TypeScript, how to dynamically generate types, e.g. the various processingIds? If each file has a ProcessingID variable, how do we union those?
     * What about separating the data part of the schemas into separate JSON files that are checked by a schema? Validate at build-time.
-* Status
-* Status
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
