@@ -34,9 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / @martinRenou / QuantStack
+* Matt Fisher / @mfisher87 / DSE
 
 
 ## Agenda
@@ -51,9 +50,22 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* STAC browser PR
+    * The hardcoded API (geodes) is down, should be back in 2 days
+    * Greg tested some other STAC endpoints, and some worked, some didn't
+* Processing toolbox refactor by Guy
+    * How to validate the JSON data? Take this on in another PR.
+    * Matt to give final review today!
+* Symbology overhaul:
+    * No significant progress since last hackathon
+    * Going to try to make progress today in preparation for hackathon tomorrow
+* Draw vector features on the map:
+    * Matt to review this week!
+    * Should we keep this PR open until we can do the vector sub-type development? We don't want to introduce a new feature and then revoke it. This PR should be easy to rebase if the trunk changes.
+* Should we have a 2nd trunk branch to help use release features more selectively?
+    * Increases maintenance burden and contributor complexity
+    * We don't have enough maintainers right now for this
+    * We think we will probably reach a point where this is necessary as the project's scope grows.
 
 
 ### Requests for help or feedback
