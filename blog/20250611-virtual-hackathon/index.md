@@ -73,8 +73,8 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
             * Want to keep the "Classify" button
             * Could automatically update the classification colors when the color ramp is changed (i.e., without having to click "Classify" again)
     * The "draw features" PR (https://github.com/geojupyter/jupytergis/pull/692) may need to be restricted to just one feature type, points, lines, or polygons. How does QGIS handle GeoJSONs that have mixed geometry types?
-        
-* Documentation: Kristin to populate :smile: 
+
+* Documentation: Kristin to populate :smile:
     * https://github.com/geojupyter/jupytergis/issues/580
 
 
