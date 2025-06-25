@@ -26,12 +26,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Kristin Davis / @kpdavi  / Schmidt DSE
+* Martin Renou / @martinRenou / QuantStack
+* Matt Fisher / @mfisher87 / Schmidt DSE
+* Kirstie Whitaker / @KirstieJAne / Berkeley Institute for Data Science
 
 
 ## Agenda & notes
@@ -73,9 +73,8 @@ Form teams from the ideas generated in the step above!
 
 #### Breakout rooms
 
-* Lobby: ?
-* Room 1: ?
-* ...
+* Lobby: Symbology
+
 
 
 ### 💬 (10 minutes) Share out
@@ -87,6 +86,23 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
+* Symbology
+    * Plan to use [Vega Expressions](https://vega.github.io/vega/docs/expressions/) instead of OpenLayers in the vectorlayer.json - open an issue for this!
+    * Could use the descriptions around symbology information developed / described by [Sam (software engineer at DSE)](https://interactivedatascience.courses/) to inform how the schema is structured and / or described
+        * Let Sam know his data visualization class slides are 404ing
+    * Have some example project files bundled with the project and want to validate that they're obeying the schemas in CI - every time a PR is opened, want to make sure those aren't broken
+    * Need to improve heatmap schema - maybe in the next PR
+    * Think about the schema levels of abstraction -- should we extract symbology schemas into their own schema sub-directory instead of bundling them with the layers schemas? This will be especially important once we start discriminating between point, line, and polygon sub-types of vector layers because we'll have an explosion of schema possibilities and we'll want to drive the form generation more from the schema and less from the JavaScript.
+    * How to do JSONSchema definitions and reference them _across files_?
+    * Consider `creationform.tsx` -> `layerCreationForm.tsx`?
+    * Next steps:
+        * Create new form class that inherits from baseform, symbologyForm.
+        * Move logic from symbologyDialog -> the new symbologyForm base component.
+        * A starting point may be to use BaseForm in the SymbologyDialog module. 
+            * Look at creationform and debug/log to see what we pass to LayerForm on line 220 to better understand the implementation.
+        * MAY need to register our schema in the formSchemaRegistry!
+            * There's a `registerSchema` function, but it seems we never call it? Is it dynamically called in the generated code?
+* TODO: Form property `syncData` -> `submitCallback`?
+* TODO: Docs on schema -> TS/Py types generation
 * Share out 2
 * ...
