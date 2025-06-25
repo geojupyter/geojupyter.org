@@ -98,7 +98,7 @@ Please write for people who don’t have full context; link to related issues an
     * Next steps:
         * Create new form class that inherits from baseform, symbologyForm.
         * Move logic from symbologyDialog -> the new symbologyForm base component.
-        * A starting point may be to use BaseForm in the SymbologyDialog module. 
+        * A starting point may be to use BaseForm in the SymbologyDialog module.
             * Look at creationform and debug/log to see what we pass to LayerForm on line 220 to better understand the implementation.
         * MAY need to register our schema in the formSchemaRegistry!
             * There's a `registerSchema` function, but it seems we never call it? Is it dynamically called in the generated code?
