@@ -83,13 +83,6 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 Form teams from the ideas generated in the step above!
 
 
-#### Breakout rooms
-
-* Lobby: ?
-* Room 1: ?
-* ...
-
-
 ### 💬 (10 minutes) Share out
 
 Think about:
