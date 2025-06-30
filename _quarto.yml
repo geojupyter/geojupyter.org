@@ -19,22 +19,38 @@ website:
 
     left:
       - "about.md"
-      - "projects.md"
       - "blog/index.md"
-      - "calendar.md"
-      - "interviews/index.md"
-      - text: "📖 Community handbook"
-        file: "handbook/index.md"
+      - text: "📅 Events"
+        menu:
+          - "calendar.md"
+          - text: "📋 Events index"
+            href: "https://events.geojupyter.org"
+            target: "_blank"
+          - text: "📋 Workshops index"
+            href: "https://workshops.geojupyter.org"
+            target: "_blank"
+      - text: "🤝 Contribute"
+        menu:
+          - "projects.md"
+          - "interviews/index.md"
+          - text: "🧭 Team compass"
+            href: "https://compass.geojupyter.org"
+            target: "_blank"
+          - text: "📖 Community handbook"
+            file: "handbook/index.md"
 
     right:
       - icon: "rss"
         href: "blog/index.xml"
+        target: "_blank"
       - text: "{{< iconify simple-icons:zulip title='Zulip chat' label='Zulip chat' >}}"
         aria-label: "Zulip chat"
         href: "https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter"
+        target: "_blank"
       - icon: "github"
         aria-label: "GitHub"
         href: "https://github.com/geojupyter"
+        target: "_blank"
 
   sidebar:
     - title: "📖 Community handbook"
