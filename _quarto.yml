@@ -19,12 +19,22 @@ website:
 
     left:
       - "about.md"
-      - "projects.md"
       - "blog/index.md"
-      - "calendar.md"
-      - "interviews/index.md"
-      - text: "📖 Community handbook"
-        file: "handbook/index.md"
+      - text: "📅 Events"
+        menu:
+          - "calendar.md"
+          - text: "📋 Events index"
+            href: "https://events.geojupyter.org"
+          - text: "📋 Workshops index"
+            href: "https://workshops.geojupyter.org"
+      - text: "🤝 Contribute"
+        menu:
+          - "projects.md"
+          - "interviews/index.md"
+          - text: "🧭 Team compass"
+            href: "https://compass.geojupyter.org"
+          - text: "📖 Community handbook"
+            file: "handbook/index.md"
 
     right:
       - icon: "rss"
