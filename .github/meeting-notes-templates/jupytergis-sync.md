@@ -26,7 +26,7 @@ agenda items, and/or
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Google Meet](https://meet.google.com/zhk-vygf-gke)
-  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=4pm)
+  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
 - [Previous meetings](https://geojupyter.org/blog/#category=JupyterGIS%20notes)
 
 
