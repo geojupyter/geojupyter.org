@@ -16,7 +16,7 @@ tags: [hackathons]
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Zoom](https://berkeley.zoom.us/j/92451699568)
-  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
+  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=2pm)
 - [Notes from previous hackathons](https://geojupyter.org/blog/#category=Hackathons)
 - [GeoJupyter](https://geojupyter.org) handy links:
   - [GitHub org](https://github.com/geojupyter)
