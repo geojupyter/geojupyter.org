@@ -16,7 +16,7 @@ tags: [hackathons]
 Please add new agenda items under the `New agenda items` heading!
 
 - [Join us on Zoom](https://berkeley.zoom.us/j/92451699568)
-  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=3pm)
+  - [What time is the meeting in my time zone?](https://dateful.com/convert/utc?t=2pm)
 - [Notes from previous hackathons](https://geojupyter.org/blog/#category=Hackathons)
 - [GeoJupyter](https://geojupyter.org) handy links:
   - [GitHub org](https://github.com/geojupyter)
@@ -26,12 +26,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / @mfisher87 / DSE
+* Martin Renou / @martinRenou / QuantStack
+* Florence Haudin /@HaudinFlorence / QuantStack
+* Jason Grout / GitHub ID / Independent
 
 
 ## Agenda & notes
@@ -61,9 +61,8 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
-* Idea 2
-* Idea 3
+* More robustly defining the symbology schemas and generating those forms from the schemas (https://github.com/geojupyter/jupytergis/pull/754)
+* Support vector layer sub-types (polygon, line, point)
 
 
 ### 🪄 (all the minutes) Hack together!
@@ -73,9 +72,7 @@ Form teams from the ideas generated in the step above!
 
 #### Breakout rooms
 
-* Lobby: ?
-* Room 1: ?
-* ...
+None today, all together!
 
 
 ### 💬 (10 minutes) Share out
@@ -87,6 +84,7 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* Separate the RJSF schema pre-processing (creating forms.json) into a separate NPM script
+    * "forms.json is legacy code" -- from before we had a registry of json schemas. Now that we have a registry, we could get rid of it! Consider generating the schema registry from the source files, dereferencing on the fly if needed.
+    * Matt will document this :)
+* Vector sub-types: When adding a layer that has multiple types, create a group of layers instead of displaying a QGIS-ish dialog allowing the user to select from the available types. (Maybe we implement that later!)
