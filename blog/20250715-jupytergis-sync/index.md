@@ -34,9 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun Verma / @arjxn-py / QuantStack
+* Martin Renou / @martinRenou / QuantStack
+* Matt Fisher / @mfisher87  / DSE
 
 
 ## Agenda
@@ -51,9 +51,22 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* Matt: Prepping JupyterCon workshop proposal
+    * https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter/topic/JupyterCon.202025/with/528747234
+    * Looking for someone with strong JupyterLab experience
+* Matt: In-person hackathon
+    * QuantStack folks can't make it
+* Matt: AGU
+    * We have an accepted session: Open source geosciences tools
+    * Submit for a talk!
+* Matt: SatCamp
+* Arjun: Submitted for IndiaFOSS (big OSS community).
+    * https://fossunited.org/indiafoss/2025
+    * Present JupyterCAD and JupyterGIS
+* Arjun: Collaborator icon bug: can't click on the icons to follow. Merged!
+    * Release 0.6.1!
+* Matt: Blog post about the reproducible processing toolbox.
+    * Enable comments for our blog posts
 
 
 ### Requests for help or feedback
