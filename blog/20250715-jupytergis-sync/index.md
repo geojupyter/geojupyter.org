@@ -67,10 +67,3 @@ Your name / GitHub ID / affiliation
     * Release 0.6.1!
 * Matt: Blog post about the reproducible processing toolbox.
     * Enable comments for our blog posts
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
