@@ -18,6 +18,7 @@ not limited to:
 * [2i2c](https://2i2c.org/)
 * [Development Seed](https://developmentseed.org/)
 * [Clark University Center for Geospatial Analytics](https://www.clarku.edu/centers/geospatial-analytics/)
+* [Simula Research Laboratory](https://www.simula.no/)
 * [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 
