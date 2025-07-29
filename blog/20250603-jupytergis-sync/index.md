@@ -34,19 +34,22 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Martin Renou / @martinRenou / QuantStack
+* Matt
+* Greg
+
+## Agenda
+
+Review project board:
+[https://github.com/orgs/geojupyter/projects/2?query=sort%3Aupdated-desc+is%3Aopen](https://github.com/orgs/geojupyter/projects/2?query=sort%3Aupdated-desc+is%3Aopen)
 
 
-## Status reports
+## **Status reports**
 
-* Status
-* Status
-* Status
+* Matt to review [https://github.com/geojupyter/jupytergis/pull/709](https://github.com/geojupyter/jupytergis/pull/709)
+* ESA grant fell through until later this year :sob:
 
-## Requests for help
 
-* Help request
-* Help request
-* Help request
+## **Requests for help**
+
+* [https://github.com/geojupyter/jupytergis/issues/389](https://github.com/geojupyter/jupytergis/issues/389) - open an issue against JupyterLab. We don’t know what’s going on, hopefully someone who knows the CSS well can help us move forward.
