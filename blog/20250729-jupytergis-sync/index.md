@@ -34,9 +34,9 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Greg Mooney / @gjmooney / QuantStack
+* Martin / @martinRenou / QuantStack
+* Matt Fisher / @mfisher / DSE
 
 
 ## Agenda
@@ -51,13 +51,15 @@ Your name / GitHub ID / affiliation
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* Reviewed project board
+* Guy's PR on embedded side panels
+    * Still need to fix UI tests, otherwise looking good!
+    * Matt: check in with Guy and let him know it's ready to merge when tests are fixed.
 
 
 ### Requests for help or feedback
 
-* Help request
-* Help request
-* Help request
+* Hackathon
+    * Greg (maybe Arjun) can be available for hackathon support over the US night
+    * Added new hackathon ideas to the developer planning doc:
+        * https://docs.google.com/document/d/10PqpCnGPAzJFkaCAfaQRbS3x0Y89JzbpgBzOXdxOpvU/edit?tab=t.0
