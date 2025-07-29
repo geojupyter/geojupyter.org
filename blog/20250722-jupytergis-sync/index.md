@@ -34,7 +34,6 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-*  /  /
 * Martin / @martinRenou / QuantStack
 * Matt / @mfisher87 / DSE
 
@@ -60,4 +59,3 @@ Your name / GitHub ID / affiliation
 * Matt: Will work on symbology today so we can resume tomorrow at hackathon!
 * Matt: JupyterLab extension documentation could use some improvement for new users. E.g. something to help new users build a correct mental model.
     * Martin: We've been talking about this internally as well!
-*
