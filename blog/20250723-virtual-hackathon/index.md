@@ -62,8 +62,6 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 #### Ideas
 
 * Continue work on "symbology overhaul": https://github.com/geojupyter/jupytergis/pull/754
-* Idea 2
-* Idea 3
 
 
 ### 🪄 (all the minutes) Hack together!
@@ -73,9 +71,7 @@ Form teams from the ideas generated in the step above!
 
 #### Breakout rooms
 
-* Lobby: ?
-* Room 1: ?
-* ...
+All together!
 
 
 ### 💬 (10 minutes) Share out
@@ -87,6 +83,5 @@ Big questions? Big ideas?
 
 Please write for people who don’t have full context; link to related issues and documentation!
 
-* Share out 1
-* Share out 2
-* ...
+* Split all schemas out by render type.
+  * Add render type as "const" in each schema.
