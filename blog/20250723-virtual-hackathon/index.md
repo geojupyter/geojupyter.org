@@ -26,12 +26,12 @@ Please add new agenda items under the `New agenda items` heading!
 
 ## Sign in!
 
-Your name / GitHub ID / affiliation / icebreaker
+Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
-* Name / GitHub ID / affiliation / ?
+* Matt Fisher / @mfisher87 / DSE
+* Kristin Davis / @kpdavi / DSE
+* Martin Renou / @martinRenou / QuantStack / Love coffee and cheese
+* Name / GitHub ID / affiliation
 
 
 ## Agenda & notes
@@ -61,7 +61,7 @@ by default, QuantStack will demo awesome JupyterGIS progress each meeting!
 
 #### Ideas
 
-* Idea 1
+* Continue work on "symbology overhaul": https://github.com/geojupyter/jupytergis/pull/754
 * Idea 2
 * Idea 3
 
