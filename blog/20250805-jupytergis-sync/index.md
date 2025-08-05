@@ -34,8 +34,8 @@ Please add new agenda items under the `New agenda items` heading!
 
 Your name / GitHub ID / affiliation
 
-* Name / GitHub ID / affiliation
-* Name / GitHub ID / affiliation
+* Arjun Verma / @arjxn-py / QuantStack
+* Matt Fisher / @mfisher / DSE 
 * Name / GitHub ID / affiliation
 
 
@@ -44,16 +44,16 @@ Your name / GitHub ID / affiliation
 * Review our [project board](https://github.com/orgs/geojupyter/projects/2)
   * What items should be added?
   * Are there stale items that are no longer urgent?
-  * Are there things we can change about the project board to make it more useful? Add
-    more information? Remove steps?
+  * Are there things we can change about the project board to make it more useful? Add more information? Remove steps?
 * _Please add more items if you have them!_
 
 
 ### Status reports
 
-* Status
-* Status
-* Status
+* https://github.com/geojupyter/jupytergis/issues/846 - Why is jupyter-collab pinned <4? Seems safe to upgrade.
+* https://github.com/geojupyter/jupytergis/pull/844 - vectortile symbology!! 
+* Matt: Review vectortile symbology
+* TODO: Make sure Arjun can release!
 
 
 ### Requests for help or feedback
