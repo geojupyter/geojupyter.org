@@ -36,7 +36,6 @@ Your name / GitHub ID / affiliation
 
 * Arjun Verma / @arjxn-py / QuantStack
 * Matt Fisher / @mfisher / DSE
-* Name / GitHub ID / affiliation
 
 
 ## Agenda
@@ -51,13 +50,5 @@ Your name / GitHub ID / affiliation
 ### Status reports
 
 * https://github.com/geojupyter/jupytergis/issues/846 - Why is jupyter-collab pinned <4? Seems safe to upgrade.
-* https://github.com/geojupyter/jupytergis/pull/844 - vectortile symbology!!
-* Matt: Review vectortile symbology
-* TODO: Make sure Arjun can release!
-
-
-### Requests for help or feedback
-
-* Help request
-* Help request
-* Help request
+* https://github.com/geojupyter/jupytergis/pull/844 - vectortile symbology!! Ready for review.
+* Matt & Arjun: Make sure Arjun has privileges release by doing a release together (Friday?)!
