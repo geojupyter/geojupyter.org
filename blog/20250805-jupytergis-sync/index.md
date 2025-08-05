@@ -35,7 +35,7 @@ Please add new agenda items under the `New agenda items` heading!
 Your name / GitHub ID / affiliation
 
 * Arjun Verma / @arjxn-py / QuantStack
-* Matt Fisher / @mfisher / DSE 
+* Matt Fisher / @mfisher / DSE
 * Name / GitHub ID / affiliation
 
 
@@ -51,7 +51,7 @@ Your name / GitHub ID / affiliation
 ### Status reports
 
 * https://github.com/geojupyter/jupytergis/issues/846 - Why is jupyter-collab pinned <4? Seems safe to upgrade.
-* https://github.com/geojupyter/jupytergis/pull/844 - vectortile symbology!! 
+* https://github.com/geojupyter/jupytergis/pull/844 - vectortile symbology!!
 * Matt: Review vectortile symbology
 * TODO: Make sure Arjun can release!
 
