@@ -61,7 +61,7 @@ What is it **not**?"
 In exploring these problems, our participants created a supportive atmosphere, enabling
 everyone to comfortably contribute their unique expertise.
 
-A fantastic team of facilitators from 
+A fantastic team of facilitators from
 [Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and
 [Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu)
 curated equipment and a comfortable environment, solved problems, provided delicious
@@ -98,9 +98,9 @@ caffeine and meals, and more.
 > JupyterGIS project gained another 9 testers.
 > Repeating this experiment by giving this task to different types of user working
 > groups is one great way to help build a roadmap and envision the future of this
-> project. 
+> project.
 
-* Tested JupyterGIS and reported bugs 
+* Tested JupyterGIS and reported bugs
   ([#869](https://github.com/geojupyter/jupytergis/issues/869))
 * Suggested new features
   ([#871](https://github.com/geojupyter/jupytergis/issues/871),
