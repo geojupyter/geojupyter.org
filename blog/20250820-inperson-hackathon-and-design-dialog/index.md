@@ -39,8 +39,9 @@ Each team made valuable contributions and wrote a summary of their activities:
 * Explored using devcontainers to reduce startup burden for new contributors
 
   > This is an interoperable development container that automates the dev environment
-  > setup for jupytergis development, which works both on Hub infrastructure as well as on
-  > VSCode / Codespaces without any additional tinkering!
+  > setup for JupyterGIS development.
+  > It works both on Hub infrastructure and on VSCode / Codespaces without any
+  > additional tinkering!
   > This means that users, regardless of their host OS, can build and iterate on
   > JupyterGIS either locally (using Docker or Docker + VSCode) or in the cloud (on
   > managed Hub infrastructure or GitHub codespaces).
