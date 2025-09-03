@@ -132,6 +132,10 @@ Infinite thanks to our fantastic team of facilitators from
 who curated equipment and a comfortable environment, solved problems, provided delicious
 caffeine and meals, expertly facilitated discussions, and more.
 
+Finally, thanks to [Berkeley Institute for Data Science
+(BIDS)](https://bids.berkeley.edu) for hosting us at their wonderful AI Futures Lab
+space on day 1!
+What a view :star_struck: :bridge_at_night:
 
 ## (TODO) Call to join the community
 
@@ -164,5 +168,3 @@ _This post co-created by hackathon participants:
   Shane Grigsby,
   Stace Maples,
   Tyler Marino_
-
-_Special thanks to [Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) for hosting us on day 1!_
