@@ -21,7 +21,7 @@ we didn't just write code, we reimagined what JupyterGIS could become.
 
 :rainbow: With backgrounds and skills all over the spectrum, everyone had something to teach and
 something to learn, creating a multiplier effect where our diversity amplified
-eachothers' contributions.
+each other's contributions.
 
 Four distinct working groups quickly emerged:
 infrastructure developers exploring development containers and development environment
