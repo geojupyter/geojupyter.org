@@ -130,7 +130,7 @@ Infinite thanks to our fantastic team of facilitators from
 [Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and
 [Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu)
 who curated equipment and a comfortable environment, solved problems, provided delicious
-caffeine and meals, and more.
+caffeine and meals, expertly facilitated discussions, and more.
 
 
 ## (TODO) Call to join the community
