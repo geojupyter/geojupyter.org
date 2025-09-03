@@ -106,9 +106,20 @@ prototype!
 > We also identified a robust STAC search implementation and GUI as something
 > alternatives do not excel at, and a possible "killer feature".
 
-![A Venn diagram illustrating overlap with Jupyter Notebooks](jupytergis-notebook-venn.jpg)
 
-* What is JupyterGIS? What JupyterGIS _is not_?
+* What should JupyterGIS be? What should JupyterGIS _not be_?
+    * Should focus on the areas where users need the most help.
+      For example, visual exploration is the most broadly-reported challenge.
+    * Should not focus on drawing users away from Jupyter Notebook analysis workflows
+      that are working for them and are well-served by Notebooks.
+      For example, providing utilities in the visual environment that serve Notebook
+      workflows: drawing or calculating areas of interest and moving those back over to
+      the Notebook, synchronizing changes in Python data objects over to the map.
+      **Not** trying to reimplement the QGIS/ArcGIS model builders unless we have a
+      strong value-add.
+
+    ![A Venn diagram illustrating overlap with Jupyter Notebooks](jupytergis-notebook-venn.jpg)
+
 * Why do people leave QGIS?
     * Scaling analyses or performing analysis on big datasets
     * Repeatability & reproducibility with a Notebook or script
