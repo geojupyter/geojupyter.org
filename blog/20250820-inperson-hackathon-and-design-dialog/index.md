@@ -32,9 +32,7 @@ and strategists zooming out to question JupyterGIS' fundamental purpose.
 Each team made valuable contributions and wrote a summary of their activities:
 
 
-## What we accomplished
-
-### Development infrastructure
+## :building_construction: Development infrastructure team
 
 * Worked together to set up development environments for the first time
 * Explored using devcontainers to reduce startup burden for new contributors
@@ -53,7 +51,7 @@ Each team made valuable contributions and wrote a summary of their activities:
 * Discussed the potential of using a JupyterHub for developing on JupyterLab extensions
 
 
-### Documentation
+## :books: Documentation team
 
 > Our hackathon topic brought together a diverse set of backgrounds and personas of
 > potential JupyterGIS users to test out and improve existing documentation and
@@ -84,7 +82,7 @@ Each team made valuable contributions and wrote a summary of their activities:
   [#864](https://github.com/geojupyter/jupytergis/pull/864))
 
 
-### Python API ergonomics
+## :snake: Python API ergonomics team
 
 > We worked on getting data out of the map layer, manipulating the data and making
 > updates to the map.
@@ -94,7 +92,7 @@ Each team made valuable contributions and wrote a summary of their activities:
 Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
 
 
-### "What is/is not JupyterGIS?"
+## :world_map: Strategy team
 
 > We followed a detailed user story focused on biodiversity and identified some gaps and
 > opportunities.
@@ -109,6 +107,7 @@ Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
 
 ![A Venn diagram illustrating overlap with Jupyter Notebooks](jupytergis-notebook-venn.jpg)
 
+* What is JupyterGIS? What JupyterGIS _is not_?
 * Why do people leave QGIS?
     * Scaling analyses or performing analysis on big datasets
     * Repeatability & reproducibility with a Notebook or script
