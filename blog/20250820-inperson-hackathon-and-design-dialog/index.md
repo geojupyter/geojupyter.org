@@ -149,7 +149,28 @@ Finally, thanks to [Berkeley Institute for Data Science
 space on day 1!
 What a view :star_struck: :bridge_at_night:
 
-## (TODO) Call to join the community
+
+## :mega: Call to join the community
+
+We want to work with :index_pointing_at_the_viewer: **you**!
+With your collaboration, we can build less frustrating and more joyful and rewarding
+ways of working with geospatial data.
+Here's how:
+
+:open_book: [Share a story about a workflow that needs improvement](https://github.com/geojupyter/jupytergis/issues/new?template=0-user-story.yml)!
+
+:calendar: [Join a hackathon or community meeting](https://geojupyter.org/calendar)!
+
+:left_speech_bubble: [Chat with us on Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter)!
+
+:test_tube: [Try JupyterGIS](https://jupytergis.readthedocs.io/)! Where does it (not)
+meet your needs?
+
+:sunglasses: Share your rad vibes and leadership!
+
+:love_letter: Get in touch with our community manager:
+[Zulip](https://jupyter.zulipchat.com/#narrow/channel/471314-geojupyter),
+[GitHub](https://github.com/mfisher87), [email](mailto:matt.fisher@berkeley.edu)
 
 
 ---
