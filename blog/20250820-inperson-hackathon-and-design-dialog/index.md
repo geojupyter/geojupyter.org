@@ -15,12 +15,13 @@ When 25 geospatial professionals gathered in Berkeley for a
 [2-day intensive hackathon event](https://events.geojupyter.org/hackathons/202508-berkeley/),
 we didn't just write code, we reimagined what JupyterGIS could become.
 
-With backgrounds and skills all over the spectrum, everyone had something to teach and
-something to learn, creating a multiplier effect where our diverse expertise amplified
-others' contributions.
-
 
 ![A group photo of the in-person hackathon participants](group-photo.jpg){.lightbox}
+
+
+With backgrounds and skills all over the spectrum, everyone had something to teach and
+something to learn, creating a multiplier effect where our diversity amplified
+eachothers' contributions.
 
 
 ## What made this event special
