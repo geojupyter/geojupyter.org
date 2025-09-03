@@ -117,29 +117,20 @@ prototype!
     * Making a map to share or tell a story
 
 
-## :magic_wand: What made this event special
-
-Because of our diverse experience and expertise, we worked on diverse problems.
-Some of us jumped in to immediate fixes, like documentation improvements.
-Others explored experimental API enhancements, like providing a way to alter layer
-properties from Python.
-And some moved 10 steps back and asked fundamental questions like "What is JupyterGIS?
-What is it **not**?"
-
-In exploring these problems, our participants created a supportive atmosphere, enabling
-everyone to comfortably contribute their unique expertise.
-
-A fantastic team of facilitators from
-[Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and
-[Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu)
-curated equipment and a comfortable environment, solved problems, provided delicious
-caffeine and meals, and more.
 
 
-## :heart: Thank you :heart:
+
+## :heart: Thank you :bow:
 
 Thank you _so much_ to our wonderful hackathon participants for bringing a collaborative
-energy that made it fun to take on hard problems!
+energy and creating a supportive atmosphere that made it fun and safe to take on hard
+problems!
+
+Infinite thanks to our fantastic team of facilitators from
+[Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and
+[Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu)
+who curated equipment and a comfortable environment, solved problems, provided delicious
+caffeine and meals, and more.
 
 
 ## (TODO) Call to join the community
