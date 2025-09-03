@@ -144,7 +144,8 @@ who curated equipment and a comfortable environment, solved problems, provided d
 caffeine and meals, expertly facilitated discussions, and more.
 
 Finally, thanks to [Berkeley Institute for Data Science
-(BIDS)](https://bids.berkeley.edu) for hosting us at their wonderful AI Futures Lab
+(BIDS)](https://bids.berkeley.edu) for hosting us at their wonderful
+[AI Futures Lab](https://bids.berkeley.edu/news/announcing-ai-futures-lab-visionary-partnership-between-bids-and-uc-investments)
 space on day 1!
 What a view :star_struck: :bridge_at_night:
 
