@@ -6,32 +6,7 @@ description: |
 date: "2025-08-20"
 image: "group-photo.jpg"
 author:
-  - name: "Alex Mandel"
-  - name: "Arjun Verma"
-  - name: "Brianna Pagan"
-  - name: "Brookie Guzder-Williams"
-  - name: "Ciera Martinez"
-  - name: "Fernando Pérez"
-  - name: "James Colliander"
-  - name: "Jason Grout"
-  - name: "Jon Atkins"
-  - name: "Kevin Koy"
-  - name: "Kirstie Whitaker"
-  - name: "Kristin Davis"
-  - name: "Lucia Layritz"
-  - name: "Maryam Hosseini"
-  - name: "Maryam Vareth"
-  - name: "Matt Fisher"
-  - name: "Maxwell Taniguchi-King"
-  - name: "Maya Weltman-Fahs"
-  - name: "Maya Zomer"
-  - name: "Michele Tobias"
-  - name: "Min RK"
-  - name: "Nick Gondek"
-  - name: "Qiusheng Wu"
-  - name: "Shane Grigsby"
-  - name: "Stace Maples"
-  - name: "Tyler Marino"
+  - name: "GeoJupyter Hackathon participants (see below)"
 categories:
   - "Events"
 ---
@@ -168,5 +143,32 @@ Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
 
 
 ---
+
+_This post co-created by hackathon participants:
+  Arjun Verma,
+  Brianna Pagan,
+  Brookie Guzder-Williams,
+  Ciera Martinez,
+  Fernando Pérez,
+  James Colliander,
+  Jason Grout,
+  Jon Atkins,
+  Kevin Koy,
+  Kirstie Whitaker,
+  Kristin Davis,
+  Lucia Layritz,
+  Maryam Hosseini,
+  Maryam Vareth,
+  Matt Fisher,
+  Maxwell Taniguchi-King,
+  Maya Weltman-Fahs,
+  Maya Zomer,
+  Michele Tobias,
+  Min RK,
+  Nick Gondek,
+  Qiusheng Wu,
+  Shane Grigsby,
+  Stace Maples,
+  Tyler Marino_
 
 _Special thanks to [Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) for hosting us on day 1!_
