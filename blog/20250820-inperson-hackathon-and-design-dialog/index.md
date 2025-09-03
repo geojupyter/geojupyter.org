@@ -15,8 +15,6 @@ When 25 geospatial professionals gathered in Berkeley for a
 [2-day intensive hackathon event](https://events.geojupyter.org/hackathons/202508-berkeley/),
 we didn't just write code, we reimagined what JupyterGIS could become.
 
-Thank you _so much_ to our wonderful hackathon participants for bringing a collaborative
-energy that made it fun to take on hard problems!
 With backgrounds and skills all over the spectrum, everyone had something to teach and
 something to learn, creating a multiplier effect where our diverse expertise amplified
 others' contributions.
@@ -127,6 +125,12 @@ Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
 * Why do people come back to QGIS?
     * Exploring results
     * Making a map to share or tell a story
+
+
+## :heart: Thank you :heart:
+
+Thank you _so much_ to our wonderful hackathon participants for bringing a collaborative
+energy that made it fun to take on hard problems!
 
 
 ## (TODO) Call to join the community
