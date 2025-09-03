@@ -24,8 +24,7 @@ something to learn, creating a multiplier effect where our diversity amplified
 each other's contributions.
 
 Four distinct working groups quickly emerged:
-infrastructure developers exploring development containers and development environment
-setup,
+infrastructure developers exploring containers and development environment setup,
 documentation specialists testing tutorials with fresh eyes and filling in docs gaps,
 API developers working on Python integration and data manipulation workflows,
 and strategists zooming out to question JupyterGIS' fundamental purpose.
