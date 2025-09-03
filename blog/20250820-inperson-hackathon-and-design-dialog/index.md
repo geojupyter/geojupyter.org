@@ -128,17 +128,6 @@ Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
     * Making a map to share or tell a story
 
 
-## (WIP) Lessons for future events
-
-* Get the keys for the network closet!
-  Sometimes all we need to fix the wifi is to reboot the router.
-* Did we time the design discussion well?
-  Should it have been earlier in the event timeline?
-  On one hand, we had time to acclimate to the project beforehand.
-  On the other, the design discussion influenced how we worked afterwards.
-* TODO: More!
-
-
 ## (TODO) Call to join the community
 
 
