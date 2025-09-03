@@ -23,6 +23,13 @@ we didn't just write code, we reimagined what JupyterGIS could become.
 something to learn, creating a multiplier effect where our diversity amplified
 eachothers' contributions.
 
+Four distinct working groups quickly emerged:
+infrastructure developers exploring development containers and development environment
+setup,
+documentation specialists testing tutorials with fresh eyes and filling in docs gaps,
+API developers working on Python integration and data manipulation workflows,
+and strategists zooming out to question JupyterGIS' fundamental purpose.
+Each team made valuable contributions and wrote a summary of their activities:
 
 ## What made this event special
 
