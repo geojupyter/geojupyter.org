@@ -19,7 +19,7 @@ we didn't just write code, we reimagined what JupyterGIS could become.
 ![A group photo of the in-person hackathon participants](group-photo.jpg){.lightbox}
 
 
-With backgrounds and skills all over the spectrum, everyone had something to teach and
+:rainbow: With backgrounds and skills all over the spectrum, everyone had something to teach and
 something to learn, creating a multiplier effect where our diversity amplified
 eachothers' contributions.
 
