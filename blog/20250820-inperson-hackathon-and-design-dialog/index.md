@@ -89,7 +89,8 @@ Each team made valuable contributions and wrote a summary of their activities:
 > We showed this was possible through two different workflows: toggling layer visibility
 > and getting geojson from layer source and turning it into a geopandas object.
 
-Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for more!
+Please see [#877](https://github.com/geojupyter/jupytergis/pull/877) for this team's
+prototype!
 
 
 ## :world_map: Strategy team
