@@ -11,8 +11,9 @@ categories:
   - "Events"
 ---
 
-Last week, roughly 25 GeoJupyter contributors gathered in Berkeley, CA for a 2-day
-hackathon and demonstrated what makes open source communities so special.
+When 25 geospatial professionals gathered in Berkeley for a
+[2-day intensive hackathon event](https://events.geojupyter.org/hackathons/202508-berkeley/),
+we didn't just write code, we reimagined what JupyterGIS could become.
 
 Thank you _so much_ to our wonderful hackathon participants for bringing a collaborative
 energy that made it fun to take on hard problems!
