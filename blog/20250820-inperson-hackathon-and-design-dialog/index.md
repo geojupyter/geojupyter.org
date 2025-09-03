@@ -128,9 +128,6 @@ prototype!
     * Making a map to share or tell a story
 
 
-
-
-
 ## :heart: Thank you :bow:
 
 Thank you _so much_ to our wonderful hackathon participants for bringing a collaborative
