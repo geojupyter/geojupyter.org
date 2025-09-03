@@ -136,13 +136,13 @@ Thank you _so much_ to our wonderful hackathon participants for bringing a colla
 energy and creating a supportive atmosphere that made it fun and safe to take on hard
 problems!
 
-Infinite thanks to our fantastic team of facilitators from
-[Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and
+Infinite thanks to our fantastic team of facilitators from the
+[Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu) and the
 [Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu)
 who curated equipment and a comfortable environment, solved problems, provided delicious
 caffeine and meals, expertly facilitated discussions, and more.
 
-Finally, thanks to [Berkeley Institute for Data Science
+Finally, thanks to the [Berkeley Institute for Data Science
 (BIDS)](https://bids.berkeley.edu) for hosting us at their wonderful
 [AI Futures Lab](https://bids.berkeley.edu/news/announcing-ai-futures-lab-visionary-partnership-between-bids-and-uc-investments)
 space on day 1!
