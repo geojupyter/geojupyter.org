@@ -3,12 +3,14 @@ title: "In-person Hackathon and Design Dialog 2025"
 description: |
   On August 13-14 in Berkeley CA, a group of ~25 dedicated geospatial professionals had a
   meeting of the minds. We worked together on code, design, and big-picture strategy!
-date: "2025-08-20"
+date: "2025-09-03"
 image: "group-photo.jpg"
 author:
   - name: "GeoJupyter Hackathon participants (see below)"
 categories:
   - "Events"
+aliases:
+  - "/blog/20250820-inperson-hackathon-and-design-dialog/index.html"
 ---
 
 When 25 geospatial professionals gathered in Berkeley for a
