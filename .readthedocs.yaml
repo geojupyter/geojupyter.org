@@ -7,15 +7,10 @@ build:
   os: "ubuntu-lts-latest"
 
   commands:
-    # Download: https://quarto.org/docs/download/tarball.html
-    - "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.tar.gz"
+    - "asdf plugin add pixi"
+    - "asdf install pixi latest"
+    - "asdf global pixi latest"
 
-    # Install
-    - "mkdir --parents ~/opt/quarto ~/bin"
-    - "tar -C ~/opt/quarto -xvzf quarto*.tar.gz --strip-components 1"
-    - "ln -s ~/opt/quarto/bin/quarto ~/bin/quarto"
-
-    # Render
-    - "~/bin/quarto render"
+    - "pixi run render"
     - "mkdir --parents $READTHEDOCS_OUTPUT/html/"
     - "mv _site/* $READTHEDOCS_OUTPUT/html/."
