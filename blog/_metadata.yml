@@ -1,0 +1,13 @@
+# Enable comments on blog posts
+comments:
+  giscus:
+    repo: "geojupyter/geojupyter.org"
+    repo-id: "R_kgDONPbUUw"
+    category: "Blog posts"
+    category-id: "DIC_kwDONPbUU84CvBGY"
+    mapping: "title"
+    reactions-enabled: true
+    input-position: "top"
+    theme: "light"
+    language: "en"
+    loading: "lazy"
