@@ -21,6 +21,7 @@ not limited to:
 * [Simula Research Laboratory](https://www.simula.no/)
 * [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
 * [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
+* [Centre National d'Etudes Spatiales (CNES)](https://cnes.fr/)
 
 _Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
 
