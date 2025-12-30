@@ -15,24 +15,26 @@ not limited to:
 
 * The [Jupyter](https://jupyter.org/) community
 * [QuantStack](https://quantstack.net/)
+* [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 * [2i2c](https://2i2c.org/)
 * [Development Seed](https://developmentseed.org/)
 * [Clark University Center for Geospatial Analytics](https://www.clarku.edu/centers/geospatial-analytics/)
 * [Simula Research Laboratory](https://www.simula.no/)
 * [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
-* [The Eric & Wendy Schmidt Center for Data Science and Environment at UC Berkeley](https://dse.berkeley.edu/)
 * [Centre National d'Etudes Spatiales (CNES)](https://cnes.fr/)
 
 _Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
 
 
-## Current status: Idea generation and development
+## Current status: Growing community and building software
 
 [QuantStack](https://quantstack.net/) is developing
 [JupyterGIS](https://github.com/geojupyter/jupytergis), a *collaborative* GIS
 environment in JupyterLab.
 
-[DSE](https://dse.berkeley.edu/) and the GeoJupyter community are distilling insights from interviewees.
+[DSE](https://dse.berkeley.edu/) and the GeoJupyter community at large are building community
+onramps, strategizing, distilling insights from interviewees, contributing to JupyterGIS, and
+prototyping new software ideas.
 
 The GeoJupyter community is [meeting bi-weekly](/blog/20250129-announcing-geojupyter-hackathons) to generate and develop ideas.
 Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follow our progress!
@@ -42,13 +44,11 @@ Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follo
 </center>
 
 
-## Next: Community programming, prototyping
+### What's next
 
-* Community meetings
-  * Core meetings
-  * Hackathons
-  * Office hours
-* Prototype minimal use-case focused workflows
+* Story maps / scrollytelling experiences
+* Exploring making "brushed" / "linked" visualizations more accessible
+* You tell us! See below :grin:
 
 
 ## How you can contribute
