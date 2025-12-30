@@ -44,13 +44,11 @@ Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follo
 </center>
 
 
-## Next: Community programming, prototyping
+### What's next
 
-* Community meetings
-  * Core meetings
-  * Hackathons
-  * Office hours
-* Prototype minimal use-case focused workflows
+* Story maps / scrollytelling experiences
+* Exploring making "brushed" / "linked" visualizations more accessible
+* You tell us! See below :grin:
 
 
 ## How you can contribute
