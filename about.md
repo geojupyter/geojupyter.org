@@ -26,13 +26,15 @@ not limited to:
 _Please [open an issue in GitHub](https://github.com/geojupyter/geojupyter.org/issues/new) if you'd like to be represented on this list_.
 
 
-## Current status: Idea generation and development
+## Current status: Growing community and building software
 
 [QuantStack](https://quantstack.net/) is developing
 [JupyterGIS](https://github.com/geojupyter/jupytergis), a *collaborative* GIS
 environment in JupyterLab.
 
-[DSE](https://dse.berkeley.edu/) and the GeoJupyter community are distilling insights from interviewees.
+[DSE](https://dse.berkeley.edu/) and the GeoJupyter community at large are building community
+onramps, strategizing, distilling insights from interviewees, contributing to JupyterGIS, and
+prototyping new software ideas.
 
 The GeoJupyter community is [meeting bi-weekly](/blog/20250129-announcing-geojupyter-hackathons) to generate and develop ideas.
 Please see our [hackathon notes blog posts](/blog/#category=Hackathons) to follow our progress!
