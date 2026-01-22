@@ -19,6 +19,7 @@ website:
 
     left:
       - "about.md"
+      - "roadmap.md"
       - "blog/index.md"
       - text: "📅 Events"
         menu:
