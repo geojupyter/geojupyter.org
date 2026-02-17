@@ -44,7 +44,7 @@ together.
 
 | Time         | Activity                                             |
 | ----         | --------                                             |
-| 10 minutes   | What are we working on?                              |
+| 10 minutes   | ❓ What are we working on?                           |
 | 45 minutes   | 🤝 Work together!                                    |
 | 10 minutes   | ☕️ Break                                             |
 | 45 minutes   | 🤝 Work together!                                    |
