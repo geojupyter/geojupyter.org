@@ -1,4 +1,4 @@
-# Collaboration Cafés
+# 🤝 Collaboration Cafés
 
 The GeoJupyter community hosts virtual
 "[Collaboration Café](https://book.the-turing-way.org/community-handbook/community-calls/community-calls-collabcafe/)"
@@ -28,8 +28,9 @@ journey!
 While we aim to, we can't **always** offer support for onboarding during Collaboration
 Cafés.
 
-If you'd like guaranteed onboarding support, please join a separate Onboarding Hour
-meeting, listed on the [community calendar](/calendar.md)!
+If you'd like guaranteed onboarding support, please join a separate
+[Onboarding Hour](/onboarding-hour.md) meeting, listed on the
+[community calendar](/calendar.md)!
 
 
 ## How does it work?
