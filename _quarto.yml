@@ -23,6 +23,7 @@ website:
       - text: "📅 Events"
         menu:
           - "calendar.md"
+          - "collaboration-cafe.md"
           - text: "📋 Events index"
             href: "https://events.geojupyter.org"
             target: "_blank"
