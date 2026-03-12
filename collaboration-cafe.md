@@ -22,7 +22,7 @@ interested in, whether they're technical, design, ideation, or whatever!
 
 Bring your awesome ideas and your awesome personality :)
 
-:::{note}
+:::{.callout-note}
 If you're new to the community, we are thrilled to support you in your onboarding
 journey!
 While we aim to, we can't **always** offer support for onboarding during Collaboration
