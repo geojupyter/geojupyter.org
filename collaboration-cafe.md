@@ -31,6 +31,7 @@ Cafés.
 If you'd like guaranteed onboarding support, please join a separate
 [Onboarding Hour](/onboarding-hour.md) meeting, listed on the
 [community calendar](/calendar.md)!
+:::
 
 
 ## How does it work?
