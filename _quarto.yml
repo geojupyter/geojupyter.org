@@ -23,8 +23,8 @@ website:
       - text: "📅 Events"
         menu:
           - "calendar.md"
-          - "collaboration-cafe.md"
-          - "onboarding-hour.md"
+          - "events/collaboration-cafe.md"
+          - "events/onboarding-hour.md"
           - text: "📋 Events index"
             href: "https://events.geojupyter.org"
             target: "_blank"
