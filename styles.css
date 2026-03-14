@@ -5,9 +5,26 @@
   padding-top: 0px;
 }
 
+.card-title > :first-child {
+  font-weight: bold;
+}
+
+.card-body > p:first-child {
+  margin-bottom: 0px;
+}
+
 .card-footer {
   background-color: unset;
   font-size: 0.65rem;
+}
+
+.hidden-link {
+  /* For use with bootstrap stretched-link (display: none breaks it) */
+  opacity: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  display: block;
 }
 
 .center-quote {

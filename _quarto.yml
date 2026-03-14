@@ -31,15 +31,8 @@ website:
           - text: "📋 Workshops index"
             href: "https://workshops.geojupyter.org"
             target: "_blank"
-      - text: "🤝 Contribute"
-        menu:
-          - "projects.md"
-          - "interviews/index.md"
-          - text: "🧭 Team compass"
-            href: "https://compass.geojupyter.org"
-            target: "_blank"
-          - text: "📖 Community handbook"
-            file: "handbook/index.md"
+      - "projects.md"
+      - "contribute.md"
 
     right:
       - icon: "rss"
