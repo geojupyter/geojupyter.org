@@ -5,6 +5,11 @@
   padding-top: 0px;
 }
 
+.card-footer {
+  background-color: unset;
+  font-size: 0.65rem;
+}
+
 .center-quote {
   margin: 15px;
   padding: 15px;

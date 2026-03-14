@@ -31,3 +31,4 @@ repos:
     hooks:
       - id: codespell
         exclude: "^_extensions/"
+        args: ['--ignore-words=.codespell-ignore-words']
