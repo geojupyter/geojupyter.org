@@ -8,7 +8,7 @@ title: "🏗️ Projects"
 ::::::{.card .h-100}
 <img src="https://github.com/geojupyter/jupytergis/raw/main/jupytergis.png"
      alt="A screenshot of JupyterGIS"
-     class="img-card-top img-fluid" />
+     class="card-img-top img-fluid" />
 
 :::{.card-body}
 #### [JupyterGIS](https://github.com/geojupyter/jupytergis) {.card-title}
@@ -28,7 +28,7 @@ environment :exploding_head:, supporting QGIS project files and other GIS data f
 ::::::{.card .h-100}
 <img src="https://placehold.co/400x200"
      alt="A placeholder image"
-     class="img-card-top img-fluid" />
+     class="card-img-top img-fluid" />
 
 :::{.card-body}
 #### [jupyter-xarray-tiler](https://github.com/geojupyter/jupyter-xarray-tiler) {.card-title}
@@ -49,7 +49,7 @@ to easily add support for visualizing Xarray datasets.
 ::::::{.card .h-100}
 <img src="https://placehold.co/400x200"
      alt="A placeholder image"
-     class="img-card-top img-fluid" />
+     class="card-img-top img-fluid" />
 
 :::{.card-body}
 #### [ipyopenlayers](https://github.com/geojupyter/ipyopenlayers) {.card-title}
