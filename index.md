@@ -9,6 +9,8 @@ about:
       href: "https://github.com/geojupyter"
 ---
 
+<p align="center"><sub>Logo by <a href="https://github.com/IsabelParedes">Isabel Paredes</a></sub></p>
+
 {{< include elevator-pitch.md >}}
 
 
