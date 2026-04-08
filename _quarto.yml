@@ -5,6 +5,7 @@ project:
 website:
   title: "GeoJupyter"
   site-url: "https://geojupyter.org"
+  favicon: "assets/images/logo.png"
 
   repo-url: &repo-url "https://github.com/geojupyter/geojupyter.org"
   repo-actions: ["edit", "issue"]
