@@ -1,6 +1,6 @@
 ---
 title: "GeoJupyter"
-image: "/assets/images/logo.png"
+image: "assets/images/logo.png"
 about:
   template: "jolla"
   links:
