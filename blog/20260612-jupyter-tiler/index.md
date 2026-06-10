@@ -21,7 +21,7 @@ users to write readable and fast data analysis code.
 However, users commonly face challenges when it comes time to visualize their data in
 xarray DataSets.
 While it's relatively easy for users to create static plots, interactively visualizing
-and exploring that data is unintuitive.
+and exploring that data is unintuitive -- this isn't one of xarray's design goals.
 A common approach is to "simply" write the dataset, or a slice of the dataset, out to a
 file and visualizing the data in [QGIS](https://qgis.org/).
 In addition to the friction and context-switching caused by using multiple tools,
