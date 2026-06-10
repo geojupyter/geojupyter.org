@@ -64,5 +64,5 @@ _TODO_
 
 jupyter-tiler started life as
 [jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a very similar
-library by [David Brochart](https://github.com/davidbrochart) that is specific to
-JupyterGIS.
+library that is specific to JupyterGIS by [David
+Brochart](https://github.com/davidbrochart) at [QuantStack](https://quantstack.net/).
