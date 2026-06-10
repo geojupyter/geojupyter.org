@@ -11,5 +11,5 @@ render = "quarto render --fail-if-warnings"
 preview = "quarto preview"
 
 [dependencies]
-quarto = ">=1.5.57"
-pre-commit = "*"
+quarto = ">=1.9.38,<2"
+prek = ">=0.4.4,<0.5"
