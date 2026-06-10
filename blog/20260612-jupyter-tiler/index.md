@@ -50,12 +50,12 @@ await jgis_document.add_data_array_layer(
 )
 ```
 
-![jupyter-tiler in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){loop="true" autoplay="true" muted="true"}
+![jupyter-tiler in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){fig-alt="A user executes 2 Jupyter Notebook cells, similar to the above, to add two new layers from xarray DataArrays to the map: a digital elevation model and a flow accumulation model. After the cells are executed, the data is visualized on an interactive map. The user zooms in to the map, showing jupyter-tiler dynamically loading map tiles at the appropriate resolutions." loop="true" autoplay="true" muted="true"}
 
 
 ## How jupyter-tiler works
 
-![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg)
+![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a DataArray layer. jupyter-tiler then tells TiTiler to add a DataArray route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
 
 _TODO_
 
