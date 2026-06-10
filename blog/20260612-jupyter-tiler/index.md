@@ -66,3 +66,8 @@ jupyter-tiler started life as
 [jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a very similar
 library that is specific to JupyterGIS by [David
 Brochart](https://github.com/davidbrochart) at [QuantStack](https://quantstack.net/).
+
+David solved the hard technical problems in jupytergis-tiler.
+jupyter-tiler is simply a generalization so that this architecture could be used by any
+Jupyter widget for interactive maps and to support multiple dynamic tiling backends
+(currently, TiTiler and Xpublish).
