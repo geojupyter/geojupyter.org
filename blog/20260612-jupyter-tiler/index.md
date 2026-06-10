@@ -12,7 +12,7 @@ categories:
   - "Announcements"
 ---
 
-When Geospatial professionals work with gridded data in Python, they often reach for
+When geospatial professionals work with gridded data in Python, they often reach for
 [xarray](https://docs.xarray.dev).
 Xarray provides clear labeling of dimensions and variables, efficient data loading,
 scalability, support for cloud-native data formats, and a rich ecosystem that enables
