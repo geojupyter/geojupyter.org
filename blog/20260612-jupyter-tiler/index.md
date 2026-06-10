@@ -33,11 +33,10 @@ the Jupyter Notebook interface -- **this is the problem that
 [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) solves**!
 
 
-## [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) in [JupyterGIS](https://jupytergis.readthedocs.io/)
+## jupyter-tiler in JupyterGIS
 
-[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) has been integrated with
-[JupyterGIS](https://jupytergis.readthedocs.io/), enabling easy interactive
-visualization of your xarray data with one function call:
+jupyter-tiler has been integrated with [JupyterGIS](https://jupytergis.readthedocs.io/),
+enabling easy interactive visualization of your xarray data with one function call:
 
 ```python
 await jgis_document.add_data_array_layer(
@@ -50,19 +49,19 @@ await jgis_document.add_data_array_layer(
     )
 ```
 
-![[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){loop="true" autoplay="true" muted="true"}
+![jupyter-tiler in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){loop="true" autoplay="true" muted="true"}
 
 
-## How [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) works
+## How jupyter-tiler works
 
-![A diagram showing how [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg)
+![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg)
 
 _TODO_
 
 
-## How [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) was made
+## How jupyter-tiler was made
 
-[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) started life as
+jupyter-tiler started life as
 [jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a very similar
 library by [David Brochart](https://github.com/davidbrochart) that is specific to
 JupyterGIS.
