@@ -47,6 +47,7 @@ await jgis_document.add_data_array_layer(
         int(xarray_dataarray_dem.min().compute()),
         int(xarray_dataarray_dem.max().compute()),
     )
+)
 ```
 
 ![jupyter-tiler in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){loop="true" autoplay="true" muted="true"}
