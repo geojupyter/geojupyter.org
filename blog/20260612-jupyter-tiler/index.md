@@ -73,7 +73,7 @@ interactive map (Leaflet, OpenLayers, MapLibre, etc.).
 
 jupyter-tiler also provides a proxy
 ([jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy))
-to enable usage of jupyter-tiler in remote environments (like JupyterHub) without extra
+to enable usage of jupyter-tiler in cloud environments (like JupyterHub) without extra
 deployment complexity.
 As a user, you don't need to think about ports; just use the URL that jupyter-tiler
 returns to you.
