@@ -19,7 +19,7 @@ scalability, support for cloud-native data formats, and a rich ecosystem that en
 users to write readable and fast data analysis code.
 
 However, users commonly face challenges when it comes time to visualize their data in
-xarray DataSets.
+xarray `Dataset`s.
 While it's relatively easy for users to create static plots, interactively visualizing
 and exploring that data is unintuitive -- this isn't one of xarray's design goals.
 A common approach is to "simply" write the dataset, or a slice of the dataset, out to a
@@ -55,7 +55,7 @@ await jgis_document.add_data_array_layer(
 
 ## How jupyter-tiler works
 
-![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a DataArray layer. jupyter-tiler then tells TiTiler to add a DataArray route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
+![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a `DataArray` layer. jupyter-tiler then tells TiTiler to add a `DataArray` route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
 
 jupyter-tiler works in the back-end, and it's intended for use by authors of Jupyter
 interactive map widgets, like
@@ -67,7 +67,7 @@ It provides a [Python
 API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
 for interacting with a dynamic tile server (currently supporting both
 [TiTiler](https://titiler.xyz/) or [Xpublish](https://xpublish.readthedocs.io)).
-You hand off an xarray DataArray and some options, jupyter-tiler sets up the tile server
+You hand off an xarray `DataArray` and some options, jupyter-tiler sets up the tile server
 for you, and returns a URL template that you can directly display with a Javascript
 interactive map (Leaflet, OpenLayers, MapLibre, etc.).
 
