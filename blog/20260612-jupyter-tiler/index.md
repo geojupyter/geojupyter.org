@@ -84,5 +84,5 @@ Brochart](https://github.com/davidbrochart) at [QuantStack](https://quantstack.n
 
 David solved the hard technical problems in jupytergis-tiler.
 jupyter-tiler is simply a generalization so that this architecture could be used by any
-Jupyter widget for interactive maps and to support multiple dynamic tiling backends
+Jupyter interactive map widget, and to support multiple dynamic tiling backends
 (currently, TiTiler and Xpublish).
