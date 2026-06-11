@@ -89,3 +89,13 @@ David solved the hard technical problems in jupytergis-tiler.
 jupyter-tiler is simply a generalization so that this architecture could be used by any
 Jupyter interactive map widget, and to support multiple dynamic tiling backends
 (currently, TiTiler and Xpublish).
+
+
+## Try it!
+
+You can try jupyter-tiler with JupyterGIS by installing the optional `tiler` dependency
+group:
+
+```bash
+pip install jupytergis[tiler]
+```
