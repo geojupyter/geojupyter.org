@@ -57,7 +57,22 @@ await jgis_document.add_data_array_layer(
 
 ![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a DataArray layer. jupyter-tiler then tells TiTiler to add a DataArray route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
 
-_TODO_
+jupyter-tiler works in the back-end, and it's intended for use by authors of Jupyter
+interactive map widgets.
+
+It provides a [Python
+API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
+for interacting with a dynamic tile server (currently supporting both
+[TiTiler](https://titiler.xyz/) or [Xpublish](https://xpublish.readthedocs.io)).
+You hand off an xarray DataArray and some options, jupyter-tiler sets up the tile server
+for you, and returns a URL template that you can directly display with a Javascript
+interactive map (Leaflet, OpenLayers, MapLibre, etc.).
+
+jupyter-tiler also provides a proxy
+([jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy))
+to enable usage of jupyter-tiler without extra deployment complexity.
+As a user, you don't need to think about ports; just use the URL that jupyter-tiler
+returns to you.
 
 
 ## How jupyter-tiler was made
