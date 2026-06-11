@@ -58,7 +58,10 @@ await jgis_document.add_data_array_layer(
 ![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a DataArray layer. jupyter-tiler then tells TiTiler to add a DataArray route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
 
 jupyter-tiler works in the back-end, and it's intended for use by authors of Jupyter
-interactive map widgets.
+interactive map widgets, like
+[ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
+[ipyopenlayers](https://github.com/geojupyter/ipyopenlayers), and JupyterGIS, to enable
+them to expose convenient features that leverage a dynamic tile server to their users.
 
 It provides a [Python
 API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
