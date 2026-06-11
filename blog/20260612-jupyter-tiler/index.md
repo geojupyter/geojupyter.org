@@ -5,7 +5,7 @@ description: |
   of dynamic tile servers (currently supporting [TiTiler](https://titiler.xyz/) or
   [Xpublish](https://xpublish.readthedocs.io)) within the Jupyter architecture.
 date: "2026-06-12"
-# image: "TODO.jpg"
+image: "thumbnail.jpg"
 author:
   - name: "Matt Fisher"
 categories:
