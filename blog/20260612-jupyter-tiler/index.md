@@ -85,6 +85,8 @@ jupyter-tiler started life as
 [jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a very similar
 library that is specific to JupyterGIS by [David
 Brochart](https://github.com/davidbrochart) at [QuantStack](https://quantstack.net/).
+You can read more about jupytergis-tiler in its own
+[announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16).
 
 David solved the hard technical problems in jupytergis-tiler.
 jupyter-tiler is simply a generalization so that this architecture could be used by any
