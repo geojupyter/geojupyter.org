@@ -4,7 +4,7 @@ description: |
   [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) is a backend tool to enable use
   of dynamic tile servers (currently supporting [TiTiler](https://titiler.xyz/) or
   [Xpublish](https://xpublish.readthedocs.io)) within the Jupyter architecture.
-date: "2026-06-12"
+date: "2026-06-15"
 image: "thumbnail.jpg"
 author:
   - name: "Matt Fisher"
