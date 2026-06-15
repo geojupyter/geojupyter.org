@@ -50,7 +50,7 @@ await jgis_document.add_data_array_layer(
 )
 ```
 
-![jupyter-tiler in JupyterGIS, in action](./jupyter-tiler-in-jupytergis.mp4){fig-alt="A user executes 2 Jupyter Notebook cells, similar to the above, to add two new layers from xarray DataArrays to the map: a digital elevation model and a flow accumulation model. After the cells are executed, the data is visualized on an interactive map. The user zooms in to the map, showing jupyter-tiler dynamically loading map tiles at the appropriate resolutions." loop="true" autoplay="true" muted="true"}
+![jupyter-tiler in JupyterGIS, in action: The user runs two Notebook cells which add xarray `DataArray`s `da_dem` (a Digital Elevation Model) and `da_acc` (a flow accumulation model) to the map, each in one step. The tile server handles displaying the data at the optimal resolution depending on the user's zoom level.](./jupyter-tiler-in-jupytergis.mp4){fig-alt="A user executes 2 Jupyter Notebook cells, similar to the above, to add two new layers from xarray DataArrays to the map: a digital elevation model and a flow accumulation model. After the cells are executed, the data is visualized on an interactive map. The user zooms in to the map, showing jupyter-tiler dynamically loading map tiles at the appropriate resolutions." loop="true" autoplay="true" muted="true"}
 
 
 ## How jupyter-tiler works
