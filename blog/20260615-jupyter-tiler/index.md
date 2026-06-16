@@ -89,10 +89,13 @@ that is specific to JupyterGIS.
 You can read more about jupytergis-tiler in its own
 [announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16)!
 
-David solved the hard technical problems in jupytergis-tiler.
-jupyter-tiler is simply a generalization so that this architecture could be used by any
-Jupyter interactive map widget, and to support multiple dynamic tiling backends
-(currently, TiTiler and Xpublish).
+In jupytergis-tiler, David implemented an in-kernel tile server that could directly read
+data from an xarray `DataArray` and serve tiles using TiTiler.
+
+I built jupyter-tiler as a generalization of jupytergis-tiler so that this architecture
+could be used by any Jupyter interactive map widget.
+I also added support for multiple dynamic tiling backends (currently, TiTiler and
+Xpublish).
 
 
 ## Try it!
