@@ -15,25 +15,18 @@ categories:
   - "Announcements"
 ---
 
-When geospatial professionals work with gridded data in Python, they often reach for
-[xarray](https://docs.xarray.dev).
-Xarray provides clear labeling of dimensions and variables, efficient data loading,
-scalability, support for cloud-native data formats, and a rich ecosystem that enables
-users to write readable and fast data analysis code.
+When users of geospatial data computate with raster data, they often face
+challenges with visualizing their results.
+While they can easily produce static plots of their raster dataset, they often really
+need interactive visualizations to effectively explore their results.
+Interactive visualization often requires writing data to disk, decisions about
+[file formats](https://guide.cloudnativegeo.org/), and/or
+[context-switching](https://en.wikipedia.org/wiki/Human_multitasking) to another tool
+(like [QGIS](https://qgis.org)).
 
-However, users commonly face challenges when it comes time to visualize their data in
-xarray `Dataset`s.
-While it's relatively easy for users to create static plots, interactively visualizing
-and exploring that data is unintuitive -- this isn't one of xarray's design goals.
-A common approach is to "simply" write the dataset, or a slice of the dataset, out to a
-file and visualizing the data in [QGIS](https://qgis.org/).
-In addition to the friction and context-switching caused by using multiple tools,
-writing the data out to a file opens a whole new set of questions around
-[file formats](https://guide.cloudnativegeo.org/).
-
-Ideally, the user would be able to interactively explore their dataset without leaving
-the Jupyter Notebook interface -- **this is the problem that
-[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) solves**!
+**[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) helps those users create
+interactive visualizations without leaving the Notebook environment, eliminating costly
+decision-making and context switches**.
 
 
 ## jupyter-tiler in JupyterGIS
