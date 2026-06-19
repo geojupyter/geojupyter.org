@@ -40,12 +40,12 @@ jupyter-tiler has been integrated with [JupyterGIS](https://jupytergis.readthedo
 streamlining interactive visualization of xarray `DataArray`s to a single function call:
 
 ```python
-data_min = int(xarray_dataarray_dem.min().compute())
-data_max = int(xarray_dataarray_dem.max().compute())
+data_min = int(xarray_dataarray_flow_acc.min().compute())
+data_max = int(xarray_dataarray_flow_acc.max().compute())
 
 await jgis_document.add_data_array_layer(
-    name="Digital elevation model layer",  # The layer name for display in JupyterGIS
-    data_array=xarray_dataarray_dem,       # Our computation results!
+    name="Flow accumulation",              # The layer name for display in JupyterGIS
+    data_array=xarray_dataarray_flow_acc,  # Our computation results!
     colormap_name="terrain",
     colormap_range=(data_min, data_max),   # The range of data values our colormap will span
 )
