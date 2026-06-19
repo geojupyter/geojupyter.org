@@ -6,7 +6,7 @@ description: |
   switching tools or worrying about file formats by leveraging dynamic tile servers
   under the hood (currently supporting [TiTiler](https://titiler.xyz/) or
   [Xpublish](https://xpublish.readthedocs.io)).
-date: "2026-06-16"
+date: "2026-06-22"
 image: "thumbnail.jpg"
 author:
   - name: "Matt Fisher"
