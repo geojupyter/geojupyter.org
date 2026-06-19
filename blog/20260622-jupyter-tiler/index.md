@@ -37,7 +37,7 @@ environment or writing files, eliminating costly decision-making and context swi
 ## jupyter-tiler in JupyterGIS
 
 jupyter-tiler has been integrated with [JupyterGIS](https://jupytergis.readthedocs.io/),
-enabling easy interactive visualization of your xarray data with one function call:
+streamlining interactive visualization of your xarray data to a single function call:
 
 ```python
 await jgis_document.add_data_array_layer(
