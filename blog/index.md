@@ -2,7 +2,7 @@
 title: "📝 Blog"
 listing:
   id: "listing"
-  contents: "*/index.md"
+  contents: "*/index.{qmd,md}"
   sort: "date desc"
   type: default
   feed: true
