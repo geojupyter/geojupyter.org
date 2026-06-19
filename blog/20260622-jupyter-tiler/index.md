@@ -17,12 +17,12 @@ categories:
 
 When users of geospatial data computate with raster data, they often face
 challenges with visualizing their results.
-A typical workflow often involves first reading data into an analysis tool like
+A typical workflow involves first reading data into an analysis tool like
 [xarray](https://docs.xarray.dev/en/stable/), then performing computations on the data,
 then visualizing their results. This analysis ↔ visualization cycle is usually repeated
 many times.
 
-While users can easily produce static plots of their raster dataset, they often really
+While users can easily produce static plots of their raster dataset, they usually really
 need interactive visualizations to effectively explore their results.
 Interactive visualization often requires writing data to disk, decisions about
 visualization-friendly [file formats](https://guide.cloudnativegeo.org/), and/or
