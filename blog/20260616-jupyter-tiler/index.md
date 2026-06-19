@@ -1,9 +1,11 @@
 ---
 title: "Announcing jupyter-tiler!"
 description: |
-  [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) is a backend tool to enable use
-  of dynamic tile servers (currently supporting [TiTiler](https://titiler.xyz/) or
-  [Xpublish](https://xpublish.readthedocs.io)) within the Jupyter architecture.
+  [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) enables users of Jupyter
+  interactive map widgets (like JupyterGIS) to visualize large raster datasets without
+  switching tools or worrying about file formats by leveraging dynamic tile servers
+  under the hood (currently supporting [TiTiler](https://titiler.xyz/) or
+  [Xpublish](https://xpublish.readthedocs.io)).
 date: "2026-06-16"
 image: "thumbnail.jpg"
 author:
