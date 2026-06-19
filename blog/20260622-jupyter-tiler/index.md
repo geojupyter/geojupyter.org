@@ -17,16 +17,21 @@ categories:
 
 When users of geospatial data computate with raster data, they often face
 challenges with visualizing their results.
-While they can easily produce static plots of their raster dataset, they often really
+A typical workflow often involves first reading data into an analysis tool like
+[xarray](https://docs.xarray.dev/en/stable/), then performing computations on the data,
+then visualizing their results. This analysis ↔ visualization cycle is usually repeated
+many times.
+
+While users can easily produce static plots of their raster dataset, they often really
 need interactive visualizations to effectively explore their results.
 Interactive visualization often requires writing data to disk, decisions about
-[file formats](https://guide.cloudnativegeo.org/), and/or
+visualization-friendly [file formats](https://guide.cloudnativegeo.org/), and/or
 [context-switching](https://en.wikipedia.org/wiki/Human_multitasking) to another tool
 (like [QGIS](https://qgis.org)).
 
 **[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) helps those users create
-interactive visualizations without leaving the Notebook environment, eliminating costly
-decision-making and context switches**.
+interactive visualizations of their computation results without leaving the Notebook
+environment or writing files, eliminating costly decision-making and context switches**.
 
 
 ## jupyter-tiler in JupyterGIS
