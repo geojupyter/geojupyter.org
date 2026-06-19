@@ -101,9 +101,20 @@ Xpublish).
 
 ## Try it!
 
-You can try jupyter-tiler with JupyterGIS by installing the optional `tiler` dependency
-group:
+You can try jupyter-tiler with JupyterGIS today!
+The command below will install JupyterGIS plus its "tiler"
+[extra](https://packaging.python.org/en/latest/specifications/dependency-specifiers/#extras),
+which adds the functionality you saw in the code example and video above.
+
+This is only available as a pre-release right now, so you'll need to explicitly set the
+version (`pip` won't install pre-releases unless asked explicitly)!
+When JupyterGIS `0.16.0` is fully released, you won't need this anymore.
 
 ```bash
-pip install jupytergis[tiler]
+pip install jupytergis[tiler]==0.16.0a2
 ```
+
+:::{note}
+At time of writing, JupyterGIS' latest prerelease is `0.16.0a2`, and jupyter-tiler's latest
+release is `0.8.0`.
+:::
