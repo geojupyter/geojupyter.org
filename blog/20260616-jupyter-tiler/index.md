@@ -10,6 +10,7 @@ date: "2026-06-16"
 image: "thumbnail.jpg"
 author:
   - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
 categories:
   - "Announcements"
 ---
