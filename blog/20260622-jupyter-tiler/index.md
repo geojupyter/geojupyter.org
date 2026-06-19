@@ -56,7 +56,41 @@ await jgis_document.add_data_array_layer(
 
 ## How jupyter-tiler works
 
-![A diagram showing how jupyter-tiler enables Jupyter interactive map widgets to dynamically serve tiles of xarray data](https://jupyter-tiler.readthedocs.io/en/latest/_images/high-level-diagram.svg){fig-alt="A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map. First, the widget tells the jupyter-tiler API to add a `DataArray` layer. jupyter-tiler then tells TiTiler to add a `DataArray` route to its HTTP API. This triggers jupyter-server-proxy to expose that route through Jupyter Server. The map widget receives a URL it can use to request tiles. And finally, the map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy."}
+```{mermaid}
+sequenceDiagram
+    actor user as User
+    participant widget as Map<br/>widget
+
+    box jupyter-tiler
+        participant api@{"type": "boundary"} as Python interface
+        participant proxy as jupyter-server-proxy
+        participant tileserver as TiTiler
+    end
+
+    user->>widget: Show my data<br/>on the map
+
+        widget->>api: add_data_array(...)
+            api->>tileserver: Add DataArray to tileserver
+            tileserver->>api: tiles URL
+        api->>widget: proxy-friendly<br/>tiles URL
+
+        widget->>proxy: Request map tiles with tiles URL
+            tileserver<<->>proxy: proxy
+        proxy->>widget: Here's your map tiles!
+
+    widget->>user: Here's your map!
+
+    accDescr {
+        A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map.
+        First, the user requests to visualize data on the map with the widget.
+        The widget tells the jupyter-tiler API to add a `DataArray` layer.
+        jupyter-tiler then tells TiTiler to add a `DataArray` route to its HTTP API.
+        This triggers jupyter-server-proxy to expose that route through Jupyter Server.
+        The map widget receives a proxy-friendly URL it can use to request tiles.
+        The map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy.
+        Finally, the user receives the requested interactive map displaying their data.
+    }
+```
 
 jupyter-tiler works in the back-end, and it's intended for use by authors of Jupyter
 interactive map widgets, like
