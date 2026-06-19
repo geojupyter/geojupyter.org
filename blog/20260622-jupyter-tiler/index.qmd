@@ -102,7 +102,7 @@ sequenceDiagram
     participant widget as Map<br/>widget
 
     box jupyter-tiler
-        participant api@{"type": "boundary"} as Python interface
+        participant api@{"type": "boundary", "alias": "Python interface"}
         participant proxy as jupyter-server-proxy
         participant tileserver as TiTiler
     end
