@@ -69,8 +69,9 @@ data from an xarray `DataArray` and serve tiles using TiTiler.
 
 I built jupyter-tiler as a generalization of jupytergis-tiler so that this architecture
 could be used by any Jupyter interactive map widget.
-I also added support for multiple dynamic tiling backends (currently, TiTiler and
-Xpublish).
+I also added support for multiple
+[dynamic tiling](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
+backends (currently, TiTiler and Xpublish).
 
 
 ## Try it!
