@@ -132,11 +132,12 @@ sequenceDiagram
     }
 ```
 
-jupyter-tiler works in the back-end, and it's intended for use by authors of Jupyter
-interactive map widgets, like
+jupyter-tiler works under the hood, and it's intended for use by authors of
+Jupyter interactive map widgets, like
 [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
-[ipyopenlayers](https://github.com/geojupyter/ipyopenlayers), and JupyterGIS, to enable
-them to provide convenient features that leverage a dynamic tile server to their users.
+[ipyopenlayers](https://github.com/geojupyter/ipyopenlayers), and JupyterGIS,
+to enable them to provide their users with convenient features that leverage a
+dynamic tile server.
 
 It provides a [Python
 API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
