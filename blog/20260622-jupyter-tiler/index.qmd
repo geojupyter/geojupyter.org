@@ -54,26 +54,6 @@ await jgis_document.add_data_array_layer(
 ![jupyter-tiler in JupyterGIS, in action: The user runs two Notebook cells which add xarray `DataArray`s `da_dem` (a Digital Elevation Model) and `da_acc` (a flow accumulation model) to the map, each in one step. The tile server handles displaying the data at the optimal resolution depending on the user's zoom level.](./jupyter-tiler-in-jupytergis.mp4){fig-alt="A user executes 2 Jupyter Notebook cells, similar to the above, to add two new layers from xarray DataArrays to the map: a digital elevation model and a flow accumulation model. After the cells are executed, the data is visualized on an interactive map. The user zooms in to the map, showing jupyter-tiler dynamically loading map tiles at the appropriate resolutions." loop="true" autoplay="true" muted="true"}
 
 
-## How jupyter-tiler was made
-
-jupyter-tiler started life as
-[jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a similar
-library by [David Brochart](https://github.com/davidbrochart) at
-[QuantStack](https://quantstack.net/)
-that is specific to JupyterGIS.
-You can read more about jupytergis-tiler in its own
-[announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16)!
-
-In jupytergis-tiler, David implemented an in-kernel tile server that could directly read
-data from an xarray `DataArray` and serve tiles using TiTiler.
-
-I built jupyter-tiler as a generalization of jupytergis-tiler so that this architecture
-could be used by any Jupyter interactive map widget.
-I also added support for multiple
-[dynamic tiling](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
-backends (currently, TiTiler and Xpublish).
-
-
 ## Try it!
 
 You can try jupyter-tiler with JupyterGIS today!
@@ -155,3 +135,23 @@ to enable usage of jupyter-tiler in cloud environments (like JupyterHub) without
 deployment complexity.
 As a user, you don't need to think about ports; just use the URL that jupyter-tiler
 returns to you.
+
+
+## How jupyter-tiler was made
+
+jupyter-tiler started life as
+[jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a similar
+library by [David Brochart](https://github.com/davidbrochart) at
+[QuantStack](https://quantstack.net/)
+that is specific to JupyterGIS.
+You can read more about jupytergis-tiler in its own
+[announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16)!
+
+In jupytergis-tiler, David implemented an in-kernel tile server that could directly read
+data from an xarray `DataArray` and serve tiles using TiTiler.
+
+I built jupyter-tiler as a generalization of jupytergis-tiler so that this architecture
+could be used by any Jupyter interactive map widget.
+I also added support for multiple
+[dynamic tiling](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
+backends (currently, TiTiler and Xpublish).
