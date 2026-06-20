@@ -11,6 +11,9 @@ image: "thumbnail.jpg"
 author:
   - name: "Matt Fisher"
     orcid: "0000-0003-3260-5445"
+    affiliation:
+      - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
+        url: "https://dse.berkeley.edu"
 categories:
   - "Announcements"
 ---
