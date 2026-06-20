@@ -156,7 +156,9 @@ You can read more about jupytergis-tiler in its own
 
 It's different in the following ways:
 
-* Now supports any Jupyter interactive map widget, not only JupyterGIS
+* Now supports any Jupyter interactive map widget, not only JupyterGIS -- the
+  purpose of the GeoJupyter community is to benefit the whole
+  geospatial-in-Jupyter ecosystem!
 * Simplified interface
 * Supports multiple dynamic tiling backends (currently, TiTiler and Xpublish)
 * Supports usage on JupyterHub
