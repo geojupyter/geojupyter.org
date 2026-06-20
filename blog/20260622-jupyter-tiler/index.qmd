@@ -160,3 +160,13 @@ It's different in the following ways:
 * Has a full [documentation website](https://jupyter-tiler.readthedocs.io/)!
 * Has a full suite of unit tests
 * Provides a `py.typed` marker  and is typechecked in strict mode
+
+
+## :heart: Thanks for reading!
+
+We appreciate your interest!
+
+If you would like to connect with the GeoJupyter community to learn more,
+please join us on the [Project Jupyter Zulip chat space](https://jupyter.zulipchat.com).
+We'd love to hear about your use cases and challenges working with geospatial
+data in Jupyter.
