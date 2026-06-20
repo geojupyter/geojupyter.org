@@ -72,7 +72,7 @@ When JupyterGIS `0.16.0` is fully released, you won't need this anymore.
 pip install jupytergis[tiler]==0.16.0a2
 ```
 
-:::{note}
+:::{.callout-note}
 At time of writing, JupyterGIS' latest prerelease is `0.16.0a2`, and jupyter-tiler's latest
 release is `0.8.0`.
 :::
