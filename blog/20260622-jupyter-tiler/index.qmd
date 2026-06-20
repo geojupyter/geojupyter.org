@@ -102,17 +102,17 @@ sequenceDiagram
     participant widget as Map<br/>widget
 
     box jupyter-tiler
-        participant api@{"type": "boundary", "alias": "Python interface"}
+        participant API@{"type": "boundary"}
         participant proxy as jupyter-server-proxy
         participant tileserver as TiTiler
     end
 
     user->>widget: Show my data<br/>on the map
 
-        widget->>api: add_data_array(...)
-            api->>tileserver: Add DataArray to tileserver
-            tileserver->>api: tiles URL
-        api->>widget: proxy-friendly<br/>tiles URL
+        widget->>API: add_data_array(...)
+            API->>tileserver: Add DataArray to tileserver
+            tileserver->>API: tiles URL
+        API->>widget: proxy-friendly<br/>tiles URL
 
         widget->>proxy: Request map tiles with tiles URL
             tileserver<<->>proxy: proxy
