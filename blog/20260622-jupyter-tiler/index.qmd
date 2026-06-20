@@ -113,8 +113,9 @@ sequenceDiagram
     }
 ```
 
-jupyter-tiler provides an engine for loading map tiles dynamically from xarray `Dataset`s
-for real-time display on interactive maps.
+jupyter-tiler provides an engine for
+[generating map tiles dynamically](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
+from xarray `Dataset`s for real-time display on interactive maps.
 But end-users don't install jupyter-tiler themselves -- we built this to make
 it easier for authors of Jupyter interactive map widgets, like
 [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
@@ -152,6 +153,5 @@ data from an xarray `DataArray` and serve tiles using TiTiler.
 
 I built jupyter-tiler as a generalization of jupytergis-tiler so that this architecture
 could be used by any Jupyter interactive map widget.
-I also added support for multiple
-[dynamic tiling](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
-backends (currently, TiTiler and Xpublish).
+I also added support for multiple dynamic tiling backends (currently, TiTiler
+and Xpublish).
