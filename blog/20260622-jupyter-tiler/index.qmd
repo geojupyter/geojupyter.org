@@ -125,7 +125,8 @@ to offer their users a lower-friction path to visualizing their data.
 jupyter-tiler provides a
 [Python API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
 for interacting with a dynamic tile server (currently supporting both
-[TiTiler](https://titiler.xyz/) or [Xpublish](https://xpublish.readthedocs.io)).
+[TiTiler](https://titiler.xyz/) and
+[Xpublish](https://xpublish.readthedocs.io)).
 You hand off an xarray `DataArray` and some options, jupyter-tiler sets up the tile server
 for you, and returns a URL template that you can directly display with a Javascript
 interactive map (Leaflet, OpenLayers, MapLibre, etc.).
