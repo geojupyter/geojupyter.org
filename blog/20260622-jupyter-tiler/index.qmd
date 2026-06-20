@@ -133,15 +133,16 @@ sequenceDiagram
     }
 ```
 
-jupyter-tiler works under the hood, and it's intended for use by authors of
-Jupyter interactive map widgets, like
+jupyter-tiler provides an engine for loading map tiles dynamically from xarray `Dataset`s
+for real-time display on interactive maps.
+But end-users don't install jupyter-tiler themselves -- we built this to make
+it easier for authors of Jupyter interactive map widgets, like
 [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
 [ipyopenlayers](https://github.com/geojupyter/ipyopenlayers), and JupyterGIS,
-to enable them to provide their users with convenient features that leverage a
-dynamic tile server.
+to offer their users a lower-friction path to visualizing their data.
 
-It provides a [Python
-API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
+jupyter-tiler provides a
+[Python API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
 for interacting with a dynamic tile server (currently supporting both
 [TiTiler](https://titiler.xyz/) or [Xpublish](https://xpublish.readthedocs.io)).
 You hand off an xarray `DataArray` and some options, jupyter-tiler sets up the tile server
