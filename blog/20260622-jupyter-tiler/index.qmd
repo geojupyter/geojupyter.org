@@ -57,9 +57,9 @@ await jgis_document.add_data_array_layer(
 ## How jupyter-tiler was made
 
 jupyter-tiler started life as
-[jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a very similar
-library by [David
-Brochart](https://github.com/davidbrochart) at [QuantStack](https://quantstack.net/)
+[jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a similar
+library by [David Brochart](https://github.com/davidbrochart) at
+[QuantStack](https://quantstack.net/)
 that is specific to JupyterGIS.
 You can read more about jupytergis-tiler in its own
 [announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16)!
