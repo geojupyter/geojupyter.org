@@ -164,7 +164,7 @@ It's different in the following ways:
 * Supports usage on JupyterHub
 * Has a full [documentation website](https://jupyter-tiler.readthedocs.io/)!
 * Has a full suite of unit tests
-* Provides a `py.typed` marker  and is typechecked in strict mode
+* Provides a `py.typed` marker and is typechecked in strict mode
 
 
 ## :heart: Thanks for reading!
