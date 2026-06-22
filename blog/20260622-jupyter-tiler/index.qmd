@@ -18,7 +18,7 @@ categories:
   - "Announcements"
 ---
 
-When users of geospatial data computate with raster data, they often face
+When users of geospatial data compute with raster data, they often face
 challenges with visualizing their results.
 A typical workflow involves first reading data into an analysis tool like
 [xarray](https://docs.xarray.dev/en/stable/), then performing computations on the data,
