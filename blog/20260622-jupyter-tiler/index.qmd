@@ -1,0 +1,177 @@
+---
+title: "Announcing jupyter-tiler!"
+description: |
+  [jupyter-tiler](https://jupyter-tiler.readthedocs.io/) enables users of Jupyter
+  interactive map widgets (like JupyterGIS) to visualize large raster datasets without
+  switching tools or worrying about file formats by leveraging dynamic tile servers
+  under the hood (currently supporting [TiTiler](https://titiler.xyz/) or
+  [Xpublish](https://xpublish.readthedocs.io)).
+date: "2026-06-22"
+image: "thumbnail.jpg"
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+    affiliation:
+      - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
+        url: "https://dse.berkeley.edu"
+categories:
+  - "Announcements"
+---
+
+When users of geospatial data compute with raster data, they often face
+challenges with visualizing their results.
+A typical workflow involves first reading data into an analysis tool like
+[xarray](https://docs.xarray.dev/en/stable/), then performing computations on the data,
+then visualizing their results. This analysis ↔ visualization cycle is usually repeated
+many times.
+
+While users can easily produce static plots of their raster dataset, they usually
+need interactive maps to effectively _explore_ their results.
+Interactive visualization often requires writing data to disk, decisions about
+visualization-friendly [file formats](https://guide.cloudnativegeo.org/), and/or
+[context-switching](https://en.wikipedia.org/wiki/Human_multitasking) to another tool
+(like [QGIS](https://qgis.org)).
+
+**[jupyter-tiler](https://jupyter-tiler.readthedocs.io/) helps those users create
+interactive maps of their computation results without leaving the Notebook
+environment or writing files, eliminating costly decision-making and context switches**.
+
+
+## jupyter-tiler in JupyterGIS
+
+jupyter-tiler has been integrated with [JupyterGIS](https://jupytergis.readthedocs.io/),
+streamlining interactive visualization of xarray `DataArray`s to a single function call:
+
+```python
+data_min = int(xarray_dataarray_flow_acc.min().compute())
+data_max = int(xarray_dataarray_flow_acc.max().compute())
+
+await jgis_document.add_data_array_layer(
+    name="Flow accumulation",              # The layer name for display in JupyterGIS
+    data_array=xarray_dataarray_flow_acc,  # Our computation results!
+    colormap_name="terrain",
+    colormap_range=(data_min, data_max),   # The range of data values our colormap will span
+)
+```
+
+![jupyter-tiler in JupyterGIS, in action: The user runs two Notebook cells which add xarray `DataArray`s `da_dem` (a Digital Elevation Model) and `da_acc` (a flow accumulation model) to the map, each in one step. The tile server handles displaying the data at the optimal resolution depending on the user's zoom level.](./jupyter-tiler-in-jupytergis.mp4){fig-alt="A user executes 2 Jupyter Notebook cells, similar to the above, to add two new layers from xarray DataArrays to the map: a digital elevation model and a flow accumulation model. After the cells are executed, the data is visualized on an interactive map. The user zooms in to the map, showing jupyter-tiler dynamically loading map tiles at the appropriate resolutions." loop="true" autoplay="true" muted="true"}
+
+
+## Try it!
+
+You can try jupyter-tiler with JupyterGIS today!
+The command below will install JupyterGIS plus its "tiler"
+[extra](https://packaging.python.org/en/latest/specifications/dependency-specifiers/#extras),
+which adds the functionality you saw in the code example and video above.
+
+This is only available as a pre-release right now, so you'll need to explicitly set the
+version (`pip` won't install pre-releases unless asked explicitly)!
+When JupyterGIS `0.16.0` is fully released, you won't need this anymore.
+
+```bash
+pip install jupytergis[tiler]==0.16.0a2
+```
+
+:::{.callout-note}
+At time of writing, JupyterGIS' latest prerelease is `0.16.0a2`, and jupyter-tiler's latest
+release is `0.8.0`.
+:::
+
+
+## How jupyter-tiler works
+
+```{mermaid}
+sequenceDiagram
+    actor user as User
+    participant widget as Map<br/>widget
+
+    box jupyter-tiler
+        participant API@{"type": "boundary"}
+        participant proxy as jupyter-server-proxy
+        participant tileserver as TiTiler
+    end
+
+    user->>widget: Show my data<br/>on the map
+
+        widget->>API: add_data_array(...)
+            API->>tileserver: Add DataArray to tileserver
+            tileserver->>API: tiles URL
+        API->>widget: proxy-friendly<br/>tiles URL
+
+        widget->>proxy: Request map tiles with tiles URL
+            tileserver<<->>proxy: proxy
+        proxy->>widget: Here's your map tiles!
+
+    widget->>user: Here's your map!
+
+    accDescr {
+        A diagram shows a data flow: A third-party interactive map widget leverages jupyter-tiler to display data on the map.
+        First, the user requests to visualize data on the map with the widget.
+        The widget tells the jupyter-tiler API to add a `DataArray` layer.
+        jupyter-tiler then tells TiTiler to add a `DataArray` route to its HTTP API.
+        This triggers jupyter-server-proxy to serve that route through Jupyter Server.
+        The map widget receives a proxy-friendly URL it can use to request tiles.
+        The map widget uses that URL to request and receive tiles from TiTiler via jupyter-server-proxy.
+        Finally, the user receives the requested interactive map displaying their data.
+    }
+```
+
+jupyter-tiler provides an engine for
+[generating map tiles dynamically](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
+from xarray `Dataset`s for real-time display on interactive maps.
+But end-users don't install jupyter-tiler themselves -- we built this to make
+it easier for authors of Jupyter interactive map widgets, like
+[ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
+[ipyopenlayers](https://github.com/geojupyter/ipyopenlayers), and JupyterGIS,
+to offer their users a lower-friction path to visualizing their data.
+
+jupyter-tiler provides a
+[Python API](https://jupyter-tiler.readthedocs.io/en/latest/user-guide/reference/api/)
+for interacting with a dynamic tile server (currently supporting both
+[TiTiler](https://titiler.xyz/) and
+[Xpublish](https://xpublish.readthedocs.io)).
+You hand off an xarray `DataArray` and some options, jupyter-tiler sets up the tile server
+for you, and returns a URL template that you can directly display with a Javascript
+interactive map (Leaflet, OpenLayers, MapLibre, etc.).
+
+jupyter-tiler also provides a proxy
+([jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy))
+to enable usage of jupyter-tiler in cloud environments (like JupyterHub) without extra
+deployment complexity.
+As a user, you don't need to think about ports; just use the URL that jupyter-tiler
+returns to you.
+
+
+## How jupyter-tiler was made
+
+jupyter-tiler started life as
+[jupytergis-tiler](https://github.com/geojupyter/jupytergis-tiler), a similar
+library by [David Brochart](https://github.com/davidbrochart) at
+[QuantStack](https://quantstack.net/)
+that is specific to JupyterGIS.
+You can read more about jupytergis-tiler in its own
+[announcement blog post](https://medium.com/@david-brochart/create-your-own-layers-in-jupytergis-cbb995a89b16)!
+
+**We built jupyter-tiler to supersede jupytergis-tiler**.
+
+It's different in the following ways:
+
+* Now supports any Jupyter interactive map widget, not only JupyterGIS -- the
+  purpose of the GeoJupyter community is to benefit the whole
+  geospatial-in-Jupyter ecosystem!
+* Simplified interface
+* Supports multiple dynamic tiling backends (currently, TiTiler and Xpublish)
+* Supports usage on JupyterHub
+* Has a full [documentation website](https://jupyter-tiler.readthedocs.io/)!
+* Has a full suite of unit tests
+* Provides a `py.typed` marker and is typechecked in strict mode
+
+
+## :heart: Thanks for reading!
+
+We appreciate your interest!
+
+If you would like to connect with the GeoJupyter community to learn more,
+please join us on the [Project Jupyter Zulip chat space](https://jupyter.zulipchat.com).
+We'd love to hear about your use cases and challenges working with geospatial
+data in Jupyter.
