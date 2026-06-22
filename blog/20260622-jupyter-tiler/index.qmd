@@ -25,8 +25,8 @@ A typical workflow involves first reading data into an analysis tool like
 then visualizing their results. This analysis ↔ visualization cycle is usually repeated
 many times.
 
-While users can easily produce static plots of their raster dataset, they usually really
-need interactive maps to effectively explore their results.
+While users can easily produce static plots of their raster dataset, they usually
+need interactive maps to effectively _explore_ their results.
 Interactive visualization often requires writing data to disk, decisions about
 visualization-friendly [file formats](https://guide.cloudnativegeo.org/), and/or
 [context-switching](https://en.wikipedia.org/wiki/Human_multitasking) to another tool
