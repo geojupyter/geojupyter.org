@@ -118,7 +118,7 @@ sequenceDiagram
 
 jupyter-tiler provides an engine for
 [generating map tiles dynamically](https://developmentseed.org/titiler/user_guide/dynamic_tiling)
-from xarray `Dataset`s for real-time display on interactive maps.
+from xarray `DataArray`s for real-time display on interactive maps.
 But end-users don't install jupyter-tiler themselves -- we built this to make
 it easier for authors of Jupyter interactive map widgets, like
 [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet),
