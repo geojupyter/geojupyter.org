@@ -25,11 +25,28 @@ In existing geospatial science software packages, data processing operations are
 ## How It Works
 First we added a vector drawing feature. This is added to a map frame in the function call. It can be activated by clicking the pencil icon, and a dropdown menu allows you to select the vector type. 
 
+```python
+from ipyopenlayers import (
+    Map, DrawAndExport
+)
+
+m=Map(center=[-122.2264,37.0642],zoom=15)
+m.add_control(DrawAndExport())
+m
+```
+
+![The user can now enable draw mode, and select from a list of vector types](./demo_1.mp4){fig-alt="The user sees a map of the Swanton Pacific Ranch area in California. The user clicks the pencil icon to enable draw mode, selects the 'polygon' vector type, then draws a large hexagon on the map." loop="true" autoplay="true" muted="true"}
+
 Next, the (not so) secret sauce: the export button dynamically reads the new data on the map, and exports it as a deterministically generated, self contained python script, inserted as a cell in the same notebook.
 
-Lastly, we explored integrating with the exciting Jupyter-AI extension. If you have the extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled Jupyter Collaboration chat.
+![When the user clicks the export button, a new cell is inserted into the notebook with the generated python code.](./demo_2.mp4){fig-alt="the user clicks the export button, then scrolls down to see a new cell inserted with the generated python code. the code contains the json data for the drawn vector features. It stores it as a shapely object and displays via pyplot. the user changes the color of the pyplot. The user runs the cell to see the updated visualization." loop="true" autoplay="true" muted="true"}
 
-Try these features for yourself by following the installation instructions in the [readme]. As this is an exploratory prototype, if you do try it, we would love to hear your feedback via github via [Zulip].
+Lastly, we explored integrating with the exciting Jupyter-AI extension. If you have the Jupyter-AI extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled Jupyter Collaboration chat.
+
+![LLM's can help you map!](./demo_3.mp4){fig-alt="the user clicks a suggested LLM prompt labeled 'improve plot' and a pre-written message appears in the collaboration chat. The user sends the message, waits briefly, and receieves a response from Claude. The user clicks the button to replace the current cell content." loop="true" autoplay="true" muted="true"}
+
+## How to Try It Out
+Try these features for yourself by following the installation instructions in the [readme](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers/blob/main/README.md). As this is an exploratory prototype, if you do try it, we would love to hear your feedback via github issues or [Zulip](https://jupyter.zulipchat.com).
 
 
 ## :heart: Thanks for reading!
