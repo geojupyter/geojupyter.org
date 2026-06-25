@@ -1,0 +1,39 @@
+---
+title: "Exploring Scientific Reproducibility in Geospatial Workflows through Deterministic Code Generation with Map2Cell"
+description: |
+  [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers) is a protype version of IPyOpenLayers that explores features to improve scientific 
+  reproducibility in geospatial workflows.
+date: "2026-06-29"
+image: "thumbnail.jpg"
+author:
+  - name: "Benjamin Szeghy"
+    orcid: "0009-0004-2947-0775"
+    affiliation:
+      - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
+        url: "https://dse.berkeley.edu"
+categories:
+  - "Announcements"
+---
+
+As scientific computing evolves in the face of advances in automation, the role of purely executing geospatial professionals is decreasing. Increasingly, the primary deliverable of a geospatial scientist is not just the statistical or cartographic output, but the process of getting there. 
+As such, GIS software users need a way to record, keep track of, and reproduce the steps of their workflow. They also need to be able to edit and iterate on it non-linearly, and distribute it in a manner that works universally. 
+Over the course of our spring semester internship, Esha Potharaju and I explored a method of integrating this logic in [map2cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers). 
+
+## Concept
+In existing geospatial science software packages, data processing operations are generally programmed in UI forms, run opaquely, and do not reproducibly record themselves as they are designed around the paradigm that the output is the entire deliverable. Our goal was to design a proof of concept that tackles all three of these drawbacks at once such that our solution inherits JupyterLab’s inherent scientific reproducibility while being cleanly integrated in a geospatial workflow, and allowing for visibility into and modification of the process. We chose a vertical slice centered on drawing vector features, but we hope to extend this across more elements of the geospatial stack
+
+## How It Works
+First we added a vector drawing feature. This is added to a map frame in the function call. It can be activated by clicking the pencil icon, and a dropdown menu allows you to select the vector type. 
+
+Next, the (not so) secret sauce: the export button dynamically reads the new data on the map, and exports it as a deterministically generated, self contained python script, inserted as a cell in the same notebook.
+
+Lastly, we explored integrating with the exciting Jupyter-AI extension. If you have the extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled Jupyter Collaboration chat.
+
+Try these features for yourself by following the installation instructions in the [readme]. As this is an exploratory prototype, if you do try it, we would love to hear your feedback via github via [Zulip].
+
+
+## :heart: Thanks for reading!
+
+Thank you for following along!
+
+If you are new to the community, we would love to get to know you better! The best ways to get more involved are to either come to a regularly scheduled [onboarding hour](https://geojupyter.org/events/onboarding-hour.html), or to simply introduce yourself in our [Project Jupyter Zulip chat space](https://jupyter.zulipchat.com).
