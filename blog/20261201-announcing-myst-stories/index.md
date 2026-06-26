@@ -137,31 +137,27 @@ This presumes a new mechanism to install MyST plugins.
 You can install MyST Stories with several tools:
 
 
-::::::{tab-set}
-:::{tab-item} pip
+:::{.panel-tabset}
+## pip
 ```bash
 pip install myst-stories
 ```
-:::
 
-:::{tab-item} uv
+## uv
 ```bash
 uv add myst-stories
 ```
-:::
 
-:::{tab-item} conda/mamba
+## conda/mamba
 ```bash
 mamba install myst-stories
 ```
-:::
 
-:::{tab-item} pixi
+## pixi
 ```bash
 pixi add myst-stories
 ```
 :::
-::::::
 
 Now you can write your story and use `myst build --html` to render it to a beautiful
 interactive website.
