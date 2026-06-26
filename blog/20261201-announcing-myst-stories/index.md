@@ -56,7 +56,6 @@ Markdown for GitHub or Reddit comments, READMEs, documentation, or Quarto conten
 For example:
 
 ```markdown
-
 :::{story}
 :text-location: left-panel  # A CSS ID
 :text-paragraph-class: card  # A CSS class
