@@ -18,6 +18,14 @@ categories:
   - "Announcements"
 ---
 
+:::{.callout-note}
+This is a [design fiction](https://en.wikipedia.org/wiki/Design_fiction).
+Nothing here actually exists!
+
+The purpose of this document is to speculate about a possible future, to make an idea
+more real, to enable meaningful conversations.
+:::
+
 Storytelling is a powerful, but often underappreciated, mode of science communication
 (<doi:10.1073/pnas.1320645111>).
 
