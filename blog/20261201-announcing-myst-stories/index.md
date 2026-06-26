@@ -137,7 +137,7 @@ plot1 = Plot(/* Initialize a plot with some data */)
 
 ## Try it today!
 
-:::{note}
+:::{.callout-note}
 This presumes a new mechanism to install MyST plugins.
 :::
 
