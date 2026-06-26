@@ -55,7 +55,7 @@ Markdown for GitHub or Reddit comments, READMEs, documentation, or Quarto conten
 
 For example:
 
-```myst
+```markdown
 
 :::{story}
 :text-location: left-panel  # A CSS ID
