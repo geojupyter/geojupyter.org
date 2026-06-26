@@ -1,8 +1,8 @@
 ---
-title: "Exploring Scientific Reproducibility in Geospatial Workflows through Deterministic Code Generation with Map2Cell"
+title: "Exploring Reproducibility in Geospatial GUI Workflows Through Deterministic Code Generation"
 description: |
-  [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers) is a protype version of IPyOpenLayers that explores features to improve scientific 
-  reproducibility in geospatial workflows.
+  [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers) is a prototype version of ipyopenlayers that explores features to enable scientific 
+  reproducibility in GUI-driven geospatial workflows.
 date: "2026-06-29"
 image: "thumbnail.jpg"
 author:
@@ -20,10 +20,10 @@ As such, GIS software users need a way to record, keep track of, and reproduce t
 Over the course of our spring semester internship, Esha Potharaju and I explored a method of integrating this logic in [map2cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers). 
 
 ## Concept
-In existing geospatial science software packages, data processing operations are generally programmed in UI forms, run opaquely, and do not reproducibly record themselves as they are designed around the paradigm that the output is the entire deliverable. Our goal was to design a proof of concept that tackles all three of these drawbacks at once such that our solution inherits JupyterLab’s inherent scientific reproducibility while being cleanly integrated in a geospatial workflow, and allowing for visibility into and modification of the process. We chose a vertical slice centered on drawing vector features, but we hope to extend this across more elements of the geospatial stack
+In existing geospatial science software packages, data processing operations are generally accessed through forms, run opaquely, and do not reproducibly record themselves as they are designed around the paradigm that the output is the entire deliverable. Our goal was to design a proof of concept that tackles all three of these drawbacks at once such that our solution inherits JupyterLab’s inherent scientific reproducibility while being cleanly integrated in a geospatial workflow, and allowing for visibility into and modification of the process. We chose a vertical slice centered on drawing vector features, but we hope to extend this across more elements of the geospatial stack.
 
 ## How It Works
-First we added a vector drawing feature. This is added to a map frame in the function call. It can be activated by clicking the pencil icon, and a dropdown menu allows you to select the vector type. 
+First we added a vector drawing feature to ipyopenlayers. It can be activated by clicking the pencil icon, and a dropdown menu allows you to select the vector type you want to draw. 
 
 ```python
 from ipyopenlayers import (
@@ -35,15 +35,15 @@ m.add_control(DrawAndExport())
 m
 ```
 
-![The user can now enable draw mode, and select from a list of vector types](./demo_1.mp4){fig-alt="The user sees a map of the Swanton Pacific Ranch area in California. The user clicks the pencil icon to enable draw mode, selects the 'polygon' vector type, then draws a large hexagon on the map." loop="true" autoplay="true" muted="true"}
+![The user can now enable draw mode, and select from a list of vector types, and create new features on the map](./demo_1.mp4){fig-alt="The user sees a map of the Swanton Pacific Ranch area in California. The user clicks the pencil icon to enable draw mode, selects the 'polygon' vector type, then draws a large hexagon on the map." loop="true" autoplay="true" muted="true"}
 
-Next, the (not so) secret sauce: the export button dynamically reads the new data on the map, and exports it as a deterministically generated, self contained python script, inserted as a cell in the same notebook.
+Next, the (not so) secret sauce: the export button dynamically reads the new data on the map, and exports it as a deterministically-generated, self-contained python snippet, and inserts it as a cell in the same notebook.
 
-![When the user clicks the export button, a new cell is inserted into the notebook with the generated python code.](./demo_2.mp4){fig-alt="the user clicks the export button, then scrolls down to see a new cell inserted with the generated python code. the code contains the json data for the drawn vector features. It stores it as a shapely object and displays via pyplot. the user changes the color of the pyplot. The user runs the cell to see the updated visualization." loop="true" autoplay="true" muted="true"}
+![When the user clicks the export button, a new cell is inserted into the notebook with the generated python code.](./demo_2.mp4){fig-alt="The user clicks the export button, then scrolls down in their Notebook to see a new cell inserted with the generated python code. The code contains the a representation of the drawn vector features. It instantiates a Shapely object and displays via pyplot. The user changes the color of the plot. The user runs the cell to show the visualization." loop="true" autoplay="true" muted="true"}
 
-Lastly, we explored integrating with the exciting Jupyter-AI extension. If you have the Jupyter-AI extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled Jupyter Collaboration chat.
+Lastly, we explored integrating with [Jupyter AI](https://jupyter-ai.readthedocs.io/). If you have the Jupyter AI extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled chat.
 
-![LLM's can help you map!](./demo_3.mp4){fig-alt="the user clicks a suggested LLM prompt labeled 'improve plot' and a pre-written message appears in the collaboration chat. The user sends the message, waits briefly, and receieves a response from Claude. The user clicks the button to replace the current cell content." loop="true" autoplay="true" muted="true"}
+![LLM's can help you map!](./demo_3.mp4){fig-alt="The user clicks a suggested LLM prompt labeled 'improve plot' and a pre-written message appears in the chat panel. The user sends the message, waits briefly, and receieves a response from an LLM. The user clicks the button to replace the current cell content with the code the LLM generated." loop="true" autoplay="true" muted="true"}
 
 ## How to Try It Out
 Try these features for yourself by following the installation instructions in the [readme](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers/blob/main/README.md). As this is an exploratory prototype, if you do try it, we would love to hear your feedback via github issues or [Zulip](https://jupyter.zulipchat.com).
