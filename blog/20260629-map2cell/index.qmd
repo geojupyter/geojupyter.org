@@ -12,7 +12,7 @@ author:
       - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
         url: "https://dse.berkeley.edu"
 categories:
-  - "Experiments and Prototypes"
+  - "Experiments"
 ---
 
 As open science practices mature towards widespread access to geospatial data and computing evolves, especially to automate more routine geoprocessing tasks, the role of the geospatial scientist is shifting away from pure execution and toward the design of [transparent, reproducible workflows](https://doi.org/10.1080/24694452.2020.1806028).The primary deliverable is increasingly not just the statistical or cartographic output, but the documented, reusable process behind it.
@@ -41,7 +41,7 @@ Next, the (not so) secret sauce: the export button dynamically reads the new dat
 
 ![When the user clicks the export button, a new cell is inserted into the notebook with the generated python code.](./demo_2.mp4){fig-alt="The user clicks the export button, then scrolls down in their Notebook to see a new cell inserted with the generated python code. The code contains the a representation of the drawn vector features. It instantiates a Shapely object and displays via pyplot. The user changes the color of the plot. The user runs the cell to show the visualization." loop="true" autoplay="true" muted="true"}
 
-Lastly, we explored integrating with [Jupyter AI](https://jupyter-ai.readthedocs.io/). If you have the Jupyter AI extension installed, Map2Cell will suggest several prompts it can send for you to the ai-enabled chat.
+Lastly, we explored integrating with [Jupyter AI](https://jupyter-ai.readthedocs.io/). If you have the Jupyter AI extension installed, Map2Cell will suggest several prompts it can send for you to the AI-enabled chat.
 
 ![LLM's can help you map!](./demo_3.mp4){fig-alt="The user clicks a suggested LLM prompt labeled 'improve plot' and a pre-written message appears in the chat panel. The user sends the message, waits briefly, and receieves a response from an LLM. The user clicks the button to replace the current cell content with the code the LLM generated." loop="true" autoplay="true" muted="true"}
 
