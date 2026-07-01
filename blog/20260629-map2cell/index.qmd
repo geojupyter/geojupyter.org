@@ -1,5 +1,5 @@
 ---
-title: "Exploring Reproducibility in Geospatial GUI Workflows Through Deterministic Code Generation"
+title: "Exploring Reproducibility in Geospatial GUIs Through Deterministic Code Generation"
 description: |
   [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers) is a prototype version of ipyopenlayers that explores features to enable scientific
   reproducibility in GUI-driven geospatial workflows.
