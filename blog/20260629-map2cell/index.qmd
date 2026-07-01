@@ -23,7 +23,7 @@ Over the course of our 2026 Spring semester internship, Esha Potharaju and I exp
 ## Concept
 In existing geospatial science software packages, data processing operations are generally accessed through forms and run opaquely. Because many tools are designed around the paradigm that the output is the entire deliverable, reproducibility is not an inherent part of their workflow. Our goal was to design a proof of concept that tackles all three of these drawbacks at once. Our solution inherits JupyterLab’s inherent scientific reproducibility while being cleanly integrated in a GUI-based geospatial workflow. It allows for visibility into and modification of the process by both the original researcher and others. Lastly, we designed our prototype to help the user evolve the skills they need to do open science independent of a GUI if they choose to. We selected a vertical slice centered on drawing vector features, but we hope to extend this across more elements of the geospatial stack.
 
-## How It Works
+## How it works
 First we added a vector drawing feature to ipyopenlayers. It can be activated by clicking the pencil icon, and a dropdown menu allows you to select the vector type you want to draw.
 
 ```python
