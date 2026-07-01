@@ -59,4 +59,4 @@ To try these features, follow the installation instructions in the [readme](http
 
 Thank you for following along!
 
-If you are new to the community, we would love to get to know you better! The best ways to get more involved are to either come to a regularly scheduled [onboarding hour](https://geojupyter.org/events/onboarding-hour.html), or to simply introduce yourself in our [Project Jupyter Zulip chat space](https://jupyter.zulipchat.com).
+If you are new to the community, we would love to get to know you better! The best ways to get more involved are to either come to a regularly scheduled [onboarding hour](https://geojupyter.org/events/onboarding-hour.html), or to introduce yourself in the `#geojupyter` channel in the [Project Jupyter Zulip chat space](https://jupyter.zulipchat.com).
