@@ -15,9 +15,12 @@ categories:
   - "Experiments"
 ---
 
-As open science practices mature toward widespread access to geospatial data and computing increasingly frees scientists from routine geoprocessing tasks, the role of the geospatial scientist is shifting. The focus moves away from pure execution and toward the design of [transparent, reproducible workflows](https://doi.org/10.1080/24694452.2020.1806028).<br><br>
-The primary deliverable is increasingly not just the statistical or cartographic output, but the documented, reusable process behind it.<br><br>
-As such, GIS software users need a way to record, distribute, and reproduce the steps of their workflow. They also need to be able to edit and iterate on it non-linearly, and distribute it in a manner that works universally.<br><br>
+As open science practices mature toward widespread access to geospatial data and computing increasingly frees scientists from routine geoprocessing tasks, the role of the geospatial scientist is shifting. The focus moves away from pure execution and toward the design of [transparent, reproducible workflows](https://doi.org/10.1080/24694452.2020.1806028).
+
+The primary deliverable is increasingly not just the statistical or cartographic output, but the documented, reusable process behind it.
+
+As such, GIS software users need a way to record, distribute, and reproduce the steps of their workflow. They also need to be able to edit and iterate on it non-linearly, and distribute it in a manner that works universally.
+
 Over the course of our 2026 Spring semester internship, Esha Potharaju and I explored a method of integrating this logic in a prototype we called [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers).
 
 ## Concept
