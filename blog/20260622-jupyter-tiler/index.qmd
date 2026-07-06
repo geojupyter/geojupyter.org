@@ -68,12 +68,25 @@ This is only available as a pre-release right now, so you'll need to explicitly 
 version (`pip` won't install pre-releases unless asked explicitly)!
 When JupyterGIS `0.16.0` is fully released, you won't need this anymore.
 
+:::{.panel-tabset}
+## mamba (recommended)
+
 ```bash
-pip install jupytergis[tiler]==0.16.0a2
+mamba install \
+  --channel conda-forge/label/jupytergis_prerelease \
+  --channel conda-forge \
+  jupytergis-tiler==0.16.0a4
 ```
 
+## pip
+
+```bash
+pip install --pre jupytergis[tiler]==0.16.0a4
+```
+:::
+
 :::{.callout-note}
-At time of writing, JupyterGIS' latest prerelease is `0.16.0a2`, and jupyter-tiler's latest
+At time of writing, JupyterGIS' latest prerelease is `0.16.0a4`, and jupyter-tiler's latest
 release is `0.8.0`.
 :::
 
