@@ -22,7 +22,7 @@ Existing GUI-based GIS tools aren't providing the affordances practitioners need
 Over the course of our 2026 Spring semester internship at [The Eric & Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/), Esha Potharaju and I explored a method of integrating this logic in a prototype we called [Map2Cell](https://github.com/geojupyter/prototype-map2cell-ipyopenlayers).
 
 ## Concept
-In existing geospatial science software packages, data processing operations are generally accessed through forms and run opaquely. Because many tools are designed around the paradigm that the output is the entire deliverable, reproducibility is not an inherent part of their workflow. Our goal was to design a proof of concept that tackles all three of these drawbacks at once.
+In existing geospatial science software packages, data processing operations are generally accessed entirely through forms. After being configured, they run opaquely in the background. Because many tools are designed around the paradigm that the output is the entire deliverable, reproducibility is not an inherent part of their workflow. Our goal was to design a proof of concept that tackles all three of these drawbacks at once.
 
 Our prototype leverages Jupyter Notebook's inherent scientific reproducibility from within a GUI-based workflow. It allows for visibility into and modification of the process by both the original researcher and others. Lastly, we designed our solution to help the user evolve the skills they need to do open science independent of a GUI if they choose to.
 
