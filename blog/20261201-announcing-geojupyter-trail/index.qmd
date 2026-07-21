@@ -1,0 +1,175 @@
+---
+title: "Announcing GeoJupyter Trail!"
+description: |
+  _GeoJupyter Trail_ is a new tool for tracking geospatial workflows across multiple
+  Jupyter tools.
+  With _Trail_, you can feel safe and comfortable that you will have a log of all the
+  important actions you take so you can remember what you did later!
+date: "2026-12-01"
+image: "thumbnail.jpg"
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+    affiliation:
+      - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
+        url: "https://dse.berkeley.edu"
+categories:
+  - "Announcements"
+---
+
+:::{.callout-note}
+This is a [design fiction](https://en.wikipedia.org/wiki/Design_fiction).
+Nothing here actually exists!
+
+The purpose of this document is to speculate about a possible future, to make an idea
+more real, to enable meaningful conversations.
+:::
+
+Based on responses from more than 200 geospatial professionals, the
+[2026 CARTO State of Spatial Analytics Report](https://go.carto.com/report-state-of-spatial-analytics-2026-carto)
+found that:
+
+> ... spatial analysis rarely happens in a single tool.
+> Fewer than 20% of respondents rely on just one platform, while the
+> majority use between 3 and 8 tools to get work done -
+> and it’s worth noting that the true number may be higher as only a limited
+> selection of tools were given as options.
+
+<TODO: Citation>
+
+Working in multiple disparate tools creates a huge
+[cognitive load](https://en.wikipedia.org/wiki/Cognitive_load)
+burden on practitioners.
+Remembering how they worked in one tool after several
+[context switches](https://en.wikipedia.org/wiki/Human_multitasking)
+is very difficult -- often information is lost, leading to workflows that are
+not reproducible or repeatable.
+
+_Trail_ addresses this problem by creating a unified "trail map" of your
+journey across compatible tools (like Jupyter Notebooks, JupyterGIS, and
+JupyterDataConnect).
+It provides facilities for visualizing, curating, and exporting information
+about your workflow trail that can help you reproduce, operationalize, and
+publish about your work.
+
+
+## Try it now!
+
+You can try out _Trail_ today.
+Install it with `pip` or `mamba` (or similar tools):
+
+:::{.panel-tabset}
+### pip
+
+```bash
+pip install geojupyter-trail
+```
+
+### mamba
+
+```bash
+mamba install geojupyter-trail
+```
+:::
+
+Once you've installed, turn on tracking with:
+
+```bash
+gj-trail init
+```
+
+This will set up a project directory so that any work done within it using compatible
+tools will be recorded in to a Trailfile.
+
+To visualize or curate your _Trail_ with our web UI:
+
+```bash
+gj-trail view
+```
+
+This will open up the _Trail_ viewer in your browser.
+
+Read our [quick start](https://example.com) for more info about how to get started!
+
+
+## How it works
+
+_Trail_ is always watching :eyes: (just kidding, edit this out later -- we want to avoid
+"tracking" / "spying" implications, and we haven't fully fleshed out the architecture
+yet).
+
+```{mermaid}
+sequenceDiagram
+  actor user as User
+
+  participant jupyter-data-connect as Jupyter<br/>Data<br/>Connect
+  participant notebook as Jupyter<br/>Notebook
+  participant jupytergis as JupyterGIS
+  participant system as System
+
+  box GeoJupyter Trail
+    participant trail-cli as Trail CLI
+    participant trail-service as Trail Service
+  end
+
+  user->>trail-cli: Initialize project
+
+  user->>jupyter-data-connect: Search for data
+    jupyter-data-connect->>trail-service: Event: Search
+  jupyter-data-connect->>user: Results
+
+  user->>jupyter-data-connect: Download data
+    jupyter-data-connect->>trail-service: Event: Data acquisition
+
+  system->>trail-service: Event: Data written to project folder
+
+  user->>jupytergis: New JGIS project
+    jupytergis->>trail-service: Event: Project (...) created
+
+  user->>jupytergis: Import downloaded data
+    jupytergis->>trail-service: Event: Layer (...) added
+
+  user->>jupytergis: Observe area of interest (AOI)
+    jupytergis->>trail-service: Event: Viewport linger (...)
+
+  user->>jupytergis: Draw AOI polygon
+    jupytergis->>trail-service: Event: Polygon drawn (...)
+
+  user->>jupytergis: Buffer polygon
+    jupytergis->>trail-service: Event: Buffered layer (...)
+    jupytergis->>trail-service: Event: Layer (...) added
+
+  user->>notebook: Clean downloaded data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Join downloaded data with cloud data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Perform calculation on joined data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Visualize results
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Write output
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  system->>trail-service: Event: Data written to project folder
+
+  user->>trail-cli: Visualize trail
+  user->>trail-cli: Prune trail to remove "detours"
+  user->>trail-cli: Print citations
+  user->>trail-cli: Print methods
+```
+
+
+## Technical details
+
+<TODO>
+
+
+## ❤️  Thanks for reading!
+
+We appreciate your interest!
+
+If you would like to connect with the GeoJupyter community to learn more, please join us on the Project Jupyter Zulip chat space. We’d love to hear about your use cases and challenges working with geospatial data in Jupyter.
