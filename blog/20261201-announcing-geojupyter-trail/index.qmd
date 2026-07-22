@@ -72,6 +72,9 @@ mamba install geojupyter-trail
 ```
 :::
 
+
+### How to use _Trail_
+
 Once you've installed, turn on tracking with:
 
 ```bash
@@ -92,7 +95,7 @@ This will open up the _Trail_ viewer in your browser.
 Read our [quick start](https://example.com) for more info about how to get started!
 
 
-## How it works
+## How _Trail_ works
 
 _Trail_ is always watching :eyes: (just kidding, edit this out later -- we want to avoid
 "tracking" / "spying" implications, and we haven't fully fleshed out the architecture
