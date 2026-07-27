@@ -1,5 +1,10 @@
-/* css styles */
 
+/*-- scss:defaults --*/
+$body-color: #35383a;
+$link-color: #0079e4;
+
+
+/*-- scss:styles --*/
 .card-title {
   margin-top: 0px;
   padding-top: 0px;
@@ -27,4 +32,8 @@
   line-height: 1;
   text-align: center;
   margin-right: 20px;
+}
+
+figcaption, blockquote p {
+  color: var(--quarto-text-muted);
 }
