@@ -13,9 +13,10 @@ author:
         url: "https://dse.berkeley.edu"
 categories:
   - "Experiments"
+bibliography: "./references.bib"
 ---
 
-As open science practices mature toward widespread access to geospatial data and computing increasingly frees scientists from routine geoprocessing tasks, the role of the geospatial scientist is shifting. The primary deliverable for geospatial scientistsis increasingly not just the statistical or cartographic output, but the [transparent, reproducible workflows behind it](https://doi.org/10.1080/24694452.2020.1806028). As such, GIS software users need a way to record, distribute, and reproduce the steps of their workflow. They also need to be able to edit and iterate on it non-linearly, and distribute it in a manner that works universally.
+As open science practices mature toward widespread access to geospatial data and computing increasingly frees scientists from routine geoprocessing tasks, the role of the geospatial scientist is shifting. The primary deliverable for geospatial scientistsis increasingly not just the statistical or cartographic output, but the transparent, reproducible workflows behind it [@Nust_2020]. As such, GIS software users need a way to record, distribute, and reproduce the steps of their workflow. They also need to be able to edit and iterate on it non-linearly, and distribute it in a manner that works universally.
 
 Existing GUI-based GIS tools aren't providing the affordances practitioners need to make that transition. For example, ArcGIS currently offers tooling to copy geoprocessing operations as Python code. However, the output you get is specific to the ArcGIS API. It is generally a single tool call, and operates opaquely in much the same manner as the original GUI tool, limiting visibility into the underlying processes and preventing seamless integration with interoperable standard scientific Python tools.
 
