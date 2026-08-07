@@ -19,6 +19,8 @@ jobs:
       - uses: 'readthedocs/actions/preview@v1'
         with:
           project-slug: 'geojupyter'
+          single-version: true
+          single-language: true
           message-template: |
             ---
             :mag: Preview: {docs-pr-index-url}
