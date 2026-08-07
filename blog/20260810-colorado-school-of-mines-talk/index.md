@@ -53,7 +53,23 @@ Boulder, Colorado, to co-work on software design & development, infrastructure p
 local model evaluation, and pushing the limits of the new v3 release of
 [Jupyter AI](https://jupyter-ai.readthedocs.io/).
 
-![From left to right: Cassie Buhler, Kristin Davis, Matt Fisher, Tasha Snow, Fernando Pérez](./collab-team.jpg)
+Over the course of our collaboration, the number of demos continuously increased until
+we arrived at four demos.
 
-Virtual collaborators not shown: Brian Granger, Min Ragan-Kelley, Carl Boettiger, and
-possibly more.
+![Slack conversations questioning the wisdom of four live demos and discussing last-minute fixes. Participants included [Ciera Martinez](https://orcid.org/0000-0003-4296-998X), [Sam Pottinger](https://orcid.org/0000-0002-0458-4985), [Fernando Pérez](https://orcid.org/0000-0002-1725-9815), and [Matt Fisher](https://orcid.org/0000-0003-3260-5445)](./slack-goofs.jpg)
+
+1. Local ("open-weights") AI: Using LLMs running on Fernando’s desktop Mac Mini to
+   author Jupyter Notebooks.
+2. A "GeoAgent" (now known as "Geospatial LLM-Enabled Navigator (GLEN)" -- more to come
+   on this!) [high seas webapp](https://high-seas.nrp-nautilus.io): An AI-enabled map
+   workflow for answering questions about data on
+   [federally funded infrastructure](https://nrp.ai/) using open models.
+3. GeoAgent workflow in JupyterLab in the cloud: a more general-purpose cloud-based
+   (using [CryoCloud](https://book.cryointhecloud.com/)) workflow for experts that can
+   be customized using open models.
+4. Publishing from CryoCloud to GitHub: Publish outputs created in Demo 3 using free and
+   open publishing methods ([MyST Markdown](https://mystmd.org/) + GitHub Pages).
+
+![From left to right: [Cassie Buhler](https://orcid.org/0000-0003-4157-4273), [Kristin Davis](https://orcid.org/0000-0003-1204-4687), [Matt Fisher](https://orcid.org/0000-0003-3260-5445), [Tasha Snow](https://orcid.org/0000-0001-5697-5470), [Fernando Pérez](https://orcid.org/0000-0002-1725-9815)](./in-person-collaborators.jpg)
+
+![Virtual collaborators included: [Brian Granger](https://github.com/ellisonbg), [Min Ragan-Kelley](https://orcid.org/0000-0002-1023-7082), [Carl Boettiger](https://orcid.org/0000-0002-1642-628X)](./virtual-collaborators.jpg)
