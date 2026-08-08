@@ -1,0 +1,297 @@
+---
+title: "Announcing GeoJupyter Trail!"
+description: |
+  _GeoJupyter Trail_ is a new tool for tracking geospatial workflows across multiple
+  Jupyter tools.
+  With _Trail_, you can feel safe and comfortable that you will have a log of all the
+  important actions you take so you can remember what you did later!
+date: "2026-12-01"
+image: "thumbnail.jpg"
+author:
+  - name: "Matt Fisher"
+    orcid: "0000-0003-3260-5445"
+    affiliation:
+      - name: "The Eric & Wendy Schmidt Center for Data Science & Environment, UC Berkeley"
+        url: "https://dse.berkeley.edu"
+categories:
+  - "Announcements"
+---
+
+:::{.callout-note}
+This is a [design fiction](https://en.wikipedia.org/wiki/Design_fiction).
+Nothing here actually exists!
+
+The purpose of this document is to speculate about a possible future, to make an idea
+more real, to enable meaningful conversations.
+:::
+
+Based on responses from more than 200 geospatial professionals, the
+[2026 CARTO State of Spatial Analytics Report](https://go.carto.com/report-state-of-spatial-analytics-2026-carto)
+found that:
+
+> ... spatial analysis rarely happens in a single tool.
+> Fewer than 20% of respondents rely on just one platform, while the
+> majority use between 3 and 8 tools to get work done -
+> and it’s worth noting that the true number may be higher as only a limited
+> selection of tools were given as options.
+
+<TODO: Citation>
+
+Working in multiple disparate tools creates a huge
+[cognitive load](https://en.wikipedia.org/wiki/Cognitive_load)
+burden on practitioners.
+Remembering how they worked in one tool after several
+[context switches](https://en.wikipedia.org/wiki/Human_multitasking)
+is very difficult -- often information is lost, leading to workflows that are
+not reproducible or repeatable.
+
+_Trail_ addresses this problem by creating a unified "trail map" of your
+journey across compatible tools (like Jupyter Notebooks, JupyterGIS, and
+JupyterDataConnect).
+It provides facilities for visualizing, curating, and exporting information
+about your workflow trail that can help you reproduce, operationalize, and
+publish about your work.
+
+
+## Try it now!
+
+You can try out _Trail_ today.
+Install it with `pip` or `mamba` (or similar tools):
+
+:::{.panel-tabset}
+### pip
+
+```bash
+pip install geojupyter-trail
+```
+
+### mamba
+
+```bash
+mamba install geojupyter-trail
+```
+:::
+
+
+### How to use _Trail_
+
+#### Setup
+
+Once you've installed, turn on tracking with:
+
+```bash
+gj-trail init
+```
+
+This will set up a project directory so that any work done within it using compatible
+tools will be recorded in to a Trailfile.
+
+You can tell that a project is set up with _Trail_ by the presence of a
+`.trail` directory at the root (similar to how you can identify a Git repo by a
+`.git` directory at the root).
+
+
+#### Tracking
+
+Once _Trail_ is set up, any _Trail_-compatible tool used from that directory
+will record your actions by default into a _Trailfile_
+(`.trail/provenance.yml`).
+
+This file can be read and edited by hand, but we recommend using our tools for
+that instead!
+
+
+#### Visualization & curation
+
+To visualize or curate your _Trail_ with our web UI:
+
+```bash
+gj-trail view
+```
+
+This will open up the _Trail_ viewer in your browser.
+
+Your trail might look something like this (`{...}` are placeholders for data,
+for example a file path or a GeoJSON data structure or a code block):
+
+```{mermaid}
+flowchart TD
+    classDef invisibleSubgraph fill:transparent, stroke:transparent;
+
+    init[Project init]
+
+    jdc-search["Search<br/>{...}<br/>w/ JDC "]
+    jdc-acquire["Acquire data<br/>{...}<br/>w/ JDC"]
+
+    data-written["Data written<br/>to project folder"]
+
+    jgis-init["JupyterGIS<br/>Project init"]
+    jgis-load["JGIS layer<br/>{...}<br/>added"]
+    jgis-linger["JGIS viewport<br/>linger<br/>{...}"]
+    jgis-draw["JGIS<br/>shape drawn<br/>{...}"]
+    notebook-exec["Notebook cell<br/>{...}<br/>executed"]
+    notebook-exec2["Notebook cell<br/>{...}<br/>executed"]
+    notebook-exec3["Notebook cell<br/>{...}<br/>executed"]
+    notebook-exec4["Notebook cell<br/>{...}<br/>executed"]
+
+    data-written2["Data written<br/>to project folder"]
+
+
+    init ~~~ jdc
+
+    subgraph jdc[" "]
+        jdc-search --> jdc-acquire
+    end
+
+    jdc ~~~ data-written
+    data-written ~~~ jgis
+
+    subgraph jgis[" "]
+        direction LR
+        jgis-init --> jgis-load
+        jgis-load --> jgis-linger
+        jgis-linger --> jgis-draw
+    end
+
+    jgis ~~~ nb
+
+    subgraph nb[" "]
+        direction LR
+
+        notebook-exec ~~~ notebook-exec2
+        notebook-exec2 ~~~ notebook-exec3
+        notebook-exec3 ~~~ notebook-exec4
+    end
+
+    nb ~~~ data-written2
+
+    class jdc invisibleSubgraph;
+    class jgis invisibleSubgraph;
+    class nb invisibleSubgraph;
+```
+
+This UI not only allows visualization, but also curation.
+If, for example, you take a "detour" during your work to explore a method you
+decide not to continue with, you can remove that element of your trail by
+selecting it with click-and-drag, and pressing the DELETE key.
+This will "hide" that element, and you can see it by clicking "Show hidden elements".
+You can permanently delete it by following the same process again, or by using
+SHIFT+DELETE the first time.
+
+
+#### More
+
+Read our [quick start](https://example.com) for more info about how to get started!
+
+
+## How _Trail_ works
+
+_Trail_ is always watching :eyes: (just kidding, edit this out later -- we want to avoid
+"tracking" / "spying" implications, and we haven't fully fleshed out the architecture
+yet).
+
+```{mermaid}
+sequenceDiagram
+  actor user as User
+
+  participant jupyter-data-connect as Jupyter<br/>Data<br/>Connect
+  participant notebook as Jupyter<br/>Notebook
+  participant jupytergis as JupyterGIS
+  participant system as System
+
+  box GeoJupyter Trail
+    participant trail-cli as Trail CLI
+    participant trail-service as Trail Service
+  end
+
+  user->>trail-cli: Initialize project
+
+  user->>jupyter-data-connect: Search for data
+    jupyter-data-connect->>trail-service: Event: Search
+  jupyter-data-connect->>user: Results
+
+  user->>jupyter-data-connect: Download data
+    jupyter-data-connect->>trail-service: Event: Data acquisition
+
+  system->>trail-service: Event: Data written to project folder
+
+  user->>jupytergis: New JGIS project
+    jupytergis->>trail-service: Event: Project (...) created
+
+  user->>jupytergis: Import downloaded data
+    jupytergis->>trail-service: Event: Layer (...) added
+
+  user->>jupytergis: Observe area of interest (AOI)
+    jupytergis->>trail-service: Event: Viewport linger (...)
+
+  user->>jupytergis: Draw AOI polygon
+    jupytergis->>trail-service: Event: Polygon drawn (...)
+
+  user->>jupytergis: Buffer polygon
+    jupytergis->>trail-service: Event: Buffered layer (...)
+    jupytergis->>trail-service: Event: Layer (...) added
+
+  user->>notebook: Clean downloaded data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Join downloaded data with cloud data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Perform calculation on joined data
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Visualize results
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  user->>notebook: Write output
+    notebook->>trail-service: Event: Code cell (...) executed
+
+  system->>trail-service: Event: Data written to project folder
+
+  user->>trail-cli: Visualize trail
+  user->>trail-cli: Prune trail to remove "detours"
+  user->>trail-cli: Print citations
+  user->>trail-cli: Print methods
+```
+
+
+## Technical details
+
+_Trail_ runs as a service that registers project folders and monitors them for changes.
+As a consequence, moving a _Trail_ project folder requires a special command
+`trail project move ...` to both move the folder and update the registry.
+
+:::{note}
+The first release of Trail will likely not run as a service and exclude filesystem monitoring.
+This design decision should wait until we've explored the problem space more thoroughly.
+:::
+
+When you run the `trail` CLI command, it traverses up the directory tree
+looking for a `.trail` folder so it knows what project to operate on, even if
+you're in a deeply-nested subdirectory (similar to Git).
+
+Events are recorded with a **push** model; all compatible applications know how
+to speak to the _Trail_ service to record events.
+_Trail_ does not actively monitor applications.
+
+All events are recorded in a JSON file as a **disconnected**
+[Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+Many operations, for example code execution, can't currently be linked to other
+events they depended on, even if that dependency is real.
+For example, `rasterio.open("my_geo.tif")` may logically be linked to an event
+in which `my_geo.tif` was acquired with JupyterDataConnect, but the dependency
+will not be represented as an edge in the DAG.
+However, the order of these operations will be recorded via timestamp.
+
+Visualization and curation of the _Trail_ provenance is done with a web
+application for compatibility with all operating systems.
+
+
+<TODO: More!>
+
+
+## ❤️  Thanks for reading!
+
+We appreciate your interest!
+
+If you would like to connect with the GeoJupyter community to learn more, please join us on the Project Jupyter Zulip chat space. We’d love to hear about your use cases and challenges working with geospatial data in Jupyter.
