@@ -77,9 +77,10 @@ website:
 
 format:
   html:
-    theme: "spacelab"
+    theme:
+      - "spacelab"
+      - "styles.scss"
     page-layout: "full"
-    css: "styles.css"
     toc: true
     # Turn on emoji shortcodes (NOTE: Doesn't work in sidebar, nav or
     # front-matter):
