@@ -46,6 +46,15 @@ built the demos together**.
 {{< video https://www.youtube.com/watch?v=_5yuXU5salY >}}
 
 
+## Follow-up op-ed in _Nature_!
+
+Soon after this presentation, [Cassie Buhler](https://orcid.org/0000-0003-4157-4273),
+[Fernando Pérez](https://orcid.org/0000-0002-1725-9815),
+and [Carl Boettiger](https://orcid.org/0000-0002-1642-628X) published the op-ed
+[Why scientists should lead the shift away from AI mega data centres](https://www.nature.com/articles/d41586-026-02451-2)
+in _Nature_.
+
+
 ## Dream team!
 
 Designing for these demos involved a group gathering, both virtual and in-person in
