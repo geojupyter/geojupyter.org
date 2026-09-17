@@ -4,7 +4,7 @@ description: |
     Dr. Fernando Pérez delivered this talk as an invited speaker for the Colorado School
     of Mines Department of Geophysics Heiland Lecture Series and Climate Seminar Series
     on April 29, 2026.
-date: "2026-08-10"
+date: "2026-09-17"
 image: "fernando-speaking.jpg"
 author:
   - name: "Matt Fisher"
